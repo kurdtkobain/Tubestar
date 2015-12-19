@@ -1,0 +1,833 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCustomText xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CustomText>
+    <Id>Fails</Id>
+    <Text>შეცდომები</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AnimalFighting</Id>
+    <Text>ცხოველების ჩხუბი</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Anime</Id>
+    <Text>ანიმე</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Cats</Id>
+    <Text>კატები</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Comedy</Id>
+    <Text>კომედია</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ConspiraryTheory</Id>
+    <Text>თეორიის შეთქმულება</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CreepyPasta</Id>
+    <Text>საშინელება</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Gaming</Id>
+    <Text>თამაში</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ShoppingHaul</Id>
+    <Text>შოპინგი</Text>
+  </CustomText>
+  <CustomText>
+    <Id>HowTo</Id>
+    <Text>როგორ</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Movies</Id>
+    <Text>ფილმები</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MusicVideo</Id>
+    <Text>მუსიკის ვიდეო</Text>
+  </CustomText>
+  <CustomText>
+    <Id>NonProfit</Id>
+    <Text>არაკომერციული</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Sports</Id>
+    <Text>სპორტი</Text>
+  </CustomText>
+  <CustomText>
+    <Id>TheWeirdSide</Id>
+    <Text>უცნაური მხარე</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Technology</Id>
+    <Text>ტექნოლოგია</Text>
+  </CustomText>
+  <CustomText>
+    <Id>UkuleleCover</Id>
+    <Text>უკუკულეს თავსაფარიხდ</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Vlog</Id>
+    <Text>ვიდეობლოგი</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Ok</Id>
+    <Text>ოკ</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Cancel</Id>
+    <Text>უარყოფა</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SaveFail</Id>
+    <Text>რაღაც წავიდა ცუდად, ან რაღაც არასწორად! ბოდიშს გიხდით თამაშის შეუნახებლობის გამო</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LoadFail</Id>
+    <Text>რაღაც წავიდა ცუდად, ან რაღაც არასწორად! ბოდიშს გიხდით თამაშის ჩაურთველობის გამო</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ChannelSuspended</Id>
+    <Text>არხი '{0}' დროებით შეჩერებულია, წესების დარღვევის გამო!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ComputerCrash</Id>
+    <Text>თქვენმა კომპიუტერმა დაქრაშა! ყველა ვიდეო იყო დაკარგული!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CostOfLivingIncrease</Id>
+    <Text>ეკონომიკა ფუჭდება! თქვენი საცხოვრებლის ქირა გაძვირდა</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Fired</Id>
+    <Text>თქვენი მუშაობა დამთავრებულია! თქვენ დაკარგეთ სამსახური!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LoseSubscribers</Id>
+    <Text>ზოგიერთი ცუდი იმფორმაცია თქვენზე გავრცელდა და თქვენ დაკარგეთ {0} სუბსქრაიბერი</Text>
+  </CustomText>
+  <CustomText>
+    <Id>WorkOvertime</Id>
+    <Text>ემმ... კარგით! მე მინდა დაგაწინაურო და ზეგანაკვერვლილ იმუშაოთ. და თუ თქვენ დაწინაურდებით ეს კარგი იქნება!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoSuspended</Id>
+    <Text>ვიდეო '{0}' იყო დროებით დაბლოკილი ვიდეოს მოპარვის მიზეზით!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SpareChange</Id>
+    <Text>თქვენ იპოვეთ თქვენს სავარძელში {0} დოლარი</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Promoted</Id>
+    <Text>თქვენ უნდა იმუშაოთ დიდი ხანი! თქვენ შეძლებთ მეტი ფულის შოვნას!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RobotRising</Id>
+    <Text>რობოტებმა დაიპყრეს მსოფლიო! დაემორჩილეთ რობოტების წესებს!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>BeautyContest</Id>
+    <Text>თქვენ მოიგეთ {0} სილამაზის კონკურსზე</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ChannelSuspensionLifted</Id>
+    <Text>არხი '{0}' გაითიშა, რაიმე მიზეზების გამო!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CostOfLivingDecreased</Id>
+    <Text>ეკონომიკა იზრდება! თქვენი საცხოვრებლის ქირა შემცირდა!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>FreeStudy</Id>
+    <Text>თქვენ მიიღეთ სტიპენდია - {0}!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>GainSubscribers</Id>
+    <Text>თქვენი არხი დაიდო განთქმულ ვებსაიტზე!
+თქვენ მიიღეთ {0} სუბსქრაიბერი!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoSuspensionLifted</Id>
+    <Text>ვიდეო '{0}' იყო გათიშული, რაიმე მიზეზების გამო!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RandomEvent</Id>
+    <Text>რანდომული დღესასწაული</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyAudienceAnalysis1</Id>
+    <Text>სტუდია 'ვიდეოს გადაღების ტექნოლოგია I'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyAudienceAnalysis2</Id>
+    <Text>სტუდია 'ვიდეოს გადაღების ტექნოლოგია II'	</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyPostProduction1</Id>
+    <Text>სტუდია 'მონტაჟი I'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyPostProduction2</Id>
+    <Text>სტუდია 'მონტაჟი II'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyPostProduction3</Id>
+    <Text>სტუდია 'მონტაჟი III'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyProduction1</Id>
+    <Text>სტუდია 'მონტაჟის ხელოვნება I'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyProduction2</Id>
+    <Text>სტუდია 'მონტაჟის ხელოვნება II'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyProduction3</Id>
+    <Text>სტუდია 'მონტაჟის ხელოვნება III'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyQualityAnalysis</Id>
+    <Text>სტუდია 'ანალიზი და მონტაჟის დახვეწა'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MandatoryBowToRobotRulers</Id>
+    <Text>სავალდებულო რობოტებზე დამორჩილება!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditVideoTask</Id>
+    <Text>'{0}' წარმოება</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Job</Id>
+    <Text>სამუშაო</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ShootVideoTask</Id>
+    <Text>ვიდეო</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CatsAttribute</Id>
+    <Text>შეიძლება შეიცავდეს კატებს</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CatsAttributeDescription</Id>
+    <Text>ვიდეოს ხარისხი ოდნავ შეიცვალა</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CopycatAttribute</Id>
+    <Text>დაკოპირებული კატა</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CopycatAttributeDescription</Id>
+    <Text>{0} უფასო ნახვები</Text>
+  </CustomText>
+  <CustomText>
+    <Id>FanboyBaitAttribute</Id>
+    <Text>ფანი</Text>
+  </CustomText>
+  <CustomText>
+    <Id>FanboyBaitAttributeDescription</Id>
+    <Text>იმ შემთხვევაში, თუ ვიდეოს ხარისხი არის 75%-ზე მეტი, სეუბსქრაიბერებს არ დაკარგავთ</Text>
+  </CustomText>
+  <CustomText>
+    <Id>GenreBusterAttribute</Id>
+    <Text>ჟანრის გაძლიერება</Text>
+  </CustomText>
+  <CustomText>
+    <Id>GenreBusterAttributeDescription</Id>
+    <Text>ვიდეოს კატეგორიაში არის ლაიქების ნაკლები ფაქტორი</Text>
+  </CustomText>
+  <CustomText>
+    <Id>HypnoticAttribute</Id>
+    <Text>გიპნოზი</Text>
+  </CustomText>
+  <CustomText>
+    <Id>HypnoticAttributeDescription</Id>
+    <Text>სუბსქრაიბერების მაღალი შანსი</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LearnFromMistakesAttribute</Id>
+    <Text>შეცდომებზე სწავლა</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LearnFromMistakesAttributeDescription</Id>
+    <Text>მოთამაშის სტატისტიკასთან ერთად გაიზარდა ვიდეოს ხარისხიც</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MemeticAttribute</Id>
+    <Text>მემეტიკური</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MemeticAttributeDescription</Id>
+    <Text>გაზიარების მაღალი შანსი</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ProductPlacementAttribute</Id>
+    <Text>პროდუქტის გამოქვეყნება</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ProductPlacementAttributeDescription</Id>
+    <Text>რეკლამებზე ფულის შოვნა</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SecondTimeAttribute</Id>
+    <Text>მეორედ გაგიმართლებს</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SecondTimeAttributeDescription</Id>
+    <Text>ვიდეო შეიძლება ნახონ უამრავჯერ</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SoBadAttribute</Id>
+    <Text>ცუდიც კარგია</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SoBadAttributeDescription</Id>
+    <Text>მაღალი გაზიარების შანსი დისაიქების შედეგად</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CrowdFundingAttribute</Id>
+    <Text>კროვნიხდ</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CrowdFundingAttributeDescription</Id>
+    <Text>სუბსქრაიბერების ნაცვლად თქვენ მიიღეთ {0}</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AboveBoardAttribute</Id>
+    <Text>საზღვარს გარეთ</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AboveBoardAttributeDescription</Id>
+    <Text>ვიდეო არ შეიძლება გამოქვეყნდეს</Text>
+  </CustomText>
+  <CustomText>
+    <Id>UnreleasedVideos</Id>
+    <Text>არაგამოქვეყნილი ვიდეოები</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ContinueGame</Id>
+    <Text>თამაშის გაგრძელება</Text>
+  </CustomText>
+  <CustomText>
+    <Id>NewGame</Id>
+    <Text>ახალი თამაში</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Tutorial</Id>
+    <Text>ტუტორიალი</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Login</Id>
+    <Text>ლოგინი</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Credits</Id>
+    <Text>შემქმნელები</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Mods</Id>
+    <Text>ენის მოდები</Text>
+  </CustomText>
+  <CustomText>
+    <Id>WhatALoser</Id>
+    <Text>რა ნუბი ხარ გეჯო</Text>
+  </CustomText>
+  <CustomText>
+    <Id>OutOfMoney</Id>
+    <Text>თქვენ გაკოტრდით!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Death</Id>
+    <Text>სიკვდილი</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RobotDeath</Id>
+    <Text>თქვენ მოკვდით რობოტებთან შებრძოლების შედეგად. </Text>
+  </CustomText>
+  <CustomText>
+    <Id>Confirm</Id>
+    <Text>დასტური</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LeaveGame</Id>
+    <Text>გსურთ თამაშიდან გასვლა?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>OverwriteSave</Id>
+    <Text>შენახვის გადაწერა</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SaveExists</Id>
+    <Text>შენახული თამაში არსებობს! გსურთ გადაწერა?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StartDay</Id>
+    <Text>დღის დაწყება</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Help</Id>
+    <Text>დახმარება</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Exit</Id>
+    <Text>გასვლა</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SaveGame</Id>
+    <Text>თამაშის შენახვა</Text>
+  </CustomText>
+  <CustomText>
+    <Id>UnhandledError</Id>
+    <Text>უძირო შეცდომა</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ExceptionText</Id>
+    <Text>შეცდომა იყო აღმოჩენილი! შეცდომის ერორი იყო შენახული თამაშის ფოლდერში. დააჭირეთ ოკ გასაგძელებლად, უარყოფას გამოსასვლელად.</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingValueHeader</Id>
+    <Text>თქვენ რაღაც ხომ არ დაკარგეთ?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingName</Id>
+    <Text>შეიყვანეთ სახელი</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingCategory</Id>
+    <Text>აირჩიეთ კატეგორია</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingChannel</Id>
+    <Text>აირჩიეთ არხი</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingStrategy</Id>
+    <Text>აირჩიეთ სტრატეგია</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingVideo</Id>
+    <Text>აირჩიეთ ვიდეო</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingUserName</Id>
+    <Text>შეიყვანეთ სახელი</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingToken</Id>
+    <Text>შეიყვანეთ კოდი</Text>
+  </CustomText>
+  <CustomText>
+    <Id>PerView</Id>
+    <Text>თითო ნახვა</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AddChannel</Id>
+    <Text>არხის დამატება</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditChannel</Id>
+    <Text>არხის შეცვლა</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AdvertisingStrategy</Id>
+    <Text>რეკლამის სტრატეგია</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Name</Id>
+    <Text>სახელი</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Low</Id>
+    <Text>დაბალი</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Normal</Id>
+    <Text>ნორმალური</Text>
+  </CustomText>
+  <CustomText>
+    <Id>High</Id>
+    <Text>მაღალი</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Aggressive</Id>
+    <Text>აგრესიული</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ShootVideo</Id>
+    <Text>ვიდეოს გამოქვეყნიერება</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditVideo</Id>
+    <Text>ვიდეოს დამონტაჟება</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Study</Id>
+    <Text>სწავლა</Text>
+  </CustomText>
+  <CustomText>
+    <Id>TooSoon</Id>
+    <Text>იარაღზე გადასვლა</Text>
+  </CustomText>
+  <CustomText>
+    <Id>NoVideosToEdit</Id>
+    <Text>არ არის ვიდეოები დასამონტაჟებლად</Text>
+  </CustomText>
+  <CustomText>
+    <Id>PointsLeft</Id>
+    <Text>დარჩენილი ქულა</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LowCashHeader</Id>
+    <Text>როგორ გსურთ ამის გადახდა?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LowCashMessage</Id>
+    <Text>არასაკმარისი თანხა</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Hours</Id>
+    <Text>საათები</Text>
+  </CustomText>
+  <CustomText>
+    <Id>HoursLeft</Id>
+    <Text>დარჩენილი საათები: {0}</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AddVideo</Id>
+    <Text>ვიდეოს დამატება</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Attributes</Id>
+    <Text>ატრიბუცია</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Cost</Id>
+    <Text>ფასი</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Category</Id>
+    <Text>კატეგორია</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Suspended</Id>
+    <Text>გამოტოვილი</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Video</Id>
+    <Text>ვიდეო</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Videos</Id>
+    <Text>ვიდეოები</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AddTask</Id>
+    <Text>სანიშნეს დამატება</Text>
+  </CustomText>
+  <CustomText>
+    <Id>QuitJobHeader</Id>
+    <Text>სამუშაოს დატოვება</Text>
+  </CustomText>
+  <CustomText>
+    <Id>QuitJobText</Id>
+    <Text>ამის შემდეგ თქვენ დაკარგავთ სამუშაოს. გსურთ?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RiseUp</Id>
+    <Text>გამოცოცხლდი!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RebellionCashRequired</Id>
+    <Text>თქვენ გჭირდებათ მინიმუმ {0} რომ დაიწყოთ რობოტებთან ბრძოლა!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RebellionStart</Id>
+    <Text>ამის შემდეგ თქვენ შეძლებთ რობოტების დამარცხებას! თქვენ გაქვთ {0}% შანსი რომ დაამარცხოთ, წინააღმდეგ შემთხვევაში თქვენ მოგვდებით! გსურთ?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Freedom</Id>
+    <Text>თავისუფლება!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RebellionSuccess</Id>
+    <Text>თქვენ იპოვეთ მასტერი გადადით და დაამარცხებთ მათ!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RemoveTask</Id>
+    <Text>ნიშნულის წაშლა</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AreYouSure</Id>
+    <Text>გსურთ?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>NoRefunds</Id>
+    <Text>ვერ დაიბრუნებთ თანხას!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Casual</Id>
+    <Text>კაზუალი</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Challenge</Id>
+    <Text>ტურნირი</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Failure</Id>
+    <Text>შეცდომა</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LoginFailure</Id>
+    <Text>ლოგინი არასწორია... გსურთ თავიდან დაწყება?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Username</Id>
+    <Text>სახელი</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Token</Id>
+    <Text>ტოკენი</Text>
+  </CustomText>
+  <CustomText>
+    <Id>HoursToComplete</Id>
+    <Text>საათი დასასრულად</Text>
+  </CustomText>
+  <CustomText>
+    <Id>PrerequisitesNotMet</Id>
+    <Text>წარსულს ვერ დააკმაყოფილებთ!ხდ</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AlreadyCompleted</Id>
+    <Text>უკვე დამთავრებული</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AlreadyEnrolled</Id>
+    <Text>უკვე ჩარიცხული</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudySelection</Id>
+    <Text>სწავლის არჩევა</Text>
+  </CustomText>
+  <CustomText>
+    <Id>UploadVideo</Id>
+    <Text>ვიდეოს ატვირთვა</Text>
+  </CustomText>
+  <CustomText>
+    <Id>FetchNewImage</Id>
+    <Text>რანდომული სურათი</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Image</Id>
+    <Text>სურათი</Text>
+  </CustomText>
+  <CustomText>
+    <Id>BuyViews</Id>
+    <Text>ნახვების ყიდვა</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Channel</Id>
+    <Text>არხი</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Views</Id>
+    <Text>ნახვები</Text>
+  </CustomText>
+  <CustomText>
+    <Id>None</Id>
+    <Text>არ არის</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Comments</Id>
+    <Text>კომენტარები</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Quality</Id>
+    <Text>ხარისხი</Text>
+  </CustomText>
+  <CustomText>
+    <Id>NotApplicable</Id>
+    <Text>N/A</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Likes</Id>
+    <Text>ლაიქები</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Dislikes</Id>
+    <Text>დისლაიქები</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Subscribers</Id>
+    <Text>გამოწერები</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ChannelIncome</Id>
+    <Text>არხის შემოსავალი</Text>
+  </CustomText>
+  <CustomText>
+    <Id>WhereTo</Id>
+    <Text>სად?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ChannelNeeded</Id>
+    <Text>შექმენით არხი რომ ატვითოთ ვიდეო!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoManager</Id>
+    <Text>ვიდეოს მონტაჟი</Text>
+  </CustomText>
+  <CustomText>
+    <Id>DailyPlanner</Id>
+    <Text>დღის გეგმები</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Stats</Id>
+    <Text>სტატისტიკა</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SubscriberHistory</Id>
+    <Text>სუბსქრაიბერების ისტორია</Text>
+  </CustomText>
+  <CustomText>
+    <Id>DailyIncome</Id>
+    <Text>დღის შემოსავალი და ხარჯი</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoCameraIStoreItem</Id>
+    <Text>ვიდეო გადამღები XYZ-85</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoCameraIStoreItemDescription</Id>
+    <Text>ეს უკეთესია ვიდრე ვიდეო-თვალი</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoCameraIIStoreItem</Id>
+    <Text>სუპერ გადამღები პროფესიონალური აპარატი</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoCameraIIStoreItemDescription</Id>
+    <Text>საუკეთესო ვიდეო გადამღები! საუკეთესო პროფესიონალებიდან!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditingSoftwareIStoreItem</Id>
+    <Text>მონტაჟორი 4</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditingSoftwareIStoreItemDescription</Id>
+    <Text>უკეთესი ვიდრე ოპერაციული სისტემა</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditingSoftwareIIStoreItem</Id>
+    <Text>მეგა-გადამღები ხელსაწყო მე-12 თაობის</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditingSoftwareIIStoreItemDescription</Id>
+    <Text>ულტიმატური ვიდეოს მონტაჟის პროგრამა!
+20 სხვადასხვა ვარსკვლავების არჩეული!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LawyerStoreItem</Id>
+    <Text>სწორი &amp; არასწორი ადვოკატები</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LawyerStoreItemDescription</Id>
+    <Text>თქვენი საჭიროებისათვის ჩვენ მოვხსნით ბლოკს ვიდეოებს და არხებს ცოტა {0} სუბს </Text>
+  </CustomText>
+  <CustomText>
+    <Id>ConsultantStoreItem</Id>
+    <Text>ბობ ბოსკინსი - კონსულტანტი</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ConsultantStoreItemDescription</Id>
+    <Text>ჩემი ხელმძღვანელობით, შენ გახდი საუკეთესო TubeStar-ზე! დღეიდან მე გადავიხდი {0} თითო ნახვაზე!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Buy</Id>
+    <Text>ყიდვა</Text>
+  </CustomText>
+  <CustomText>
+    <Id>OnlineStore</Id>
+    <Text>ონლაინ მაღაზია</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SuspendedHireLawyer</Id>
+    <Text>(დააკლიკეთ ლაუვერზე)</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RemoveVideoSuspension</Id>
+    <Text>გნებავთ ვიდეოს ბლოკის მოხსნა {0}-ად?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RemoveChannelSuspension</Id>
+    <Text>გნებავთ არხზე ბლოკის მოხსნა {0}-ად?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LoanStoreItem</Id>
+    <Text>შაილოკის სესხები</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LoanStoreItemDescription</Id>
+    <Text>მომენტალური სესხი! {0} დღეს! გიხდით {1} დღეს და იხდით {2}%!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Edit</Id>
+    <Text>შესწორება</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Save</Id>
+    <Text>შენახვა</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AddTranslation</Id>
+    <Text>თარგმნის დამატება</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ViewVideo</Id>
+    <Text>ვიდეოს ნახვა</Text>
+  </CustomText>
+  <CustomText>
+    <Id>BornToRule</Id>
+    <Text>დაბადებული მმართველად</Text>
+  </CustomText>
+  <CustomText>
+    <Id>BuyItem</Id>
+    <Text>ყიდვა {0}-ად?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Next</Id>
+    <Text>შემდეგი</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SaveGameSuccess</Id>
+    <Text>თამაში იყო წარმატებით შენახული!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RobotTax</Id>
+    <Text>რობოტებმა აიღეს 20% შენს თანხიდან</Text>
+  </CustomText>
+  <CustomText>
+    <Id>TopTubeStars</Id>
+    <Text>ტოპ TubeStar-ები</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Ultra</Id>
+    <Text>ულტრა</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Delete</Id>
+    <Text>წაშლა</Text>
+  </CustomText>
+  <CustomText>
+    <Id>DeleteVideo</Id>
+    <Text>გნებავთ ამ ვიდეოს წაშლა?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>UseCreativeCommons</Id>
+    <Text>დილპლეიზე მხოლოდ კრეატიული მატერიალები</Text>
+  </CustomText>
+</ArrayOfCustomText>

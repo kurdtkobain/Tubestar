@@ -1,0 +1,854 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCustomText xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CustomText>
+    <Id>Fails</Id>
+    <Text>Fails</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AnimalFighting</Id>
+    <Text>Djur slagsmål</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Anime</Id>
+    <Text>Anime</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Cats</Id>
+    <Text>Katter</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Comedy</Id>
+    <Text>Komedi</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ConspiraryTheory</Id>
+    <Text>Konspirationsteori</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CreepyPasta</Id>
+    <Text>Creepypasta</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Gaming</Id>
+    <Text>Spelande</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ShoppingHaul</Id>
+    <Text>Shopping haul</Text>
+  </CustomText>
+  <CustomText>
+    <Id>HowTo</Id>
+    <Text>Hur man ...</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Movies</Id>
+    <Text>Filmer</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MusicVideo</Id>
+    <Text>Musik video</Text>
+  </CustomText>
+  <CustomText>
+    <Id>NonProfit</Id>
+    <Text>Ingen vinst</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Sports</Id>
+    <Text>Sporter</Text>
+  </CustomText>
+  <CustomText>
+    <Id>TheWeirdSide</Id>
+    <Text>Den konstiga sidan</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Technology</Id>
+    <Text>Teknik</Text>
+  </CustomText>
+  <CustomText>
+    <Id>UkuleleCover</Id>
+    <Text>Ukulele cover</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Vlog</Id>
+    <Text>Vlog</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Ok</Id>
+    <Text>Okej</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Cancel</Id>
+    <Text>Avbryt</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SaveFail</Id>
+    <Text>Kunde inte spara spel!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LoadFail</Id>
+    <Text>Kunde inte ladda spel!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ChannelSuspended</Id>
+    <Text>Kanalen {0} har blivit avstängd p.g.a misstänkt kränkning av vilkoren!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ComputerCrash</Id>
+    <Text>Din dator har crashat!
+
+Alla osläppta videor har blivit förlorade!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CostOfLivingIncrease</Id>
+    <Text>Din ekonomi misslyckas!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Fired</Id>
+    <Text>Du har blivit avskedad!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LoseSubscribers</Id>
+    <Text>Pinsam info om dig har blivit spridd!
+
+Du har förlorat {0} prenumeranter!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>WorkOvertime</Id>
+    <Text>Jag skulle vilja att du jobbar övertid.
+
+Så om du skulle kunna tänka dig att göra det skulle det vara bra!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoSuspended</Id>
+    <Text>Videon {0} har blivit avstängd p.g.a misstänkt copyright överträdelse!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SpareChange</Id>
+    <Text>Du sökte igenom din soffa och hittade {0}</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Promoted</Id>
+    <Text>Du har blivit uppgraderad på jobbet!
+
+Du får mer pengar när du jobbar längre tider!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RobotRising</Id>
+    <Text>Robotarna tar över jorden!
+
+Buga inför dina nya ledare.</Text>
+  </CustomText>
+  <CustomText>
+    <Id>BeautyContest</Id>
+    <Text>Du har vunnit {0} i en skönhets tävling!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ChannelSuspensionLifted</Id>
+    <Text>Kanalen {0} har haft dess avstängning upplyft!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CostOfLivingDecreased</Id>
+    <Text>Din ekonomi börjar återhämta sig!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>FreeStudy</Id>
+    <Text>Du har fått ett stipendium till {0}!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>GainSubscribers</Id>
+    <Text>Du har blivit visad på en hemsida 
+
+Du har fått {0} prenumeranter!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoSuspensionLifted</Id>
+    <Text>En video '{0}' har haft dess avstänging upplyft!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RandomEvent</Id>
+    <Text>Slump Händelse</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyAudienceAnalysis1</Id>
+    <Text>Studera 'Video Egenskaps Teknologi I'
+</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyAudienceAnalysis2</Id>
+    <Text>Studera 'Video Egenskaps Teknologi II'
+</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyPostProduction1</Id>
+    <Text>Studera 'Inläggs Produktion I'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyPostProduction2</Id>
+    <Text>Studera 'Inläggs Produktion II'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyPostProduction3</Id>
+    <Text>Studera 'Inläggs Produktion III'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyProduction1</Id>
+    <Text>Studera 'Produktion I'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyProduction2</Id>
+    <Text>Studera 'Produktion II'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyProduction3</Id>
+    <Text>Studera 'Produktion III'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyQualityAnalysis</Id>
+    <Text>Studera 'Kvalitet Analys'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MandatoryBowToRobotRulers</Id>
+    <Text>Oblikatorisk Bugning till Robot Ledare</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditVideoTask</Id>
+    <Text>'{0}' Inläggs produktion</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Job</Id>
+    <Text>Jobb</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ShootVideoTask</Id>
+    <Text>'{0}' video inspelning</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CatsAttribute</Id>
+    <Text>Kan innehålla katter</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CatsAttributeDescription</Id>
+    <Text>Video kvalitet lätt ökad</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CopycatAttribute</Id>
+    <Text>Copycat</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CopycatAttributeDescription</Id>
+    <Text>{0} gratis första visningar</Text>
+  </CustomText>
+  <CustomText>
+    <Id>FanboyBaitAttribute</Id>
+    <Text>Fanboy bete</Text>
+  </CustomText>
+  <CustomText>
+    <Id>FanboyBaitAttributeDescription</Id>
+    <Text>Om video kvaliten är över 75%, Kommer ingen nuvarande prenumerant avprenumerera</Text>
+  </CustomText>
+  <CustomText>
+    <Id>GenreBusterAttribute</Id>
+    <Text>Genre krossning</Text>
+  </CustomText>
+  <CustomText>
+    <Id>GenreBusterAttributeDescription</Id>
+    <Text>Video kategori är en mindre faktor i gillning</Text>
+  </CustomText>
+  <CustomText>
+    <Id>HypnoticAttribute</Id>
+    <Text>Hypnotik</Text>
+  </CustomText>
+  <CustomText>
+    <Id>HypnoticAttributeDescription</Id>
+    <Text>Högre chans av prenumeration</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LearnFromMistakesAttribute</Id>
+    <Text>Lärande av misstag</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LearnFromMistakesAttributeDescription</Id>
+    <Text>Spelar statistik lätt ökad av kostnad på video kvalitet</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MemeticAttribute</Id>
+    <Text>Memetic</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MemeticAttributeDescription</Id>
+    <Text>Högre chans av delning</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ProductPlacementAttribute</Id>
+    <Text>Produktplacering</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ProductPlacementAttributeDescription</Id>
+    <Text>Få mer från marknadförning per visning</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SecondTimeAttribute</Id>
+    <Text>Bättre andra gången</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SecondTimeAttributeDescription</Id>
+    <Text>Videon kan bli visad flera gånger</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SoBadAttribute</Id>
+    <Text>Så dålig att den är bra</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SoBadAttributeDescription</Id>
+    <Text>Chans att videon blir delad om den är ner gillad</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CrowdFundingAttribute</Id>
+    <Text>Folkkostnad</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CrowdFundingAttributeDescription</Id>
+    <Text>Isället för en prenumeration får du {0}</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AboveBoardAttribute</Id>
+    <Text>Överlista</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AboveBoardAttributeDescription</Id>
+    <Text>Denna video kan inte bli avstängd</Text>
+  </CustomText>
+  <CustomText>
+    <Id>UnreleasedVideos</Id>
+    <Text>Osläppta Videor</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ContinueGame</Id>
+    <Text>Fortsätt spel</Text>
+  </CustomText>
+  <CustomText>
+    <Id>NewGame</Id>
+    <Text>Nytt spel</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Tutorial</Id>
+    <Text>Handledning</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Login</Id>
+    <Text>Logga in</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Credits</Id>
+    <Text>Ära</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Mods</Id>
+    <Text>Språk Mod</Text>
+  </CustomText>
+  <CustomText>
+    <Id>WhatALoser</Id>
+    <Text>Vilken nolla</Text>
+  </CustomText>
+  <CustomText>
+    <Id>OutOfMoney</Id>
+    <Text>Du fick slut på pengar!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Death</Id>
+    <Text>Död</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RobotDeath</Id>
+    <Text>Du dog slåss roboten hot.
+      Din officiella dödsorsaken noteras som:
+
+      "Konsumtion från overeagerness att böja sig för robot mästare."
+    </Text>
+  </CustomText>
+  <CustomText>
+    <Id>Confirm</Id>
+    <Text>Bekräfta</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LeaveGame</Id>
+    <Text>Lämna nuvarande spel?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>OverwriteSave</Id>
+    <Text>Skrivöver sparning</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SaveExists</Id>
+    <Text>En sparnings fil finns redan! Skrivöver?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StartDay</Id>
+    <Text>Starta dag</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Help</Id>
+    <Text>Hjälp</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Exit</Id>
+    <Text>Avsluta</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SaveGame</Id>
+    <Text>Spara spel</Text>
+  </CustomText>
+  <CustomText>
+    <Id>UnhandledError</Id>
+    <Text>Ohanterat fel</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ExceptionText</Id>
+    <Text>An unknown error has occured!
+
+Error report created in the games folder.
+
+Click OK to continue, CANCEL to quit</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingValueHeader</Id>
+    <Text>Saknar du inget?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingName</Id>
+    <Text>Ange ett namn</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingCategory</Id>
+    <Text>Välj kategori</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingChannel</Id>
+    <Text>Välj kanal</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingStrategy</Id>
+    <Text>Välj strategi</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingVideo</Id>
+    <Text>Välj video</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingUserName</Id>
+    <Text>Ange användarnamnet</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingToken</Id>
+    <Text>Ange token</Text>
+  </CustomText>
+  <CustomText>
+    <Id>PerView</Id>
+    <Text>pär visning</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AddChannel</Id>
+    <Text>Lägg till kanal</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditChannel</Id>
+    <Text>Redigera kanal</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AdvertisingStrategy</Id>
+    <Text>Marknadförnings strategi</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Name</Id>
+    <Text>Namn</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Low</Id>
+    <Text>Låg</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Normal</Id>
+    <Text>Normal</Text>
+  </CustomText>
+  <CustomText>
+    <Id>High</Id>
+    <Text>Hög</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Aggressive</Id>
+    <Text>Aggresiv</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ShootVideo</Id>
+    <Text>Spela in video</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditVideo</Id>
+    <Text>Redigera video</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Study</Id>
+    <Text>Studie</Text>
+  </CustomText>
+  <CustomText>
+    <Id>TooSoon</Id>
+    <Text>FÖr tidigt</Text>
+  </CustomText>
+  <CustomText>
+    <Id>NoVideosToEdit</Id>
+    <Text>Det finns inga videor att redigera</Text>
+  </CustomText>
+  <CustomText>
+    <Id>PointsLeft</Id>
+    <Text>Poäng kvar</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LowCashHeader</Id>
+    <Text>Hur ska du betala för det?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LowCashMessage</Id>
+    <Text>Inte tillräckligt med pengar</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Hours</Id>
+    <Text>Timmar</Text>
+  </CustomText>
+  <CustomText>
+    <Id>HoursLeft</Id>
+    <Text>Timmar kvar: {0}</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AddVideo</Id>
+    <Text>Lägg till video</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Attributes</Id>
+    <Text>Egenskaper</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Cost</Id>
+    <Text>Kostnad</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Category</Id>
+    <Text>Kategori</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Suspended</Id>
+    <Text>Avstängd</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Video</Id>
+    <Text>Video</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Videos</Id>
+    <Text>Videor</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AddTask</Id>
+    <Text>Lägg till uppgift</Text>
+  </CustomText>
+  <CustomText>
+    <Id>QuitJobHeader</Id>
+    <Text>Sluta ditt job</Text>
+  </CustomText>
+  <CustomText>
+    <Id>QuitJobText</Id>
+    <Text>Denna handling kommer slut ditt job. Är du säker?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RiseUp</Id>
+    <Text>Steg up!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RebellionCashRequired</Id>
+    <Text>Du behöver minst {0} för att starta uppror mot robot mästarna</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RebellionStart</Id>
+    <Text>Denna handling kommer starta uppror mot robot mästarna! Du har en {0}% att lyckas och misslyckning leder till DÖden!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Freedom</Id>
+    <Text>Frihet!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RebellionSuccess</Id>
+    <Text>Du hittade primär spaken och stängde av "The Master Robot" av! Det var enkelt!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RemoveTask</Id>
+    <Text>Ta bort uppgift</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AreYouSure</Id>
+    <Text>Är du säker?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>NoRefunds</Id>
+    <Text>Ingen återbetalning!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Casual</Id>
+    <Text>Vanligt</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Challenge</Id>
+    <Text>Uttmaning</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Failure</Id>
+    <Text>Misslyckat</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LoginFailure</Id>
+    <Text>Inloggning misslyckad... Försök igen?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Username</Id>
+    <Text>Användarnamn</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Token</Id>
+    <Text>Pollet</Text>
+  </CustomText>
+  <CustomText>
+    <Id>HoursToComplete</Id>
+    <Text>Timmar kvar</Text>
+  </CustomText>
+  <CustomText>
+    <Id>PrerequisitesNotMet</Id>
+    <Text>Förutsättningar inte mötta!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AlreadyCompleted</Id>
+    <Text>Redan avklarat</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AlreadyEnrolled</Id>
+    <Text>Redan taget</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudySelection</Id>
+    <Text>Studie val</Text>
+  </CustomText>
+  <CustomText>
+    <Id>UploadVideo</Id>
+    <Text>Ladda up video</Text>
+  </CustomText>
+  <CustomText>
+    <Id>FetchNewImage</Id>
+    <Text>Slumpmässig bild</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Image</Id>
+    <Text>Bild
+</Text>
+  </CustomText>
+  <CustomText>
+    <Id>BuyViews</Id>
+    <Text>Köp visningar</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Channel</Id>
+    <Text>Kanal</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Views</Id>
+    <Text>Visningar</Text>
+  </CustomText>
+  <CustomText>
+    <Id>None</Id>
+    <Text>Inget</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Comments</Id>
+    <Text>Kommentarer</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Quality</Id>
+    <Text>Kvalitet</Text>
+  </CustomText>
+  <CustomText>
+    <Id>NotApplicable</Id>
+    <Text>N/A</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Likes</Id>
+    <Text>Gillar</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Dislikes</Id>
+    <Text>Gillar inte</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Subscribers</Id>
+    <Text>Prenumeranter</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ChannelIncome</Id>
+    <Text>Kanalen's Inkomst</Text>
+  </CustomText>
+  <CustomText>
+    <Id>WhereTo</Id>
+    <Text>Vart?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ChannelNeeded</Id>
+    <Text>Skapa en kanal för att ladda upp!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoManager</Id>
+    <Text>Video Hanteraren</Text>
+  </CustomText>
+  <CustomText>
+    <Id>DailyPlanner</Id>
+    <Text>Dags Planering</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Stats</Id>
+    <Text>Statistik</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SubscriberHistory</Id>
+    <Text>Prenumeration Historik</Text>
+  </CustomText>
+  <CustomText>
+    <Id>DailyIncome</Id>
+    <Text>Dagliga Inkomster &amp; Kostnader</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoCameraIStoreItem</Id>
+    <Text>Generic Camcorder XYZ-85</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoCameraIStoreItemDescription</Id>
+    <Text>Den är bättre än en webcam...</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoCameraIIStoreItem</Id>
+    <Text>Super Camcorder Pro Deluxe HD</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoCameraIIStoreItemDescription</Id>
+    <Text>Bästa kameran på marknaden! Använd av alla profs!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditingSoftwareIStoreItem</Id>
+    <Text>Edit-Me Video Director 4</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditingSoftwareIStoreItemDescription</Id>
+    <Text>Bättre än det som kommer med mitt operativsystem...</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditingSoftwareIIStoreItem</Id>
+    <Text>Mega-Director Ultra Deluxe Edition 12</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditingSoftwareIIStoreItemDescription</Id>
+    <Text>Det ULTIMATA inom redigering! 20 olika "Star Wipes" att välja mellan!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LawyerStoreItem</Id>
+    <Text>Wright &amp; Wrong Advokater</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LawyerStoreItemDescription</Id>
+    <Text>För alla dina juridiska behov! Kommer vi avblocka alla blockade videor och kanaler för en liten avgift av {0}</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ConsultantStoreItem</Id>
+    <Text>Bob Boskins - Konsult</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ConsultantStoreItemDescription</Id>
+    <Text>Med min expert guidning, kommer jag att göra dig till en TubeStar! Jag tar betalt {0} per video!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Buy</Id>
+    <Text>Köp</Text>
+  </CustomText>
+  <CustomText>
+    <Id>OnlineStore</Id>
+    <Text>Nät Butik</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SuspendedHireLawyer</Id>
+    <Text>(Tryck för a Hyra Advokat)</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RemoveVideoSuspension</Id>
+    <Text>Vill du betala våran avgift av {0} för att lyfta denna videon's avstängning</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RemoveChannelSuspension</Id>
+    <Text>Vill du betala våran avgift av {0} för att lyfta denna kanalens avstängning</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LoanStoreItem</Id>
+    <Text>Shylock's Lån</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LoanStoreItemDescription</Id>
+    <Text>Direkt betalning av {0} garanterad!! Ring idag! Betala tillbaks {1} varje dag. {2}% </Text>
+  </CustomText>
+  <CustomText>
+    <Id>Edit</Id>
+    <Text>Redigera</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Save</Id>
+    <Text>Spara</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AddTranslation</Id>
+    <Text>Lägg till Översättning</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ViewVideo</Id>
+    <Text>Se video</Text>
+  </CustomText>
+  <CustomText>
+    <Id>BornToRule</Id>
+    <Text>Fött att leda</Text>
+  </CustomText>
+  <CustomText>
+    <Id>BuyItem</Id>
+    <Text>Köp för {0}?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Next</Id>
+    <Text>Nästa</Text>
+  </CustomText>
+    <CustomText>
+    <Id>SaveGameSuccess</Id>
+    <Text>Spelet har sparats!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RobotTax</Id>
+    <Text>Robotarna tar 20% av dina pengar som en hyllning till deras ära.</Text>
+  </CustomText>
+  <CustomText>
+    <Id>TopTubeStars</Id>
+    <Text>Topp TubeStars</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Ultra</Id>
+    <Text>Ultra</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Delete</Id>
+    <Text>Ta bort</Text>
+  </CustomText>
+  <CustomText>
+    <Id>DeleteVideo</Id>
+    <Text>Är du säker på att du vill ta bort denna video?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>UseCreativeCommons</Id>
+    <Text>Display 'Creative Commons' Material Endast</Text>
+  </CustomText>
+</ArrayOfCustomText>

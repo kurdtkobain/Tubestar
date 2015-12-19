@@ -1,0 +1,666 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{11F9CA40-DA52-4A42-A0A0-A31ABB56C83F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TubeStar</RootNamespace>
+    <AssemblyName>TubeStar</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\TubeStar.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Awesomium.Core, Version=1.7.5.1, Culture=neutral, PublicKeyToken=e1a0d7c8071a5214, processorArchitecture=x86">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Awesomium.Windows.Controls, Version=1.7.5.1, Culture=neutral, PublicKeyToken=7a34e179b8b61c39, processorArchitecture=x86">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>3rd Party\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Nicenis">
+      <HintPath>3rd Party\Nicenis.dll</HintPath>
+    </Reference>
+    <Reference Include="OxyPlot">
+      <HintPath>3rd Party\OxyPlot.dll</HintPath>
+    </Reference>
+    <Reference Include="OxyPlot.Wpf, Version=2013.1.35.1, Culture=neutral, PublicKeyToken=75e952ba404cdbb0, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>3rd Party\OxyPlot.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="Xceed.Wpf.Toolkit">
+      <HintPath>3rd Party\Xceed.Wpf.Toolkit.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="GameJolt Integration\DataStoreManager.cs" />
+    <Compile Include="Game\RandomEvents.cs" />
+    <Compile Include="Game\SaveLoad\SaveObj.cs" />
+    <Compile Include="Game\SaveLoad\SaveLoadHelper.cs" />
+    <Compile Include="Helpers\SerializationHelpers.cs" />
+    <Compile Include="Helpers\DialogHelper.cs" />
+    <Compile Include="Helpers\UIHelpers.cs" />
+    <Compile Include="Helpers\StreamHelpers.cs" />
+    <Compile Include="Languages\RivalStrings.cs" />
+    <Compile Include="Languages\CommentStrings.cs" />
+    <Compile Include="Languages\EnglishStrings.cs" />
+    <Compile Include="Helpers\Attributes\CommentAttribute.cs" />
+    <Compile Include="Languages\Languages.cs" />
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OnlineStore\Items\Consultant.cs" />
+    <Compile Include="OnlineStore\Items\Loan.cs" />
+    <Compile Include="OnlineStore\Items\Lawyer.cs" />
+    <Compile Include="OnlineStore\Items\EditingSoftwareII.cs" />
+    <Compile Include="OnlineStore\Items\EditingSoftwareI.cs" />
+    <Compile Include="OnlineStore\Items\VideoCameraII.cs" />
+    <Compile Include="OnlineStore\Items\VideoCameraI.cs" />
+    <Compile Include="OnlineStore\StoreItems.cs" />
+    <Compile Include="OnlineStore\StoreItem.cs" />
+    <Compile Include="Rivals\Base\Rival.cs" />
+    <Compile Include="Rivals\Rival15.cs" />
+    <Compile Include="Rivals\Rival14.cs" />
+    <Compile Include="Rivals\Rival13.cs" />
+    <Compile Include="Rivals\Rival12.cs" />
+    <Compile Include="Rivals\Rival11.cs" />
+    <Compile Include="Rivals\Rival10.cs" />
+    <Compile Include="Rivals\Rival9.cs" />
+    <Compile Include="Rivals\Rival8.cs" />
+    <Compile Include="Rivals\Rival7.cs" />
+    <Compile Include="Rivals\Rival6.cs" />
+    <Compile Include="Rivals\Rival5.cs" />
+    <Compile Include="Rivals\Rival4.cs" />
+    <Compile Include="Rivals\Rivals.cs" />
+    <Compile Include="Rivals\Rival1.cs" />
+    <Compile Include="Rivals\Rival2.cs" />
+    <Compile Include="Rivals\Rival3.cs" />
+    <Compile Include="Tasks\Base\Task.cs" />
+    <Compile Include="Tasks\Base\TaskType.cs" />
+    <Compile Include="Tasks\BowToRobotRulers.cs" />
+    <Compile Include="Tasks\EditVideo.cs" />
+    <Compile Include="Tasks\Job.cs" />
+    <Compile Include="Tasks\ShootVideo.cs" />
+    <Compile Include="Tasks\Studies.cs" />
+    <Compile Include="Tasks\Studies\StudyAudienceAnalysisI.cs" />
+    <Compile Include="Tasks\Studies\StudyAudienceAnalysisII.cs" />
+    <Compile Include="Tasks\Studies\StudyPostProductionI.cs" />
+    <Compile Include="Tasks\Studies\StudyPostProductionII.cs" />
+    <Compile Include="Tasks\Studies\StudyPostProductionIII.cs" />
+    <Compile Include="Tasks\Studies\StudyProductionI.cs" />
+    <Compile Include="Tasks\Studies\StudyProductionII.cs" />
+    <Compile Include="Tasks\Studies\StudyProductionIII.cs" />
+    <Compile Include="Tasks\Studies\StudyQualityAnalysis.cs" />
+    <Compile Include="Tasks\Study.cs" />
+    <Compile Include="TitlePage.xaml.cs">
+      <DependentUpon>TitlePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\AddChannelDialog.xaml.cs">
+      <DependentUpon>AddChannelDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\AddTaskDialog.xaml.cs">
+      <DependentUpon>AddTaskDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\AddVideoDialog2.xaml.cs">
+      <DependentUpon>AddVideoDialog2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\AddVideoDialog.xaml.cs">
+      <DependentUpon>AddVideoDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\AppointmentBlock.xaml.cs">
+      <DependentUpon>AppointmentBlock.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ChannelBlock.xaml.cs">
+      <DependentUpon>ChannelBlock.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\CommentBlock.xaml.cs">
+      <DependentUpon>CommentBlock.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ChannelStatsDialog.xaml.cs">
+      <DependentUpon>ChannelStatsDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\NewGameDialog.xaml.cs">
+      <DependentUpon>NewGameDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\CustomMessageBox.xaml.cs">
+      <DependentUpon>CustomMessageBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\DailyPlanner.xaml.cs">
+      <DependentUpon>DailyPlanner.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\EditVideoDialog.xaml.cs">
+      <DependentUpon>EditVideoDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\LoginDialog.xaml.cs">
+      <DependentUpon>LoginDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\SelectButton.xaml.cs">
+      <DependentUpon>SelectButton.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\CreditsDialog.xaml.cs">
+      <DependentUpon>CreditsDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\StudySelectionDialog.xaml.cs">
+      <DependentUpon>StudySelectionDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\TodoTask.xaml.cs">
+      <DependentUpon>TodoTask.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UploadVideoDialog.xaml.cs">
+      <DependentUpon>UploadVideoDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\StoreItemBlock.xaml.cs">
+      <DependentUpon>StoreItemBlock.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\VideoBlockGrid.xaml.cs">
+      <DependentUpon>VideoBlockGrid.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\VideoBlock.xaml.cs">
+      <DependentUpon>VideoBlock.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\OnlineStoreControl.xaml.cs">
+      <DependentUpon>OnlineStoreControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\RivalControl.xaml.cs">
+      <DependentUpon>RivalControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\VideoManagerControl.xaml.cs">
+      <DependentUpon>VideoManagerControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ViewVideoDialog.xaml.cs">
+      <DependentUpon>ViewVideoDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Video\AdvertisingStrategy.cs" />
+    <Compile Include="Video\Attributes\Base\VideoAttribute.cs" />
+    <Compile Include="Video\Attributes\Cats.cs" />
+    <Compile Include="Video\Attributes\AboveBoard.cs" />
+    <Compile Include="Video\Attributes\Crowdfunding.cs" />
+    <Compile Include="Video\Attributes\Copycat.cs" />
+    <Compile Include="Video\Attributes\FanboyBait.cs" />
+    <Compile Include="Video\Attributes\GenreBuster.cs" />
+    <Compile Include="Video\Attributes\Hypnotic.cs" />
+    <Compile Include="Video\Attributes\LearnFromMistakes.cs" />
+    <Compile Include="Video\Attributes\Memetic.cs" />
+    <Compile Include="Video\Attributes\ProductPlacement.cs" />
+    <Compile Include="Video\Attributes\SecondTime.cs" />
+    <Compile Include="Video\Attributes\SoBad.cs" />
+    <Compile Include="Video\Attributes\VideoAttributes.cs" />
+    <Compile Include="Video\Channel.cs" />
+    <Compile Include="Video\CommentGenerator.cs" />
+    <Compile Include="Video\VideoComment.cs" />
+    <Compile Include="Video\UniqueObject.cs" />
+    <Compile Include="Video\Video.cs" />
+    <Compile Include="Video\VideoCategory.cs" />
+    <Compile Include="YouTube API\YouTubeAPI.cs" />
+    <Page Include="MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="StartWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameJolt Integration\AddScoreManager.cs" />
+    <Compile Include="GameJolt Integration\AuthUserManager.cs" />
+    <Compile Include="GameJolt Integration\Base\BaseManager.cs" />
+    <Compile Include="GameJolt Integration\FetchScoreManager.cs" />
+    <Compile Include="GameJolt Integration\TrophyManager.cs" />
+    <Compile Include="Game\Player.cs" />
+    <Compile Include="Game\Settings.cs" />
+    <Compile Include="Game\VideoViewer.cs" />
+    <Compile Include="Helpers\AsyncCacheItem.cs" />
+    <Compile Include="Helpers\Attributes\AdvertistingIncomeAttribute.cs" />
+    <Compile Include="Helpers\CategoryHelpers.cs" />
+    <Compile Include="Helpers\FormattingHelpers.cs" />
+    <Compile Include="Helpers\EnumHelpers.cs" />
+    <Compile Include="Helpers\HttpHelpers.cs" />
+    <Compile Include="Helpers\RandomHelpers.cs" />
+    <Compile Include="Helpers\WebClientHelpers.cs" />
+    <Compile Include="StartWindow.xaml.cs">
+      <DependentUpon>StartWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Styles\Custom.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Styles\FlatSlider.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TitlePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\AddChannelDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\AddTaskDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\AddVideoDialog2.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UI\AddVideoDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\AppointmentBlock.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\ChannelBlock.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\CommentBlock.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\ChannelStatsDialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UI\NewGameDialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UI\CustomMessageBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\DailyPlanner.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\EditVideoDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\LoginDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\SelectButton.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\CreditsDialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UI\StudySelectionDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\TodoTask.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\UploadVideoDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\StoreItemBlock.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UI\VideoBlockGrid.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UI\VideoBlock.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\OnlineStoreControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UI\RivalControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UI\VideoManagerControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\ViewVideoDialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Edit.png" />
+    <Resource Include="Resources\GameJoltLogo.png" />
+    <Resource Include="Resources\TubeStar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="TubeStar.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\TubeStar.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\pixabay.png" />
+    <Resource Include="Resources\Sad_icon.png" />
+    <Resource Include="Resources\Play_icon.png" />
+    <Resource Include="Resources\Video_icon.png" />
+    <Resource Include="Resources\Shoot.jpg" />
+    <Resource Include="Resources\Study.jpg" />
+    <Resource Include="Resources\YouTube.png" />
+    <Resource Include="Resources\Tiger.jpg" />
+    <Resource Include="Resources\Update.png" />
+    <Resource Include="Resources\Plus.png" />
+    <Resource Include="Resources\StoreItems\Money.jpg" />
+    <Resource Include="Resources\Likes.png" />
+    <Resource Include="Resources\Dislikes.png" />
+    <Resource Include="Resources\StoreItems\Lawyer.jpg" />
+    <Resource Include="Resources\StoreItems\Camera2.jpg" />
+    <Resource Include="Resources\StoreItems\Camera1.jpg" />
+    <Resource Include="Resources\StoreItems\Software2.jpg" />
+    <Resource Include="Resources\StoreItems\Software1.jpg" />
+    <Resource Include="Resources\StoreItems\Consultant.jpg" />
+    <None Include="Readme.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Resource Include="Languages\English %28default%29.xml" />
+    <None Include="License.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Resource Include="Languages\Poland.xml" />
+    <Resource Include="Languages\Russia.xml" />
+    <Resource Include="Resources\View.png" />
+    <Resource Include="Resources\Cat.jpg" />
+    <Resource Include="Resources\Cart_icon.png" />
+    <Resource Include="Resources\Add_icon.png" />
+    <Resource Include="Languages\Germany.xml" />
+    <Resource Include="Languages\Sweden.xml" />
+    <Resource Include="Resources\Disk.png" />
+    <Resource Include="Resources\Graph.png" />
+    <Resource Include="Resources\Edit.jpg" />
+    <Resource Include="Resources\Home_icon.png" />
+    <Resource Include="Resources\Messages\Axe.jpg" />
+    <Resource Include="Resources\Messages\Error.jpg" />
+    <Resource Include="Resources\Messages\Happy.jpg" />
+    <Resource Include="Resources\Messages\Legal.jpg" />
+    <Resource Include="Resources\Messages\Money.jpg" />
+    <Resource Include="Resources\Messages\Puzzle.jpg" />
+    <Resource Include="Resources\Messages\Question.jpg" />
+    <Resource Include="Resources\Messages\Robot.jpg" />
+    <Resource Include="Resources\Messages\Sad.jpg" />
+    <Resource Include="Resources\Messages\Score.jpg" />
+    <Resource Include="Resources\Messages\Static.jpg" />
+    <Resource Include="Resources\Messages\Study.jpg" />
+    <Resource Include="Resources\Messages\Work.jpg" />
+    <Resource Include="Resources\Comments.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Languages\France.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Exit.png" />
+    <Resource Include="Resources\Help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Rivals_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\InternetDown.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Disk_Hover.png" />
+    <Resource Include="Resources\Exit_Hover.png" />
+    <Resource Include="Resources\Help_Hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Languages\Thailand.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Ultra.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Languages\Turkey.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\freeimages_logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Languages\English.png" />
+    <Resource Include="Resources\Languages\French.png" />
+    <Resource Include="Resources\Languages\German.png" />
+    <Resource Include="Resources\Languages\Polish.png" />
+    <Resource Include="Resources\Languages\Russian.png" />
+    <Resource Include="Resources\Languages\Swedish.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Languages\Thai.png" />
+    <Resource Include="Resources\Languages\Turkish.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\icons8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\trash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\plus_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Dislikes_Black.png" />
+    <Resource Include="Resources\Likes_Black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\delete_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\grid-icon.png" />
+    <Resource Include="Resources\list-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Languages\China.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Languages\Chinese.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\next_icon.png" />
+    <Resource Include="Resources\previous_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\dice_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\more_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Languages\Netherlands.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Languages\Dutch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\commons.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Mods\Custom Language\Default.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Languages\Spain.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Languages\Spanish.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Mods\Custom TopTubeStars\Sample.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Mods\Custom TopTubeStars\Default.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Languages\Albania.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Languages\Albanian.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Languages\Romania.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Languages\Romanian.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Languages\Indonesia.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Languages\Indonesian.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Languages\Hungary.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Languages\Hungarian.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Languages\Italy.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Languages\Italian.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Languages\Czech.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Languages\Czech.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Languages\Brazil.xml" />
+    <Resource Include="Languages\Portugal.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Languages\Brazil.png" />
+    <Resource Include="Resources\Languages\Portugal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Languages\Georgia.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Languages\Georgia.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

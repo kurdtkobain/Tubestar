@@ -1,0 +1,77 @@
+﻿<UserControl x:Class="TubeStar.TitlePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:TubeStar">
+
+    <Grid x:Name="LayoutRoot" Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30*" />
+            <RowDefinition Height="70*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="30*" />
+            <ColumnDefinition Width="70*" />
+        </Grid.ColumnDefinitions>
+
+        <Image Grid.Row="0" Grid.ColumnSpan="2" Width="200" Source="Resources/TubeStar.png" Margin="10, 10, 10, 10" Cursor="Hand" MouseLeftButtonDown="Image_MouseLeftButtonDown" />
+
+        <ScrollViewer Grid.Row="1" Grid.ColumnSpan="3" VerticalScrollBarVisibility="Auto">
+            <StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Image x:Name="imgUK" Height="35" Source="Resources/Languages/English.png" MouseLeftButtonDown="imgUK_MouseLeftButtonDown"/>
+                    <Image x:Name="imgBrazil" Height="35" Source="Resources/Languages/Brazil.png" MouseLeftButtonDown="imgBrazil_MouseLeftButtonDown"/>
+                    <Image x:Name="imgPortugal" Height="35" Source="Resources/Languages/Portugal.png" MouseLeftButtonDown="imgPortugal_MouseLeftButtonDown"/>
+                    <Image x:Name="imgSpain" Height="35" Source="Resources/Languages/Spanish.png" MouseLeftButtonDown="imgSpain_MouseLeftButtonDown"/>
+                    <Image x:Name="imgFrance" Height="35" Source="Resources/Languages/French.png" MouseLeftButtonDown="imgFrance_MouseLeftButtonDown"/>
+                    <Image x:Name="imgNetherlands" Height="35" Source="Resources/Languages/Dutch.png" MouseLeftButtonDown="imgNetherlands_MouseLeftButtonDown"/>
+                    <Image x:Name="imgGermany" Height="35" Source="Resources/Languages/German.png" MouseLeftButtonDown="imgGermany_MouseLeftButtonDown"/>
+                    <Image x:Name="imgItaly" Height="35" Source="Resources/Languages/Italian.png" MouseLeftButtonDown="imgItaly_MouseLeftButtonDown"/>
+                    <Image x:Name="imgCzech" Height="35" Source="Resources/Languages/Czech.png" MouseLeftButtonDown="imgCzech_MouseLeftButtonDown"/>
+                    <Image x:Name="imgSweden" Height="35" Source="Resources/Languages/Swedish.png" MouseLeftButtonDown="imgSweden_MouseLeftButtonDown"/>
+                    <Image x:Name="imgPoland" Height="35" Source="Resources/Languages/Polish.png" MouseLeftButtonDown="imgPoland_MouseLeftButtonDown"/>
+                    <Image x:Name="imgHungary" Height="35" Source="Resources/Languages/Hungarian.png" MouseLeftButtonDown="imgHungary_MouseLeftButtonDown"/>
+
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Image x:Name="imgAlbania" Height="35" Source="Resources/Languages/Albanian.png" MouseLeftButtonDown="imgAlbania_MouseLeftButtonDown"/>
+                    <Image x:Name="imgRomania" Height="35" Source="Resources/Languages/Romanian.png" MouseLeftButtonDown="imgRomania_MouseLeftButtonDown"/>
+                    <Image x:Name="imgTurkey" Height="35" Source="Resources/Languages/Turkish.png" MouseLeftButtonDown="imgTurkey_MouseLeftButtonDown"/>
+                    <Image x:Name="imgRussia" Height="35" Source="Resources/Languages/Russian.png" MouseLeftButtonDown="imgRussia_MouseLeftButtonDown"/>
+                    <Image x:Name="imgGeorgia" Height="35" Source="Resources/Languages/Georgia.png" MouseLeftButtonDown="imgGeorgia_MouseLeftButtonDown"/>
+                    <Image x:Name="imgChina" Height="35" Source="Resources/Languages/Chinese.png" MouseLeftButtonDown="imgChina_MouseLeftButtonDown"/>
+                    <Image x:Name="imgIndonesia" Height="35" Source="Resources/Languages/Indonesian.png" MouseLeftButtonDown="imgIndonesia_MouseLeftButtonDown"/>
+                    <Image x:Name="imgThailand" Height="35" Source="Resources/Languages/Thai.png" MouseLeftButtonDown="imgThailand_MouseLeftButtonDown"/>
+
+                    <Button x:Name="imgCustom" Margin="2" Height="35" Click="imgCustom_Click">
+                        <Button.Content>
+                            <Image Source="Resources/More_icon.png" />
+                        </Button.Content>
+                    </Button>
+                </StackPanel>
+                <TextBlock x:Name="TranslatedBy" HorizontalAlignment="Center" Text="" FontSize="10" TextWrapping="Wrap" Width="500" TextAlignment="Center" />
+
+                <Button x:Name="btnContinue" Content="Continue game" Margin="5" FontSize="20" Height="40" HorizontalAlignment="Center" Width="200" Click="ContinueGame_Click" />
+                <Button x:Name="btnNewGame" Content="New game" Margin="5" FontSize="20" Height="40" HorizontalAlignment="Center" Width="200" Click="NewGame_Click" />
+                <Button x:Name="btnTutorial" Content="Tutorial" Margin="5" FontSize="20" Height="40" HorizontalAlignment="Center" Width="200" Click="Tutorial_Click" />
+                <Button x:Name="btnCredits" Content="Credits" Margin="5" FontSize="20" Height="40" HorizontalAlignment="Center" Width="200" Click="Credits_Click" />
+                <Button x:Name="btnExit" Content="Exit" Margin="5" FontSize="20" Height="40" HorizontalAlignment="Center" Width="200" Click="Exit_Click" />
+            </StackPanel>
+        </ScrollViewer>
+
+        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto" HorizontalAlignment="Right" Padding="0,50,0,0">
+            <StackPanel Grid.Row="1">
+                <Image x:Name="imgUpdate" Visibility="Collapsed" Grid.Row="0" Grid.ColumnSpan="3" Source="Resources/Update.png" Cursor="Hand" Height="50" Margin="10, 10, 10, 10" MouseLeftButtonDown="imgUpdate_MouseLeftButtonDown" />
+                <Button x:Name="btnLogin" Margin="5" FontSize="20" Height="75" HorizontalAlignment="Center" Width="200" Click="GJLogin_Click">
+                    <Button.Content>
+                        <StackPanel>
+                            <Image Source="Resources/GameJoltLogo.png" />
+                            <TextBlock x:Name="txtLogin" Text="Login" />
+                        </StackPanel>
+                    </Button.Content>
+                </Button>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</UserControl>

@@ -1,0 +1,831 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCustomText xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CustomText>
+    <Id>Fails</Id>
+    <Text>Gabime</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AnimalFighting</Id>
+    <Text>Luftim Kafshesh</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Anime</Id>
+    <Text>Film Vizatimor</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Cats</Id>
+    <Text>Mace</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Comedy</Id>
+    <Text>Komedi</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ConspiraryTheory</Id>
+    <Text>Teoria E Konspiracionit</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CreepyPasta</Id>
+    <Text>Tregime Te Frikshme</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Gaming</Id>
+    <Text>Kumar</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ShoppingHaul</Id>
+    <Text>Ngarkesë Pazar</Text>
+  </CustomText>
+  <CustomText>
+    <Id>HowTo</Id>
+    <Text>Si Të</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Movies</Id>
+    <Text>Filma</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MusicVideo</Id>
+    <Text>Video Klip</Text>
+  </CustomText>
+  <CustomText>
+    <Id>NonProfit</Id>
+    <Text>Jo Fitim</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Sports</Id>
+    <Text>Sport</Text>
+  </CustomText>
+  <CustomText>
+    <Id>TheWeirdSide</Id>
+    <Text>Ana E Pazakontë</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Technology</Id>
+    <Text>Teknologji</Text>
+  </CustomText>
+  <CustomText>
+    <Id>UkuleleCover</Id>
+    <Text>Mbuluar Kitarë Havajane</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Vlog</Id>
+    <Text>Vlog</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Ok</Id>
+    <Text>Në Rregull</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Cancel</Id>
+    <Text>Anuloj</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SaveFail</Id>
+    <Text>Diqka Shkoj Shum Keq! Ose Ndoshta Vetëm Pak Më E Gabuar...Gjithsesi,Të Më Falësh! Une Nuk Munda Ta Rruj Lojen Tënde</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LoadFail</Id>
+    <Text>Diqka Shkoj Shum Keq! Ose Ndoshta Vetëm Pak Më E Gabuar...Gjithsesi,Të Më Falësh! Une Nuk Munda Ta Rruj Ngarkoj Lojen Tënde</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ChannelSuspended</Id>
+    <Text>Kanali '{0}' është pezulluar për shkak të një shkelje të dyshuar të termave dhe kushteve!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ComputerCrash</Id>
+    <Text>Kompjuteri juaj u prish! Të Gjith Videot E Pa Publikuar Kan Humbur</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CostOfLivingIncrease</Id>
+    <Text>Ekonomia është e dështuar! Kostoja juaj e jetesës është rritur!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Fired</Id>
+    <Text>Puna juaj i është besuar! Ju jeni duke shkarkuar!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LoseSubscribers</Id>
+    <Text>Disa informata turpshme për ju ka dalë në sipërfaqe! Ju keni humbur {0} abonentë!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>WorkOvertime</Id>
+    <Text>Mmm, po, unë jam i do të ketë për të shkuar përpara dhe t'ju kërkojë për të punuar jashtë orarit. Pra, nëse ju mund të shkoni përpara dhe të bëjë atë, që do të jetë i madh!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoSuspended</Id>
+    <Text>Video '{0}' është pezulluar për shkak të shkelje e autorit të dyshuar!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SpareChange</Id>
+    <Text>Ju kontrolloi përmes divan tuaj dhe gjetur {0} ndryshim</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Promoted</Id>
+    <Text>Ju keni promovuar në punë! Ju i keni fituar shumë para duke punuar orë të gjata!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RobotRising</Id>
+    <Text>Robots janë rritur dhe të marrë mbi tokë! Bien përmbys para sundimtarëve tuaj të re robot.</Text>
+  </CustomText>
+  <CustomText>
+    <Id>BeautyContest</Id>
+    <Text>Ju keni fituar {0} në një konkurs bukurie!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ChannelSuspensionLifted</Id>
+    <Text>Kanali '{0}' ka pasur atë është pezullimi hiqet!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CostOfLivingDecreased</Id>
+    <Text>Ekonomia po rimëkëmbet! Kostoja juaj e jetesës ka rënë!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>FreeStudy</Id>
+    <Text>Ju keni dhënë një bursë {0} për të!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>GainSubscribers</Id>
+    <Text>Ju keni qenë i paraqitur në një faqe interneti! Ju keni fituar {0} abonentë!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoSuspensionLifted</Id>
+    <Text>Një video '{0}' ka pasur atë është pezullimi hiqet!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RandomEvent</Id>
+    <Text>ngjarje të rastësishme</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyAudienceAnalysis1</Id>
+    <Text>Studimit 'Video Atrubiton Teknologjia I'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyAudienceAnalysis2</Id>
+    <Text>Studimit 'Video Attribution Teknologjia II'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyPostProduction1</Id>
+    <Text>Studimit 'Postim Prodhimi I'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyPostProduction2</Id>
+    <Text>Studimit 'Postim Prodhimi II'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyPostProduction3</Id>
+    <Text>Studimit 'Postim Prodhimi III'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyProduction1</Id>
+    <Text>Studimit 'Prodhimi I'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyProduction2</Id>
+    <Text>Studimit 'Prodhimi II'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyProduction3</Id>
+    <Text>Studimit 'Prodhimi III'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyQualityAnalysis</Id>
+    <Text>'Cilësia Analiza' studimit</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MandatoryBowToRobotRulers</Id>
+    <Text>Përkulur i detyrueshëm për krerët Robotë</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditVideoTask</Id>
+    <Text>'{0}' Postim I Prodhimit</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Job</Id>
+    <Text>Punë</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ShootVideoTask</Id>
+    <Text>'{0}' video të xhiruar</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CatsAttribute</Id>
+    <Text>Mund të përmbajnë macet</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CatsAttributeDescription</Id>
+    <Text>Video me cilësi të rritur pak</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CopycatAttribute</Id>
+    <Text>Mackopjuese</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CopycatAttributeDescription</Id>
+    <Text>{0} shikime pagesë Pa Pare</Text>
+  </CustomText>
+  <CustomText>
+    <Id>FanboyBaitAttribute</Id>
+    <Text>Karrem I Fansit</Text>
+  </CustomText>
+  <CustomText>
+    <Id>FanboyBaitAttributeDescription</Id>
+    <Text>Në qoftë se cilësia video është mbi 75%, ka abonentët aktuale do të Joabonentojnë</Text>
+  </CustomText>
+  <CustomText>
+    <Id>GenreBusterAttribute</Id>
+    <Text>Gjini Shkatrues</Text>
+  </CustomText>
+  <CustomText>
+    <Id>GenreBusterAttributeDescription</Id>
+    <Text>Kategoria e Video është më pak e një faktor në Te Mir</Text>
+  </CustomText>
+  <CustomText>
+    <Id>HypnoticAttribute</Id>
+    <Text>Hipnotik</Text>
+  </CustomText>
+  <CustomText>
+    <Id>HypnoticAttributeDescription</Id>
+    <Text>Shans më të lartë të abonimeve</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LearnFromMistakesAttribute</Id>
+    <Text>Mësoni nga gabimet</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LearnFromMistakesAttributeDescription</Id>
+    <Text>Staktikat E Lojtarit pak rrit me kosto të cilësisë videove</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MemeticAttribute</Id>
+    <Text>Vizatimik</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MemeticAttributeDescription</Id>
+    <Text>Shans më të lartë të shkëmbimit</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ProductPlacementAttribute</Id>
+    <Text>Vendosja e produktit</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ProductPlacementAttributeDescription</Id>
+    <Text>Fitojnë më shumë nga reklamat për qëllim</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SecondTimeAttribute</Id>
+    <Text>Kohë më të mirë të dytë</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SecondTimeAttributeDescription</Id>
+    <Text>Videoja mund të shihet shumë herë</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SoBadAttribute</Id>
+    <Text>Aq e keqe është e mirë</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SoBadAttributeDescription</Id>
+    <Text>Shans të video duke u ndarë në qoftë se video është e papëlqyeshme</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CrowdFundingAttribute</Id>
+    <Text>Turmëgjejës</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CrowdFundingAttributeDescription</Id>
+    <Text>Në vend të një abonim që ju të merrni {0}</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AboveBoardAttribute</Id>
+    <Text>Mbi bord</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AboveBoardAttributeDescription</Id>
+    <Text>Videoja nuk mund të pezullohet</Text>
+  </CustomText>
+  <CustomText>
+    <Id>UnreleasedVideos</Id>
+    <Text>Videot E Papostuara</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ContinueGame</Id>
+    <Text>Vazhdo lojë</Text>
+  </CustomText>
+  <CustomText>
+    <Id>NewGame</Id>
+    <Text>lojë të re</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Tutorial</Id>
+    <Text>punë praktike</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Login</Id>
+    <Text>hyrje</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Credits</Id>
+    <Text>kredite</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Mods</Id>
+    <Text>Mod Per Gjuh</Text>
+  </CustomText>
+  <CustomText>
+    <Id>WhatALoser</Id>
+    <Text>Çfarë një humbës</Text>
+  </CustomText>
+  <CustomText>
+    <Id>OutOfMoney</Id>
+    <Text>Ju u zhvillua nga e para!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Death</Id>
+    <Text>vdekje</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RobotDeath</Id>
+    <Text>Ju vdekur duke luftuar kërcënimin robot. Shkaku juaj zyrtar i vdekjes është shënuar si: ". Lodhjes nga ShumNervoz të përkulen për të mjeshtrave robot '</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Confirm</Id>
+    <Text>konfirmoj</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LeaveGame</Id>
+    <Text>Lini lojën aktuale?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>OverwriteSave</Id>
+    <Text>mbishkruaj Lojen</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SaveExists</Id>
+    <Text>A ruani skedar ekziston! Mbishkruaj?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StartDay</Id>
+    <Text>Filloni ditën</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Help</Id>
+    <Text>Ndihmë</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Exit</Id>
+    <Text>dalje</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SaveGame</Id>
+    <Text>Rruje Lojen</Text>
+  </CustomText>
+  <CustomText>
+    <Id>UnhandledError</Id>
+    <Text>Gabimet E Pa Mbajtura</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ExceptionText</Id>
+    <Text>Një gabim i panjohur ka ndodhur! Gabim Raporti krijuar në lojra dosje. Kliko Në Rregull për të vazhduar, Anuloj Per Te Dal</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingValueHeader</Id>
+    <Text>A nuk jeni të humbur diçka?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingName</Id>
+    <Text>Futni një emër</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingCategory</Id>
+    <Text>Zgjidhni një kategori</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingChannel</Id>
+    <Text>Zgjidh një kanal</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingStrategy</Id>
+    <Text>Zgjidh një strategji</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingVideo</Id>
+    <Text>Zgjidh një video</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingUserName</Id>
+    <Text>Futni emrin e përdoruesit</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingToken</Id>
+    <Text>Shkruani shenjë</Text>
+  </CustomText>
+  <CustomText>
+    <Id>PerView</Id>
+    <Text>per pamje</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AddChannel</Id>
+    <Text>Shto kanal</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditChannel</Id>
+    <Text>Edit kanal</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AdvertisingStrategy</Id>
+    <Text>Strategjia Reklamim</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Name</Id>
+    <Text>emër</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Low</Id>
+    <Text>ulët</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Normal</Id>
+    <Text>normal</Text>
+  </CustomText>
+  <CustomText>
+    <Id>High</Id>
+    <Text>i lartë</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Aggressive</Id>
+    <Text>agresive</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ShootVideo</Id>
+    <Text>xhiruar video</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditVideo</Id>
+    <Text>Ndrysho Video</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Study</Id>
+    <Text>studim</Text>
+  </CustomText>
+  <CustomText>
+    <Id>TooSoon</Id>
+    <Text>Kërceu armë</Text>
+  </CustomText>
+  <CustomText>
+    <Id>NoVideosToEdit</Id>
+    <Text>Nuk ka video për të redaktuar!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>PointsLeft</Id>
+    <Text>pikat e Mbetura</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LowCashHeader</Id>
+    <Text>Si Do Te paguani per te?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LowCashMessage</Id>
+    <Text>Nuk keni aq para!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Hours</Id>
+    <Text>Orë</Text>
+  </CustomText>
+  <CustomText>
+    <Id>HoursLeft</Id>
+    <Text>Orë të mbetura {0}</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AddVideo</Id>
+    <Text>Shto video</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Attributes</Id>
+    <Text>atributet</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Cost</Id>
+    <Text>kosto</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Category</Id>
+    <Text>kategori</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Suspended</Id>
+    <Text>pezulluar</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Video</Id>
+    <Text>Video</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Videos</Id>
+    <Text>Videot</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AddTask</Id>
+    <Text>Shto DETYRA</Text>
+  </CustomText>
+  <CustomText>
+    <Id>QuitJobHeader</Id>
+    <Text>Lë punën tuaj</Text>
+  </CustomText>
+  <CustomText>
+    <Id>QuitJobText</Id>
+    <Text>Duke marrë këtë veprim do të lë punën tuaj. A jeni i sigurt?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RiseUp</Id>
+    <Text>Çohu!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RebellionCashRequired</Id>
+    <Text>Ju duhet të paktën {0} për të filluar një rebelim kundër zotërinjve tanë robot!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RebellionStart</Id>
+    <Text>Duke marrë këtë veprim do të fillojë një kryengritje kundër mjeshtrave tanë robot! Ju keni një shans për {0}% të suksesit dhe dështimi do të rezultojë në vdekje! A jeni i sigurt?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Freedom</Id>
+    <Text>Liri!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RebellionSuccess</Id>
+    <Text>Ti e gjete ndrojsen e mjeshtrit dhe e ndrojte robotet! Kjo ishte leht!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RemoveTask</Id>
+    <Text>Hiq detyrë</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AreYouSure</Id>
+    <Text>A jeni i sigurt?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>NoRefunds</Id>
+    <Text>Nuk ka rimbursimet!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Casual</Id>
+    <Text>rastësor</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Challenge</Id>
+    <Text>sfidë</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Failure</Id>
+    <Text>dështim</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LoginFailure</Id>
+    <Text>Hyrsa dështuar ... ndoshta provoni përsëri?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Username</Id>
+    <Text>emri i përdoruesit</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Token</Id>
+    <Text>shenjë</Text>
+  </CustomText>
+  <CustomText>
+    <Id>HoursToComplete</Id>
+    <Text>Orë për të përfunduar</Text>
+  </CustomText>
+  <CustomText>
+    <Id>PrerequisitesNotMet</Id>
+    <Text>Parakushtet nuk u takua!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AlreadyCompleted</Id>
+    <Text>përfunduar</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AlreadyEnrolled</Id>
+    <Text>regjistruar tashmë</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudySelection</Id>
+    <Text>përzgjedhja Studimi</Text>
+  </CustomText>
+  <CustomText>
+    <Id>UploadVideo</Id>
+    <Text>ngarkoni videon</Text>
+  </CustomText>
+  <CustomText>
+    <Id>FetchNewImage</Id>
+    <Text>Imazh e ndryshme</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Image</Id>
+    <Text>imazh</Text>
+  </CustomText>
+  <CustomText>
+    <Id>BuyViews</Id>
+    <Text>Blej shikime</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Channel</Id>
+    <Text>kanal</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Views</Id>
+    <Text>shikime</Text>
+  </CustomText>
+  <CustomText>
+    <Id>None</Id>
+    <Text>asnjë</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Comments</Id>
+    <Text>komente</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Quality</Id>
+    <Text>cilësi</Text>
+  </CustomText>
+  <CustomText>
+    <Id>NotApplicable</Id>
+    <Text>N/A</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Likes</Id>
+    <Text>preferencë</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Dislikes</Id>
+    <Text>nuk i pëlqen</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Subscribers</Id>
+    <Text>Abonues</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ChannelIncome</Id>
+    <Text>Te ardhurat e kanalit</Text>
+  </CustomText>
+  <CustomText>
+    <Id>WhereTo</Id>
+    <Text>Ku për të?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ChannelNeeded</Id>
+    <Text>Krijo një kanal për të ngarkoni për të!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoManager</Id>
+    <Text>Video Menaxher</Text>
+  </CustomText>
+  <CustomText>
+    <Id>DailyPlanner</Id>
+    <Text>Planifikues Perditshëm</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Stats</Id>
+    <Text>Statistika</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SubscriberHistory</Id>
+    <Text>Historia Abonimeve</Text>
+  </CustomText>
+  <CustomText>
+    <Id>DailyIncome</Id>
+    <Text>Të ardhurat Përditshme dhe Shpenzimet</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoCameraIStoreItem</Id>
+    <Text>Videokamera Gjenerik XYZ-85</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoCameraIStoreItemDescription</Id>
+    <Text>Është më mirë se një Kamerwebit ...</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoCameraIIStoreItem</Id>
+    <Text>Super Videokamera Pro Luksoz HD</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoCameraIIStoreItemDescription</Id>
+    <Text>Kamera më e mirë Video në treg! Përdorur nga të gjitha të mirat!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditingSoftwareIStoreItem</Id>
+    <Text>Ndryshom-Mua Video Drejtor 4</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditingSoftwareIStoreItemDescription</Id>
+    <Text>Më mirë se ai që vjen falas me OS tim ...</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditingSoftwareIIStoreItem</Id>
+    <Text>Mega-Drejtor Ultra Luksoz Botim 12</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditingSoftwareIIStoreItemDescription</Id>
+    <Text>Fundit në Video Program per ndryshym! 20 yll të ndryshme ndrues për të zgjedhur nga!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LawyerStoreItem</Id>
+    <Text>i drejt &amp; Gabim avokatët</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LawyerStoreItemDescription</Id>
+    <Text>Për të gjitha nevojat tuaja ligjore! Ne do të zhbllokuar ndonjë video të pezulluar apo kanal për një tarifë të vogël {0} të!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ConsultantStoreItem</Id>
+    <Text>Bob Boskins - Konsulente</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ConsultantStoreItemDescription</Id>
+    <Text>Me drejtimin tim të ekspertëve, unë do të ju bëjë një TubeStar! Unë gjithashtu ngarkuar {0} per videon</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Buy</Id>
+    <Text>Blej</Text>
+  </CustomText>
+  <CustomText>
+    <Id>OnlineStore</Id>
+    <Text>dyqan online</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SuspendedHireLawyer</Id>
+    <Text>(Kliko për të punësojë Jurist)</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RemoveVideoSuspension</Id>
+    <Text>A doni të paguani tarifën tonë {0} e të heqë pezullimin e video-s?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RemoveChannelSuspension</Id>
+    <Text>A doni të paguani tarifën tonë {0} e të heqë pezullimin këtë kanal të?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LoanStoreItem</Id>
+    <Text>Kredi Shylock-së</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LoanStoreItemDescription</Id>
+    <Text>Pagim të menjëhershëm {0} i garantuar! Telefononi sot! Paguar {1} dite. {2}% interes.</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Edit</Id>
+    <Text>redaktoj</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Save</Id>
+    <Text>ruaj</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AddTranslation</Id>
+    <Text>Shto Përkthim</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ViewVideo</Id>
+    <Text>Shiko Video</Text>
+  </CustomText>
+  <CustomText>
+    <Id>BornToRule</Id>
+    <Text>Lindur me Rregullën</Text>
+  </CustomText>
+  <CustomText>
+    <Id>BuyItem</Id>
+    <Text>Blej Per {0}?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Next</Id>
+    <Text>tjetër</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SaveGameSuccess</Id>
+    <Text>Loja është ruajtur me sukses!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RobotTax</Id>
+    <Text>Robotet të marrë 20% të parave tuaja në haraç për lavdinë e tyre.</Text>
+  </CustomText>
+  <CustomText>
+    <Id>TopTubeStars</Id>
+    <Text>Te Medhejnt TubeStar</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Ultra</Id>
+    <Text>ultra</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Delete</Id>
+    <Text>fshij</Text>
+  </CustomText>
+  <CustomText>
+    <Id>DeleteVideo</Id>
+    <Text>Jeni te sigurte qe doni te fshini kete video?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>UseCreativeCommons</Id>
+    <Text>Paraqit 'zakonshmit krijuese' Materiale Vetëm</Text>
+  </CustomText>
+</ArrayOfCustomText>

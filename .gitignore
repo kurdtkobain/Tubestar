@@ -1,0 +1,12 @@
+
+*.suo
+/TubeStar/Bin/Debug
+/TubeStar/Bin/Release
+/TubeStar/obj/Debug
+/TubeStar/TubeStar.csproj.user
+/TubeStar/obj/Release
+/TubeStarDesktop/TubeStarDesktop/bin
+/TubeStarDesktop/TubeStarDesktop/obj
+/TubeStarDesktop/bin
+/TubeStarDesktop/obj
+/ModLauncher/obj

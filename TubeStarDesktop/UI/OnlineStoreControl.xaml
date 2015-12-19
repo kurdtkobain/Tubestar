@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="TubeStar.OnlineStoreControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TubeStar" >
+
+    <Grid x:Name="LayoutRoot">
+        <ScrollViewer BorderThickness="0" VerticalScrollBarVisibility="Auto" Margin="0, 45, 0, 0">
+            <WrapPanel x:Name="itemPanel" />
+        </ScrollViewer>
+    </Grid>
+</UserControl>

@@ -1,0 +1,833 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCustomText xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CustomText>
+    <Id>Fails</Id>
+    <Text>Faily</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AnimalFighting</Id>
+    <Text>Zvířecí souboje</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Anime</Id>
+    <Text>Anime</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Cats</Id>
+    <Text>Kočky</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Comedy</Id>
+    <Text>Komedie</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ConspiraryTheory</Id>
+    <Text>Konspirační teorie</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CreepyPasta</Id>
+    <Text>Strašidelné</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Gaming</Id>
+    <Text>Gaming</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ShoppingHaul</Id>
+    <Text>Nakupování</Text>
+  </CustomText>
+  <CustomText>
+    <Id>HowTo</Id>
+    <Text>Jak na..</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Movies</Id>
+    <Text>Filmy</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MusicVideo</Id>
+    <Text>Hudební video</Text>
+  </CustomText>
+  <CustomText>
+    <Id>NonProfit</Id>
+    <Text>Neziskové</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Sports</Id>
+    <Text>Sporty</Text>
+  </CustomText>
+  <CustomText>
+    <Id>TheWeirdSide</Id>
+    <Text>Podivnosti</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Technology</Id>
+    <Text>Technologie</Text>
+  </CustomText>
+  <CustomText>
+    <Id>UkuleleCover</Id>
+    <Text>cover na Ukulele</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Vlog</Id>
+    <Text>Vlog</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Ok</Id>
+    <Text>OK</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Cancel</Id>
+    <Text>Zrušit</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SaveFail</Id>
+    <Text>Stala se nějaká děsná chyba. Nebo možná jen taková malá chybička... Každopádně se omlouvám, ale nepodařilo se uložit hru!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LoadFail</Id>
+    <Text>Stala se nějaká děsná chyba. Nebo možná jen taková malá chybička... Každopádně se omlouvám, ale nepodařilo se nahrát hru!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ChannelSuspended</Id>
+    <Text>Kanál '{0}' byl pozastaven z důvodu podezření na porušení obchodních podmínek!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ComputerCrash</Id>
+    <Text>Váš počítač se zhroutil! Všechna nevydaná videa byla ztracena!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CostOfLivingIncrease</Id>
+    <Text>Hroutí se ekonomika! Vaše životní náklady se zvýšily!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Fired</Id>
+    <Text>Vaše práce byla přidělena někomu jinému! Máte padáka!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LoseSubscribers</Id>
+    <Text>Objevily se o vás nějaké trapné informace! Ztratil jste {0} odběratelů!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>WorkOvertime</Id>
+    <Text>Hm, no jo, budu za vámi muset zaskočit a požádat vás, ať děláte přesčas. Takže pokud byste se mohl sebrat a udělat to, bylo by to skvělé!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoSuspended</Id>
+    <Text>Video '{0}' bylo pozastaveno z důvodu podezření na porušení autorských práv!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SpareChange</Id>
+    <Text>Prohledali jste svůj gauč a našli {0} v drobácích</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Promoted</Id>
+    <Text>Byl jste povýšen v práci! Pracujete teď víc hodin a vyděláváte víc peněz!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RobotRising</Id>
+    <Text>Roboti povstali a ovládli zemi! Pokloňte se svým novým robotickým pánům.</Text>
+  </CustomText>
+  <CustomText>
+    <Id>BeautyContest</Id>
+    <Text>Vyhrál jste {0} v soutěži krásy!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ChannelSuspensionLifted</Id>
+    <Text>Kanál '{0}' má pozastavení zrušeno!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CostOfLivingDecreased</Id>
+    <Text>Ekonomika se zotavuje! Vaše životní náklady se snížily!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>FreeStudy</Id>
+    <Text>Dostal jste stipendium na {0}!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>GainSubscribers</Id>
+    <Text>Byl jste na první stránce webovek! Získal jste {0} odběratelů!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoSuspensionLifted</Id>
+    <Text>Video '{0}' má pozastavení zrušeno!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RandomEvent</Id>
+    <Text>Náhodná událost</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyAudienceAnalysis1</Id>
+    <Text>Studuj 'Technologii Videí I'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyAudienceAnalysis2</Id>
+    <Text>Studuj 'Technologii Videí II'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyPostProduction1</Id>
+    <Text>Studujte "Postprodukce I"</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyPostProduction2</Id>
+    <Text>Studujte "Postprodukce II"</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyPostProduction3</Id>
+    <Text>Studujte "Postprodukce III"</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyProduction1</Id>
+    <Text>Studujte "Produkce I"</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyProduction2</Id>
+    <Text>Studujte "Produkce II"</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyProduction3</Id>
+    <Text>Studujte "Produkce III"</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyQualityAnalysis</Id>
+    <Text>Studujte "Analyzování kvality"</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MandatoryBowToRobotRulers</Id>
+    <Text>Povinné klanění robotickým pánům</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditVideoTask</Id>
+    <Text>'{0}' postprodukce</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Job</Id>
+    <Text>Zaměstnání</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ShootVideoTask</Id>
+    <Text>'{0}' natočených videí</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CatsAttribute</Id>
+    <Text>Může obsahovat kočky</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CatsAttributeDescription</Id>
+    <Text>Kvalita videa se mírně zvýší</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CopycatAttribute</Id>
+    <Text>Kopírák</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CopycatAttributeDescription</Id>
+    <Text>{0} počáteční zobrazení</Text>
+  </CustomText>
+  <CustomText>
+    <Id>FanboyBaitAttribute</Id>
+    <Text>Návnada na fanoušky</Text>
+  </CustomText>
+  <CustomText>
+    <Id>FanboyBaitAttributeDescription</Id>
+    <Text>Je-li kvalita videa vyšší než 75%, žádný odběratel nepřestane odebírat.</Text>
+  </CustomText>
+  <CustomText>
+    <Id>GenreBusterAttribute</Id>
+    <Text>Žánrový bůstr</Text>
+  </CustomText>
+  <CustomText>
+    <Id>GenreBusterAttributeDescription</Id>
+    <Text>Tato video kategorie je méně sympatická</Text>
+  </CustomText>
+  <CustomText>
+    <Id>HypnoticAttribute</Id>
+    <Text>Hypnotizace</Text>
+  </CustomText>
+  <CustomText>
+    <Id>HypnoticAttributeDescription</Id>
+    <Text>Velká šance na odběr</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LearnFromMistakesAttribute</Id>
+    <Text>Učení se ze svých chyb</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LearnFromMistakesAttributeDescription</Id>
+    <Text>Statistiky hráče se mírně zvýší za cenu kvality videa</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MemeticAttribute</Id>
+    <Text>Memetické</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MemeticAttributeDescription</Id>
+    <Text>Velká šance na sdílení</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ProductPlacementAttribute</Id>
+    <Text>Umístění produktu</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ProductPlacementAttributeDescription</Id>
+    <Text>Získejte více peněz z reklamy</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SecondTimeAttribute</Id>
+    <Text>Lepší podruhé</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SecondTimeAttributeDescription</Id>
+    <Text>Toto video může být shlédnuto i víckrát</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SoBadAttribute</Id>
+    <Text>Tak špatné až je to dobré</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SoBadAttributeDescription</Id>
+    <Text>Šance na sdílení videa když někdo dá palec dolů</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CrowdFundingAttribute</Id>
+    <Text>Lidové financování</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CrowdFundingAttributeDescription</Id>
+    <Text>dostanete {0} odběratelů</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AboveBoardAttribute</Id>
+    <Text>Čestný</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AboveBoardAttributeDescription</Id>
+    <Text>Video nelze pozastavit</Text>
+  </CustomText>
+  <CustomText>
+    <Id>UnreleasedVideos</Id>
+    <Text>Nenahraná videa</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ContinueGame</Id>
+    <Text>Pokračovat ve hře</Text>
+  </CustomText>
+  <CustomText>
+    <Id>NewGame</Id>
+    <Text>Nová hra</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Tutorial</Id>
+    <Text>Tutoriál</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Login</Id>
+    <Text>Přihlášení</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Credits</Id>
+    <Text>O hře</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Mods</Id>
+    <Text>Jazyky</Text>
+  </CustomText>
+  <CustomText>
+    <Id>WhatALoser</Id>
+    <Text>Taková lama</Text>
+  </CustomText>
+  <CustomText>
+    <Id>OutOfMoney</Id>
+    <Text>Jsi bez peněz!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Death</Id>
+    <Text>Smrt</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RobotDeath</Id>
+    <Text>Zemřel jsi, když jsi bojoval s robotí hrozbou
+Vaše oficiální příčnia smrti je známá jako:
+'Zemřel vyčerpáním když zdravil svého robotího mistra'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Confirm</Id>
+    <Text>Potvrdit</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LeaveGame</Id>
+    <Text>Opustit aktuální hru?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>OverwriteSave</Id>
+    <Text>Přepsat uloženou hru</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SaveExists</Id>
+    <Text>Soubor už existuje! Přepsat?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StartDay</Id>
+    <Text>Další den</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Help</Id>
+    <Text>Nápověda</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Exit</Id>
+    <Text>Ukončit</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SaveGame</Id>
+    <Text>Uložit hru</Text>
+  </CustomText>
+  <CustomText>
+    <Id>UnhandledError</Id>
+    <Text>Neošetřená chyba</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ExceptionText</Id>
+    <Text>Došlo k neznámé chybě! Chybová zpráva se objeví ve složce s hrou. Klepněte na tlačítko OK pro pokračování nebo Storno pro ukončení</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingValueHeader</Id>
+    <Text>Nechybí ti něco?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingName</Id>
+    <Text>Zadej jméno</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingCategory</Id>
+    <Text>Vyber kategorii</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingChannel</Id>
+    <Text>Vyber kanál</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingStrategy</Id>
+    <Text>Vyber strategii</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingVideo</Id>
+    <Text>Vyber video</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingUserName</Id>
+    <Text>Zadej uživatelské jméno</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingToken</Id>
+    <Text>Zadej Token</Text>
+  </CustomText>
+  <CustomText>
+    <Id>PerView</Id>
+    <Text>za shlédnutí</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AddChannel</Id>
+    <Text>Přidat kanál</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditChannel</Id>
+    <Text>Editovat kanál</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AdvertisingStrategy</Id>
+    <Text>Strategie výdělku</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Name</Id>
+    <Text>Jméno</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Low</Id>
+    <Text>Málo</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Normal</Id>
+    <Text>Středně</Text>
+  </CustomText>
+  <CustomText>
+    <Id>High</Id>
+    <Text>Hodně</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Aggressive</Id>
+    <Text>Extrémně hodně</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ShootVideo</Id>
+    <Text>Natočit video</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditVideo</Id>
+    <Text>Editovat video</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Study</Id>
+    <Text>Studovat</Text>
+  </CustomText>
+  <CustomText>
+    <Id>TooSoon</Id>
+    <Text>Předčasný start!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>NoVideosToEdit</Id>
+    <Text>Nejsou tu žádná videa k editaci!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>PointsLeft</Id>
+    <Text>zbývající body</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LowCashHeader</Id>
+    <Text>Jak za to chceš zaplatit?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LowCashMessage</Id>
+    <Text>Nemáš peníze!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Hours</Id>
+    <Text>Hodiny</Text>
+  </CustomText>
+  <CustomText>
+    <Id>HoursLeft</Id>
+    <Text>Zbývá hodin: {0}</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AddVideo</Id>
+    <Text>Přidat video</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Attributes</Id>
+    <Text>Atributy</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Cost</Id>
+    <Text>Cena</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Category</Id>
+    <Text>Kategorie</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Suspended</Id>
+    <Text>Zablokován</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Video</Id>
+    <Text>Video</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Videos</Id>
+    <Text>Videa</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AddTask</Id>
+    <Text>Přidat úkol</Text>
+  </CustomText>
+  <CustomText>
+    <Id>QuitJobHeader</Id>
+    <Text>Odejít z práce</Text>
+  </CustomText>
+  <CustomText>
+    <Id>QuitJobText</Id>
+    <Text>Tímto skončíš v práci. Jsi si jistý?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RiseUp</Id>
+    <Text>Vstávej!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RebellionCashRequired</Id>
+    <Text>Potřebujete alespoň {0} pro zahájení vzpoury proti našemu robotímu pánu!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RebellionStart</Id>
+    <Text>Provedením této akce začne povstání proti našemu robotímu pánu! Máte {0} % šanci na úspěch, a neúspěch bude mít za následek smrt! Jsi si jistý?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Freedom</Id>
+    <Text>Svoboda!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RebellionSuccess</Id>
+    <Text>Našels hlavní vypínač robotího závodu a vypnuls ho! To bylo snadné!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RemoveTask</Id>
+    <Text>Odstranit práci</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AreYouSure</Id>
+    <Text>Jsi si jistý?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>NoRefunds</Id>
+    <Text>Žádné vracení peněz zpět!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Casual</Id>
+    <Text>Jednoduchá</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Challenge</Id>
+    <Text>Těžká</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Failure</Id>
+    <Text>Selhání</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LoginFailure</Id>
+    <Text>Přihlášení selhalo... nechcete to zkusit znovu?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Username</Id>
+    <Text>Uživatelské jméno</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Token</Id>
+    <Text>Token</Text>
+  </CustomText>
+  <CustomText>
+    <Id>HoursToComplete</Id>
+    <Text>Hodiny do dodělání</Text>
+  </CustomText>
+  <CustomText>
+    <Id>PrerequisitesNotMet</Id>
+    <Text>Předpoklady nejsou splněny!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AlreadyCompleted</Id>
+    <Text>Hotovo</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AlreadyEnrolled</Id>
+    <Text>Již zapsán</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudySelection</Id>
+    <Text>Výběr studia</Text>
+  </CustomText>
+  <CustomText>
+    <Id>UploadVideo</Id>
+    <Text>Nahraj video</Text>
+  </CustomText>
+  <CustomText>
+    <Id>FetchNewImage</Id>
+    <Text>Náhodný obrázek</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Image</Id>
+    <Text>Obrázek</Text>
+  </CustomText>
+  <CustomText>
+    <Id>BuyViews</Id>
+    <Text>Koupit shlédnutí</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Channel</Id>
+    <Text>Kanál</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Views</Id>
+    <Text>Shlédnutí</Text>
+  </CustomText>
+  <CustomText>
+    <Id>None</Id>
+    <Text>Nic</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Comments</Id>
+    <Text>Komentáře</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Quality</Id>
+    <Text>Kvalita</Text>
+  </CustomText>
+  <CustomText>
+    <Id>NotApplicable</Id>
+    <Text>N/A</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Likes</Id>
+    <Text>Líbí</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Dislikes</Id>
+    <Text>Nelíbí</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Subscribers</Id>
+    <Text>Odběratelé</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ChannelIncome</Id>
+    <Text>Výdělek kanálu</Text>
+  </CustomText>
+  <CustomText>
+    <Id>WhereTo</Id>
+    <Text>Kde?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ChannelNeeded</Id>
+    <Text>Vytvoř kanál pro nahrávání videí!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoManager</Id>
+    <Text>Správce videí</Text>
+  </CustomText>
+  <CustomText>
+    <Id>DailyPlanner</Id>
+    <Text>Kalendář</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Stats</Id>
+    <Text>Statistiky</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SubscriberHistory</Id>
+    <Text>Historie odběratelů</Text>
+  </CustomText>
+  <CustomText>
+    <Id>DailyIncome</Id>
+    <Text>Denni zisky a výdaje</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoCameraIStoreItem</Id>
+    <Text>Generic Camcorder XYZ-85</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoCameraIStoreItemDescription</Id>
+    <Text>Je to lepší než webkamera...</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoCameraIIStoreItem</Id>
+    <Text>Super Camcorder Pro Deluxe HD</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoCameraIIStoreItemDescription</Id>
+    <Text>Nejlepší videokamera na trhu! Používají ji všichni profesionálové!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditingSoftwareIStoreItem</Id>
+    <Text>Edit-Me Video Director 4</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditingSoftwareIStoreItemDescription</Id>
+    <Text>Lepší než ten, který je dodáván zdarma s mým OS</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditingSoftwareIIStoreItem</Id>
+    <Text>Mega-Director Ultra Deluxe Edition 12</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditingSoftwareIIStoreItemDescription</Id>
+    <Text>Ultimátní software pro střih videa! 20 různých hvězdných pozadí ze kterých se dá vybírat!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LawyerStoreItem</Id>
+    <Text>Wright &amp; Wrong Attorneys</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LawyerStoreItemDescription</Id>
+    <Text>Pro všechny vaše právní potřeby! Odblokujeme všechny pozastavená videa nebo kanál za malý poplatek {0}!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ConsultantStoreItem</Id>
+    <Text>Bob Boskins - konzultant</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ConsultantStoreItemDescription</Id>
+    <Text>S mým profesionálním vedením tě udělám hvězdou TubeStar! Účtuji si {0} za video.</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Buy</Id>
+    <Text>Koupit</Text>
+  </CustomText>
+  <CustomText>
+    <Id>OnlineStore</Id>
+    <Text>Online obchod</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SuspendedHireLawyer</Id>
+    <Text>(Klikni pro najmutí právníka)</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RemoveVideoSuspension</Id>
+    <Text>Chceš zaplatit {0} za odblokování videa?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RemoveChannelSuspension</Id>
+    <Text>Chces zaplatit {0} za odblokování kanálu?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LoanStoreItem</Id>
+    <Text>Skryté úvěry</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LoanStoreItemDescription</Id>
+    <Text>Okamžitá půjčka {0} zaručena!! Zavolejte ještě dnes! Vrátíte {1} denně. {2} % úrok.</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Edit</Id>
+    <Text>Editovat</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Save</Id>
+    <Text>Uložit</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AddTranslation</Id>
+    <Text>Přidat lokalizaci</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ViewVideo</Id>
+    <Text>Podívat se na video</Text>
+  </CustomText>
+  <CustomText>
+    <Id>BornToRule</Id>
+    <Text>Zrozen k vládnutí</Text>
+  </CustomText>
+  <CustomText>
+    <Id>BuyItem</Id>
+    <Text>Koupit za {0}?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Next</Id>
+    <Text>Další</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SaveGameSuccess</Id>
+    <Text>Hra se úspěšně uložila!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RobotTax</Id>
+    <Text>Roboti ti vzali 20% peněz jako dar pro ně.</Text>
+  </CustomText>
+  <CustomText>
+    <Id>TopTubeStars</Id>
+    <Text>Top TubeStars</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Ultra</Id>
+    <Text>Ultra</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Delete</Id>
+    <Text>Odstranit</Text>
+  </CustomText>
+  <CustomText>
+    <Id>DeleteVideo</Id>
+    <Text>Opravdu chceš odstranit toto video?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>UseCreativeCommons</Id>
+    <Text>Zobrazit pouze materiál "Creative Commons"</Text>
+  </CustomText>
+</ArrayOfCustomText>

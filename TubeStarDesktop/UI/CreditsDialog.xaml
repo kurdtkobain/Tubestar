@@ -1,0 +1,30 @@
+﻿<xctk:ChildWindow x:Class="TubeStar.CreditsDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        Caption="Credits"
+        WindowStartupLocation="Center">
+
+    <Grid x:Name="LayoutRoot" Margin="5">
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <StackPanel Orientation="Vertical">
+                <TextBlock Text="Created By" HorizontalAlignment="Center" Margin="5" />
+                <TextBlock FontSize="18" Text="MIKE HALL" HorizontalAlignment="Center" />                
+                <Separator Margin="5"/>
+                <TextBlock Text="Images from" HorizontalAlignment="Center" Margin="5" />
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Image x:Name="imgYouTube" Source="../Resources/youtube.png" Margin="5" Cursor="Hand" MouseLeftButtonDown="imgYouTube_MouseLeftButtonDown" />
+                    <Image x:Name="imgPixabay" Source="../Resources/pixabay.png" Margin="5" Cursor="Hand" MouseLeftButtonDown="imgPixabay_MouseLeftButtonDown" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Image x:Name="imgStockXchang" Source="../Resources/freeimages_logo.jpg" Margin="5" Cursor="Hand" MouseLeftButtonDown="imgStockXchang_MouseLeftButtonDown" />
+                    <Image x:Name="imgIcons8" Source="../Resources/icons8.png" Margin="5" Cursor="Hand" MouseLeftButtonDown="imgIcons8_MouseLeftButtonDown" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Button x:Name="btnOk" Width="120" Height="30" Content="OK" Margin="3,3,3,3" Click="CancelButton_Click"/>
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+
+</xctk:ChildWindow>

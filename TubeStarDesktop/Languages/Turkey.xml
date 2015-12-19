@@ -1,0 +1,831 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCustomText xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CustomText>
+    <Id>Fails</Id>
+    <Text>Komik Hatalar</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AnimalFighting</Id>
+    <Text>Hayvan kavgası</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Anime</Id>
+    <Text>Anime</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Cats</Id>
+    <Text>Kediler</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Comedy</Id>
+    <Text>Komedi</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ConspiraryTheory</Id>
+    <Text>Komplo teorisi</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CreepyPasta</Id>
+    <Text>Creepypasta</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Gaming</Id>
+    <Text>Oyun</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ShoppingHaul</Id>
+    <Text>Alışveriş</Text>
+  </CustomText>
+  <CustomText>
+    <Id>HowTo</Id>
+    <Text>Nasıl ...</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Movies</Id>
+    <Text>Film</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MusicVideo</Id>
+    <Text>Müzik video</Text>
+  </CustomText>
+  <CustomText>
+    <Id>NonProfit</Id>
+    <Text>Kar amacı gütmeyen</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Sports</Id>
+    <Text>Spor</Text>
+  </CustomText>
+  <CustomText>
+    <Id>TheWeirdSide</Id>
+    <Text>Garip</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Technology</Id>
+    <Text>Teknoloji</Text>
+  </CustomText>
+  <CustomText>
+    <Id>UkuleleCover</Id>
+    <Text>Ukulele</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Vlog</Id>
+    <Text>Vlog</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Ok</Id>
+    <Text>Tamam</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Cancel</Id>
+    <Text>İptal</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SaveFail</Id>
+    <Text>Bir şeyler çok yanlış gitti! Ya da belki sadece biraz yanlış ... Neyse, özür dilerim! Oyunu kaydedemiyorum!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LoadFail</Id>
+    <Text>Bir şeyler çok yanlış gitti! Ya da belki sadece biraz yanlış ... Neyse, özür dilerim! Kayıtlı oyunu açamıyorum!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ChannelSuspended</Id>
+    <Text>Kanal '{0}' Kural ve koşul ihlali nedeniyle askıya alındı!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ComputerCrash</Id>
+    <Text>Bilgisayarınız çöktü! Tüm yayınlanmamış videolar kayboldu!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CostOfLivingIncrease</Id>
+    <Text>Ekonomi bozuluyor! Yaşam maliyet arttı!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Fired</Id>
+    <Text>Sizin iş dış kaynaklı oldu! kovuldun!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LoseSubscribers</Id>
+    <Text>Senin hakkında bazı utanç verici bilgiler su yüzüne çıkmaya başladı! {0} aboneleri kaybettim!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>WorkOvertime</Id>
+    <Text>Mmm, evet, devam edin ve fazla mesai için size sormak zorunda gidiyorum. Siz devam edin ve bunu yapabilir Yani, bu harika olurdu!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoSuspended</Id>
+    <Text>Video '{0}' nedeniyle şüpheli telif hakkı ihlali için askıya alındı​​!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SpareChange</Id>
+    <Text>Aradığınız aracılığıyla koltuğunda bulunan ve {0} değiştir</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Promoted</Id>
+    <Text>Terfi edildin! Daha fazla çalışarak daha fazla para kazanacaksın!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RobotRising</Id>
+    <Text>Robotlar yükseldi ve dünyayı ayakları altına aldı! Yeni robot başkanlarının önünde eğil.</Text>
+  </CustomText>
+  <CustomText>
+    <Id>BeautyContest</Id>
+    <Text>Güzellik yarışmasından {0} kazandın!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ChannelSuspensionLifted</Id>
+    <Text>Kanal '{0}' olmuştur süspansiyon kaldırdı oluyor!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CostOfLivingDecreased</Id>
+    <Text>Ekonomi iyileşiyor! Yaşam maiyetin azaldı!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>FreeStudy</Id>
+    <Text>{0} Burs kazandın!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>GainSubscribers</Id>
+    <Text>Bir web sitesinde tanıtımın yapıldı! {0} tane abone kazandın!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoSuspensionLifted</Id>
+    <Text>'{0}' vardı bir video, süspansiyon kaldırdı oluyor!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RandomEvent</Id>
+    <Text>Rasgele olay</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyAudienceAnalysis1</Id>
+    <Text>Çalışma 'Video Yükleme Teknolojisi I'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyAudienceAnalysis2</Id>
+    <Text>Çalışma 'Video Yükleme Teknolojisi II'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyPostProduction1</Id>
+    <Text>Çalışma 'İlan Prodüksiyon I'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyPostProduction2</Id>
+    <Text>Çalışma 'İlan Prodüksiyon II'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyPostProduction3</Id>
+    <Text>Çalışma 'İlan Prodüksiyon III'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyProduction1</Id>
+    <Text>Çalışma 'Prodüksiyon I'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyProduction2</Id>
+    <Text>Çalışma 'Prodüksiyon II'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyProduction3</Id>
+    <Text>Çalışma 'Prodüksiyon III'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyQualityAnalysis</Id>
+    <Text>Çalışma 'Kalite Analizi'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MandatoryBowToRobotRulers</Id>
+    <Text>Robot kuralları zorunludur</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditVideoTask</Id>
+    <Text>'{0}' İlan Prodüksiyon</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Job</Id>
+    <Text>İş</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ShootVideoTask</Id>
+    <Text>'{0}' video çekimi</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CatsAttribute</Id>
+    <Text>Kedi içerebilir</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CatsAttributeDescription</Id>
+    <Text>Video kalitesi biraz arttı</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CopycatAttribute</Id>
+    <Text>Taklitçi</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CopycatAttributeDescription</Id>
+    <Text>{0} Tane bedava izleyici</Text>
+  </CustomText>
+  <CustomText>
+    <Id>FanboyBaitAttribute</Id>
+    <Text>Fanboy bait</Text>
+  </CustomText>
+  <CustomText>
+    <Id>FanboyBaitAttributeDescription</Id>
+    <Text>Eğer video kalitesi %75'in üstündeyse abone kaybı olmaz.</Text>
+  </CustomText>
+  <CustomText>
+    <Id>GenreBusterAttribute</Id>
+    <Text>Tarz adam</Text>
+  </CustomText>
+  <CustomText>
+    <Id>GenreBusterAttributeDescription</Id>
+    <Text>Video kategorisi likeability bir faktör daha az</Text>
+  </CustomText>
+  <CustomText>
+    <Id>HypnoticAttribute</Id>
+    <Text>hipnotize edici</Text>
+  </CustomText>
+  <CustomText>
+    <Id>HypnoticAttributeDescription</Id>
+    <Text>Abone olma şansı daha yüksek</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LearnFromMistakesAttribute</Id>
+    <Text>Hatalarından öğrenme</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LearnFromMistakesAttributeDescription</Id>
+    <Text>Oyuncu yetenekleri video kaliyesine göre yavaşça artar</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MemeticAttribute</Id>
+    <Text>Memetik</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MemeticAttributeDescription</Id>
+    <Text>Paylaşma şansı yükselir</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ProductPlacementAttribute</Id>
+    <Text>Ürün Yerleştirme</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ProductPlacementAttributeDescription</Id>
+    <Text>İzleme başına daha fazla para kazan</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SecondTimeAttribute</Id>
+    <Text>Better second time</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SecondTimeAttributeDescription</Id>
+    <Text>Video iki kere izlenilebilir.</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SoBadAttribute</Id>
+    <Text>Çok kötü... bu güzel.</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SoBadAttributeDescription</Id>
+    <Text>Video beğenilmediği halde paylaşma şansı olur.</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CrowdFundingAttribute</Id>
+    <Text>Crowdfunding</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CrowdFundingAttributeDescription</Id>
+    <Text>Abone yerine {0} para kazandın.</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AboveBoardAttribute</Id>
+    <Text>Above board</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AboveBoardAttributeDescription</Id>
+    <Text>Vidyo askıya alınamaz</Text>
+  </CustomText>
+  <CustomText>
+    <Id>UnreleasedVideos</Id>
+    <Text>Yayınlanmamış Videolar</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ContinueGame</Id>
+    <Text>Oyuna devam et</Text>
+  </CustomText>
+  <CustomText>
+    <Id>NewGame</Id>
+    <Text>Yeni oyun</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Tutorial</Id>
+    <Text>Yardım</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Login</Id>
+    <Text>Giriş Yap</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Credits</Id>
+    <Text>Emeği Geçenler</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Mods</Id>
+    <Text>Dil Modları</Text>
+  </CustomText>
+  <CustomText>
+    <Id>WhatALoser</Id>
+    <Text>Ne kaybeden ama.</Text>
+  </CustomText>
+  <CustomText>
+    <Id>OutOfMoney</Id>
+    <Text>Paran kalmadı!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Death</Id>
+    <Text>Ölü</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RobotDeath</Id>
+    <Text>Sen robot tehdit savaşırken öldü. Ölüm senin resmi neden olarak not edilir: '. Robot efendilerine boyun eğmeyi overeagerness dan Tüketilmesi'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Confirm</Id>
+    <Text>Kabul et</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LeaveGame</Id>
+    <Text>Şu anki oyundan çıkmak istediğine eminmisin?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>OverwriteSave</Id>
+    <Text>Üstüne yaz</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SaveExists</Id>
+    <Text>Zaten bi kaydınız var! Üstüne kaydetmek istermisin?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StartDay</Id>
+    <Text>Yeni güne başla</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Help</Id>
+    <Text>Yardım</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Exit</Id>
+    <Text>Çıkış</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SaveGame</Id>
+    <Text>Oyunu kaydet</Text>
+  </CustomText>
+  <CustomText>
+    <Id>UnhandledError</Id>
+    <Text>Karşı gelinemiyen hata!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ExceptionText</Id>
+    <Text>Bilinmeyen bir hata! Hata içeriği oyunun klasörüne yaratıldı. Devam etmek için Evet'e, Çıkmak için İptal'e basın.</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingValueHeader</Id>
+    <Text>Birşey unutmadığından eminmisin?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingName</Id>
+    <Text>İsim gir</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingCategory</Id>
+    <Text>Kategori seç</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingChannel</Id>
+    <Text>Kanal seç</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingStrategy</Id>
+    <Text>Strateji seç</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingVideo</Id>
+    <Text>Video seç</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingUserName</Id>
+    <Text>Bir nickname gir</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingToken</Id>
+    <Text>Token gir</Text>
+  </CustomText>
+  <CustomText>
+    <Id>PerView</Id>
+    <Text>İzleme başına</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AddChannel</Id>
+    <Text>Kanal ekle</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditChannel</Id>
+    <Text>Kanal düzenle</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AdvertisingStrategy</Id>
+    <Text>Reklam stratejisi</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Name</Id>
+    <Text>İsim</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Low</Id>
+    <Text>Düşük</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Normal</Id>
+    <Text>Normal</Text>
+  </CustomText>
+  <CustomText>
+    <Id>High</Id>
+    <Text>Yüksek</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Aggressive</Id>
+    <Text>Agresif</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ShootVideo</Id>
+    <Text>Video çek</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditVideo</Id>
+    <Text>Video düzenle</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Study</Id>
+    <Text>Çalış (Eğitim)</Text>
+  </CustomText>
+  <CustomText>
+    <Id>TooSoon</Id>
+    <Text>Çok Yakında</Text>
+  </CustomText>
+  <CustomText>
+    <Id>NoVideosToEdit</Id>
+    <Text>Düzenlemek için videon yok!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>PointsLeft</Id>
+    <Text>Puan kaldı</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LowCashHeader</Id>
+    <Text>Bunun nasıl karşılamayı düşünüyorsun?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LowCashMessage</Id>
+    <Text>Paran yetmiyor!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Hours</Id>
+    <Text>Saat</Text>
+  </CustomText>
+  <CustomText>
+    <Id>HoursLeft</Id>
+    <Text>Saat kaldı: {0}</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AddVideo</Id>
+    <Text>Video ekle</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Attributes</Id>
+    <Text>Özellikler</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Cost</Id>
+    <Text>Fiyat</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Category</Id>
+    <Text>Kategori</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Suspended</Id>
+    <Text>Kaldırıldı</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Video</Id>
+    <Text>Video</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Videos</Id>
+    <Text>Videolar</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AddTask</Id>
+    <Text>Görev ekle</Text>
+  </CustomText>
+  <CustomText>
+    <Id>QuitJobHeader</Id>
+    <Text>İşinden çık</Text>
+  </CustomText>
+  <CustomText>
+    <Id>QuitJobText</Id>
+    <Text>Bu işi tamamlamak seni işinden edebilir. Bunu yapmak istediğinden eminmisin?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RiseUp</Id>
+    <Text>Yüksel!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RebellionCashRequired</Id>
+    <Text>Bizim robot efendilerine karşı bir isyan başlatmak için en az {0} gerekiyor!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RebellionStart</Id>
+    <Text>Bu eyleme bizim robot efendilerine karşı bir ayaklanma başlayacak! Başarı% {0} şansı var ve başarısızlık ÖLÜM neden olacaktır! Emin misin?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Freedom</Id>
+    <Text>Özgürlük!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RebellionSuccess</Id>
+    <Text>Sen ana şalteri bulmak ve ana robot yarışı kapatın! Bu kolay oldu!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RemoveTask</Id>
+    <Text>Görevi sil</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AreYouSure</Id>
+    <Text>Eminmisin?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>NoRefunds</Id>
+    <Text>Gelirin yok!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Casual</Id>
+    <Text>Klasik</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Challenge</Id>
+    <Text>Rekabet</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Failure</Id>
+    <Text>Yanlışlık</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LoginFailure</Id>
+    <Text>Giriş hatalı... yeniden denesek?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Username</Id>
+    <Text>Kullanıcı adı</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Token</Id>
+    <Text>Token</Text>
+  </CustomText>
+  <CustomText>
+    <Id>HoursToComplete</Id>
+    <Text>Bitirmek için süre</Text>
+  </CustomText>
+  <CustomText>
+    <Id>PrerequisitesNotMet</Id>
+    <Text>Önkoşullar yerine!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AlreadyCompleted</Id>
+    <Text>Zaten tamamlandı</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AlreadyEnrolled</Id>
+    <Text>Zaten değiştirildi</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudySelection</Id>
+    <Text>Eğitim seç</Text>
+  </CustomText>
+  <CustomText>
+    <Id>UploadVideo</Id>
+    <Text>Video yükle</Text>
+  </CustomText>
+  <CustomText>
+    <Id>FetchNewImage</Id>
+    <Text>Rastgele Resim</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Image</Id>
+    <Text>Resim</Text>
+  </CustomText>
+  <CustomText>
+    <Id>BuyViews</Id>
+    <Text>İzlenme satın al</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Channel</Id>
+    <Text>Kanal</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Views</Id>
+    <Text>İzlenme</Text>
+  </CustomText>
+  <CustomText>
+    <Id>None</Id>
+    <Text>Yok</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Comments</Id>
+    <Text>Yorumlar</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Quality</Id>
+    <Text>Kalite</Text>
+  </CustomText>
+  <CustomText>
+    <Id>NotApplicable</Id>
+    <Text>N/A</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Likes</Id>
+    <Text>Beğenmeler</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Dislikes</Id>
+    <Text>Beğenmeme</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Subscribers</Id>
+    <Text>Aboneler</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ChannelIncome</Id>
+    <Text>Kanal geliri</Text>
+  </CustomText>
+  <CustomText>
+    <Id>WhereTo</Id>
+    <Text>Nereye?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ChannelNeeded</Id>
+    <Text>Video yüklemek için Kanal aç!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoManager</Id>
+    <Text>Video aracı</Text>
+  </CustomText>
+  <CustomText>
+    <Id>DailyPlanner</Id>
+    <Text>Günlük planlama</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Stats</Id>
+    <Text>Statlar</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SubscriberHistory</Id>
+    <Text>Abone geçmişi</Text>
+  </CustomText>
+  <CustomText>
+    <Id>DailyIncome</Id>
+    <Text>Günlük gelir ve gider</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoCameraIStoreItem</Id>
+    <Text>Generic Camcorder XYZ-85</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoCameraIStoreItemDescription</Id>
+    <Text>Bir webcamdan iyidir...</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoCameraIIStoreItem</Id>
+    <Text>Super Camcorder Pro Deluxe HD</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoCameraIIStoreItemDescription</Id>
+    <Text>Marketlerdeki en iyi kamera! Bütün pro'lar kullanır!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditingSoftwareIStoreItem</Id>
+    <Text>Edit-Me Video Director 4</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditingSoftwareIStoreItemDescription</Id>
+    <Text>Benim işletim sistemi ile ücretsiz geliyor bir daha ...</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditingSoftwareIIStoreItem</Id>
+    <Text>Mega-Director Ultra Deluxe Edition 12</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditingSoftwareIIStoreItemDescription</Id>
+    <Text>Müthiş bir video düzenleme aracı! </Text>
+  </CustomText>
+  <CustomText>
+    <Id>LawyerStoreItem</Id>
+    <Text>Wright ve Yanlış Avukatlar</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LawyerStoreItemDescription</Id>
+    <Text>Tüm yasal ihtiyaçlarınız için! Biz {0} küçük bir ücret karşılığında herhangi bir askıya video veya kanal engelini kaldırmak olacak!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ConsultantStoreItem</Id>
+    <Text>Bob Boskins - Danışman</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ConsultantStoreItemDescription</Id>
+    <Text>Benim uzman rehberlik, sana bir TubeStar yapacağız! Ben de video başına {0} ücret!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Buy</Id>
+    <Text>Satın al</Text>
+  </CustomText>
+  <CustomText>
+    <Id>OnlineStore</Id>
+    <Text>Online Mağaza</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SuspendedHireLawyer</Id>
+    <Text>(Avukat Kiralamak için tıklayınız)</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RemoveVideoSuspension</Id>
+    <Text>Bu videonun engelini kaldırmak için {0} ücret ödemek istiyor musunuz?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RemoveChannelSuspension</Id>
+    <Text>Bu kanalın engelini kaldırmak için {0} ücret ödemek istiyor musunuz?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LoanStoreItem</Id>
+    <Text>Shylock'un Kredileri</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LoanStoreItemDescription</Id>
+    <Text>{0} derhal ödeme garantisi! Call bugün! {1} günde geri ödemek. {2}% faiz.</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Edit</Id>
+    <Text>Düzenle</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Save</Id>
+    <Text>Kaydet</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AddTranslation</Id>
+    <Text>Çeviri ekle</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ViewVideo</Id>
+    <Text>Video'yu görüntüle</Text>
+  </CustomText>
+  <CustomText>
+    <Id>BornToRule</Id>
+    <Text>Kurallar için doğ!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>BuyItem</Id>
+    <Text>{0} için satın al?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Next</Id>
+    <Text>Sonraki</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SaveGameSuccess</Id>
+    <Text>Oyun başarıyla kaydedildi!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RobotTax</Id>
+    <Text>Robotlar zafer için %20 para alır</Text>
+  </CustomText>
+  <CustomText>
+    <Id>TopTubeStars</Id>
+    <Text>Top TubeStars</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Ultra</Id>
+    <Text>Ultra</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Delete</Id>
+    <Text>Silmek</Text>
+  </CustomText>
+  <CustomText>
+    <Id>DeleteVideo</Id>
+    <Text>Eğer bu videoyu silmek istediğinizden emin misiniz?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>UseCreativeCommons</Id>
+    <Text>Ekran 'Creative Commons' Malzeme Sadece</Text>
+  </CustomText>
+</ArrayOfCustomText>

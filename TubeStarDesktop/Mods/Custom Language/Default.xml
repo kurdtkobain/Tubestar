@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCustomText xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CustomText>
+    <Id>Fails</Id>
+    <Text>Fails</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AnimalFighting</Id>
+    <Text>Animal fighting</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Anime</Id>
+    <Text>Anime</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Cats</Id>
+    <Text>Cats</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Comedy</Id>
+    <Text>Comedy</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ConspiraryTheory</Id>
+    <Text>Conspiracy theory</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CreepyPasta</Id>
+    <Text>Creepypasta</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Gaming</Id>
+    <Text>Gaming</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ShoppingHaul</Id>
+    <Text>Shopping haul</Text>
+  </CustomText>
+  <CustomText>
+    <Id>HowTo</Id>
+    <Text>How to ...</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Movies</Id>
+    <Text>Movies</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MusicVideo</Id>
+    <Text>Music video</Text>
+  </CustomText>
+  <CustomText>
+    <Id>NonProfit</Id>
+    <Text>Non profit</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Sports</Id>
+    <Text>Sports</Text>
+  </CustomText>
+  <CustomText>
+    <Id>TheWeirdSide</Id>
+    <Text>The weird side</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Technology</Id>
+    <Text>Technology</Text>
+  </CustomText>
+  <CustomText>
+    <Id>UkuleleCover</Id>
+    <Text>Ukulele cover</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Vlog</Id>
+    <Text>Vlog</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Ok</Id>
+    <Text>OK</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Cancel</Id>
+    <Text>Cancel</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SaveFail</Id>
+    <Text>Something went horribly wrong!
+Or maybe only slightly wrong...
+Anyway, sorry! I couldn't save the game!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LoadFail</Id>
+    <Text>Something went horribly wrong!
+Or maybe only slightly wrong...
+Anyway, sorry! I couldn't load the game!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ChannelSuspended</Id>
+    <Text>Channel '{0}' has been suspended due to a suspected violation of the terms and conditions!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ComputerCrash</Id>
+    <Text>Your computer has crashed!
+
+All unreleased videos have been lost!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CostOfLivingIncrease</Id>
+    <Text>The economy is failing!
+
+Your cost of living has increased!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Fired</Id>
+    <Text>Your work has been outsourced!
+
+You're fired!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LoseSubscribers</Id>
+    <Text>Some embarrassing information about you has surfaced!
+
+You've lost {0} subscribers!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>WorkOvertime</Id>
+    <Text>Mmm, yeah, I'm going to have to go ahead and ask you to work overtime.
+
+So if you could go ahead and do that, that'd be great!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoSuspended</Id>
+    <Text>Video '{0}' has been suspended due to suspected copyright infringement!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SpareChange</Id>
+    <Text>You searched through your sofa and found {0} change</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Promoted</Id>
+    <Text>You've been promoted at work!
+
+You earn more money while working longer hours!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RobotRising</Id>
+    <Text>The robots have risen and taken over the earth!
+
+Bow down to your new robot rulers.</Text>
+  </CustomText>
+  <CustomText>
+    <Id>BeautyContest</Id>
+    <Text>You've won {0} in a beauty contest!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ChannelSuspensionLifted</Id>
+    <Text>Channel '{0}' has had it's suspension lifted!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CostOfLivingDecreased</Id>
+    <Text>The economy is recovering!
+
+Your cost of living has decreased!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>FreeStudy</Id>
+    <Text>You've been given a scholarship to {0}!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>GainSubscribers</Id>
+    <Text>You've been featured on a website!
+
+You've gained {0} subscribers!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoSuspensionLifted</Id>
+    <Text>A video '{0}' has had it's suspension lifted!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RandomEvent</Id>
+    <Text>Random event</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyAudienceAnalysis1</Id>
+    <Text>Study 'Video Attribution Technology I'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyAudienceAnalysis2</Id>
+    <Text>Study 'Video Attribution Technology II'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyPostProduction1</Id>
+    <Text>Study 'Post Production I'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyPostProduction2</Id>
+    <Text>Study 'Post Production II'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyPostProduction3</Id>
+    <Text>Study 'Post Production III'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyProduction1</Id>
+    <Text>Study 'Production I'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyProduction2</Id>
+    <Text>Study 'Production II'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyProduction3</Id>
+    <Text>Study 'Production III'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyQualityAnalysis</Id>
+    <Text>Study 'Quality Analysis'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MandatoryBowToRobotRulers</Id>
+    <Text>Mandatory Bowing to Robot Rulers</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditVideoTask</Id>
+    <Text>'{0}' post production</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Job</Id>
+    <Text>Job</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ShootVideoTask</Id>
+    <Text>'{0}' video shoot</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CatsAttribute</Id>
+    <Text>May contain cats</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CatsAttributeDescription</Id>
+    <Text>Video quality increased slightly</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CopycatAttribute</Id>
+    <Text>Copycat</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CopycatAttributeDescription</Id>
+    <Text>{0} free initial views</Text>
+  </CustomText>
+  <CustomText>
+    <Id>FanboyBaitAttribute</Id>
+    <Text>Fanboy bait</Text>
+  </CustomText>
+  <CustomText>
+    <Id>FanboyBaitAttributeDescription</Id>
+    <Text>If the video quality is over 75%, no current subscribers will unsubscribe</Text>
+  </CustomText>
+  <CustomText>
+    <Id>GenreBusterAttribute</Id>
+    <Text>Genre buster</Text>
+  </CustomText>
+  <CustomText>
+    <Id>GenreBusterAttributeDescription</Id>
+    <Text>Video category is less of a factor in likeability</Text>
+  </CustomText>
+  <CustomText>
+    <Id>HypnoticAttribute</Id>
+    <Text>Hypnotic</Text>
+  </CustomText>
+  <CustomText>
+    <Id>HypnoticAttributeDescription</Id>
+    <Text>Higher chance of subscriptions</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LearnFromMistakesAttribute</Id>
+    <Text>Learning from mistakes</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LearnFromMistakesAttributeDescription</Id>
+    <Text>Player stats slightly increased at cost of video quality</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MemeticAttribute</Id>
+    <Text>Memetic</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MemeticAttributeDescription</Id>
+    <Text>Higher chance of sharing</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ProductPlacementAttribute</Id>
+    <Text>Product Placement</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ProductPlacementAttributeDescription</Id>
+    <Text>Earn more from advertising per view</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SecondTimeAttribute</Id>
+    <Text>Better second time</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SecondTimeAttributeDescription</Id>
+    <Text>The video can be viewed multiple times</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SoBadAttribute</Id>
+    <Text>So bad it's good</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SoBadAttributeDescription</Id>
+    <Text>Chance of video being shared if the video is disliked</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CrowdFundingAttribute</Id>
+    <Text>Crowdfunding</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CrowdFundingAttributeDescription</Id>
+    <Text>Instead of a subscription you get {0}</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AboveBoardAttribute</Id>
+    <Text>Above board</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AboveBoardAttributeDescription</Id>
+    <Text>The video cannot be suspended</Text>
+  </CustomText>
+  <CustomText>
+    <Id>UnreleasedVideos</Id>
+    <Text>Unreleased Videos</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ContinueGame</Id>
+    <Text>Continue game</Text>
+  </CustomText>
+  <CustomText>
+    <Id>NewGame</Id>
+    <Text>New game</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Tutorial</Id>
+    <Text>Tutorial</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Login</Id>
+    <Text>Login</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Credits</Id>
+    <Text>Credits</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Mods</Id>
+    <Text>Language Mods</Text>
+  </CustomText>
+  <CustomText>
+    <Id>WhatALoser</Id>
+    <Text>What a loser</Text>
+  </CustomText>
+  <CustomText>
+    <Id>OutOfMoney</Id>
+    <Text>You ran out of money!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Death</Id>
+    <Text>Death</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RobotDeath</Id>
+    <Text>You died fighting the robot menace.
+Your official cause of death is noted as:
+
+'Exhaustion from overeagerness to bow to robot masters.'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Confirm</Id>
+    <Text>Confirm</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LeaveGame</Id>
+    <Text>Leave the current game?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>OverwriteSave</Id>
+    <Text>Overwrite save</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SaveExists</Id>
+    <Text>A save file already exists!
+Overwrite?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StartDay</Id>
+    <Text>Start day</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Help</Id>
+    <Text>Help</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Exit</Id>
+    <Text>Exit</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SaveGame</Id>
+    <Text>Save Game</Text>
+  </CustomText>
+  <CustomText>
+    <Id>UnhandledError</Id>
+    <Text>Unhandled Error</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ExceptionText</Id>
+    <Text>An unknown error has occured!
+
+Error report created in the games folder.
+
+Click OK to continue, CANCEL to quit</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingValueHeader</Id>
+    <Text>Aren't you missing something?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingName</Id>
+    <Text>Enter a name</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingCategory</Id>
+    <Text>Select a category</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingChannel</Id>
+    <Text>Select a channel</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingStrategy</Id>
+    <Text>Select a strategy</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingVideo</Id>
+    <Text>Select a video</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingUserName</Id>
+    <Text>Enter the username</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingToken</Id>
+    <Text>Enter the token</Text>
+  </CustomText>
+  <CustomText>
+    <Id>PerView</Id>
+    <Text>per view</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AddChannel</Id>
+    <Text>Add channel</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditChannel</Id>
+    <Text>Edit channel</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AdvertisingStrategy</Id>
+    <Text>Advertising strategy</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Name</Id>
+    <Text>Name</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Low</Id>
+    <Text>Low</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Normal</Id>
+    <Text>Normal</Text>
+  </CustomText>
+  <CustomText>
+    <Id>High</Id>
+    <Text>High</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Aggressive</Id>
+    <Text>Aggressive</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ShootVideo</Id>
+    <Text>Shoot video</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditVideo</Id>
+    <Text>Edit video</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Study</Id>
+    <Text>Study</Text>
+  </CustomText>
+  <CustomText>
+    <Id>TooSoon</Id>
+    <Text>Jumped the gun</Text>
+  </CustomText>
+  <CustomText>
+    <Id>NoVideosToEdit</Id>
+    <Text>There are no videos to edit!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>PointsLeft</Id>
+    <Text>points left</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LowCashHeader</Id>
+    <Text>How you gonna pay for that?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LowCashMessage</Id>
+    <Text>Not enough cash!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Hours</Id>
+    <Text>Hours</Text>
+  </CustomText>
+  <CustomText>
+    <Id>HoursLeft</Id>
+    <Text>Hours left: {0}</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AddVideo</Id>
+    <Text>Add video</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Attributes</Id>
+    <Text>Attributes</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Cost</Id>
+    <Text>Cost</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Category</Id>
+    <Text>Category</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Suspended</Id>
+    <Text>Suspended</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Video</Id>
+    <Text>Video</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Videos</Id>
+    <Text>Videos</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AddTask</Id>
+    <Text>Add Task</Text>
+  </CustomText>
+  <CustomText>
+    <Id>QuitJobHeader</Id>
+    <Text>Quit your job</Text>
+  </CustomText>
+  <CustomText>
+    <Id>QuitJobText</Id>
+    <Text>Taking this action will quit your job. 
+Are you sure?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RiseUp</Id>
+    <Text>Rise up!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RebellionCashRequired</Id>
+    <Text>You need at least {0} to start a rebellion against our robot masters!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RebellionStart</Id>
+    <Text>Taking this action will start an uprising against our robot masters!
+You have a {0}% chance of success and failure will result in DEATH! 
+
+Are you sure?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Freedom</Id>
+    <Text>Freedom!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RebellionSuccess</Id>
+    <Text>You find the master switch and switch the master robot race off!
+That was easy!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RemoveTask</Id>
+    <Text>Remove task</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AreYouSure</Id>
+    <Text>Are you sure?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>NoRefunds</Id>
+    <Text>No refunds!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Casual</Id>
+    <Text>Casual</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Challenge</Id>
+    <Text>Challenge</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Failure</Id>
+    <Text>Failure</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LoginFailure</Id>
+    <Text>The login failed... maybe try again?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Username</Id>
+    <Text>User name</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Token</Id>
+    <Text>Token</Text>
+  </CustomText>
+  <CustomText>
+    <Id>HoursToComplete</Id>
+    <Text>Hours to complete</Text>
+  </CustomText>
+  <CustomText>
+    <Id>PrerequisitesNotMet</Id>
+    <Text>Prerequisites not met!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AlreadyCompleted</Id>
+    <Text>Already completed</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AlreadyEnrolled</Id>
+    <Text>Already enrolled</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudySelection</Id>
+    <Text>Study selection</Text>
+  </CustomText>
+  <CustomText>
+    <Id>UploadVideo</Id>
+    <Text>Upload video</Text>
+  </CustomText>
+  <CustomText>
+    <Id>FetchNewImage</Id>
+    <Text>Random Image</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Image</Id>
+    <Text>Image</Text>
+  </CustomText>
+  <CustomText>
+    <Id>BuyViews</Id>
+    <Text>Buy views</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Channel</Id>
+    <Text>Channel</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Views</Id>
+    <Text>Views</Text>
+  </CustomText>
+  <CustomText>
+    <Id>None</Id>
+    <Text>None</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Comments</Id>
+    <Text>Comments</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Quality</Id>
+    <Text>Quality</Text>
+  </CustomText>
+  <CustomText>
+    <Id>NotApplicable</Id>
+    <Text>N/A</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Likes</Id>
+    <Text>Likes</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Dislikes</Id>
+    <Text>Dislikes</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Subscribers</Id>
+    <Text>Subscribers</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ChannelIncome</Id>
+    <Text>Channel Income</Text>
+  </CustomText>
+  <CustomText>
+    <Id>WhereTo</Id>
+    <Text>Where to?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ChannelNeeded</Id>
+    <Text>Create a channel to upload to!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoManager</Id>
+    <Text>Video Manager</Text>
+  </CustomText>
+  <CustomText>
+    <Id>DailyPlanner</Id>
+    <Text>Daily Planner</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Stats</Id>
+    <Text>Stats</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SubscriberHistory</Id>
+    <Text>Subscriber History</Text>
+  </CustomText>
+  <CustomText>
+    <Id>DailyIncome</Id>
+    <Text>Daily Income and Expenses</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoCameraIStoreItem</Id>
+    <Text>Generic Camcorder XYZ-85</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoCameraIStoreItemDescription</Id>
+    <Text>It's better than a webcam...</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoCameraIIStoreItem</Id>
+    <Text>Super Camcorder Pro Deluxe HD</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoCameraIIStoreItemDescription</Id>
+    <Text>Best video camera on the market! Used by all the pros!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditingSoftwareIStoreItem</Id>
+    <Text>Edit-Me Video Director 4</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditingSoftwareIStoreItemDescription</Id>
+    <Text>Better than the one that comes free with my OS...</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditingSoftwareIIStoreItem</Id>
+    <Text>Mega-Director Ultra Deluxe Edition 12</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditingSoftwareIIStoreItemDescription</Id>
+    <Text>The ultimate in video editing software! 20 different star swipes to choose from!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LawyerStoreItem</Id>
+    <Text>Wright &amp; Wrong Attorneys</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LawyerStoreItemDescription</Id>
+    <Text>For all your legal needs! We'll unblock any suspended video or channel for a small fee of {0}!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ConsultantStoreItem</Id>
+    <Text>Bob Boskins - Consultant</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ConsultantStoreItemDescription</Id>
+    <Text>With my expert guidance, I'll make you a TubeStar! I also charge {0} per video!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Buy</Id>
+    <Text>Buy</Text>
+  </CustomText>
+  <CustomText>
+    <Id>OnlineStore</Id>
+    <Text>Online Store</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SuspendedHireLawyer</Id>
+    <Text>(Click to Hire Lawyer)</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RemoveVideoSuspension</Id>
+    <Text>Do you want to pay our fee of {0} to lift this video's suspension?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RemoveChannelSuspension</Id>
+    <Text>Do you want to pay our fee of {0} to lift this channel's suspension?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LoanStoreItem</Id>
+    <Text>Shylock's Loans</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LoanStoreItemDescription</Id>
+    <Text>Immediate payout of {0} guaranteed!! Call today! 
+Pay back {1} per day. {2}% interest.</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Edit</Id>
+    <Text>Edit</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Save</Id>
+    <Text>Save</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AddTranslation</Id>
+    <Text>Add Translation</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ViewVideo</Id>
+    <Text>View Video</Text>
+  </CustomText>
+  <CustomText>
+    <Id>BornToRule</Id>
+    <Text>Born to Rule</Text>
+  </CustomText>
+  <CustomText>
+    <Id>BuyItem</Id>
+    <Text>Buy for {0}?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Next</Id>
+    <Text>Next</Text>
+  </CustomText>
+    <CustomText>
+    <Id>SaveGameSuccess</Id>
+    <Text>The game was successfully saved!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RobotTax</Id>
+    <Text>The robots take 20% of your money in tribute to their glory.</Text>
+  </CustomText>
+  <CustomText>
+    <Id>TopTubeStars</Id>
+    <Text>Top TubeStars</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Ultra</Id>
+    <Text>Ultra</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Delete</Id>
+    <Text>Delete</Text>
+  </CustomText>
+  <CustomText>
+    <Id>DeleteVideo</Id>
+    <Text>Are you sure you want to delete this video?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>UseCreativeCommons</Id>
+    <Text>Display 'Creative Commons' Material Only</Text>
+  </CustomText>
+</ArrayOfCustomText>

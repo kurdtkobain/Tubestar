@@ -1,0 +1,830 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCustomText xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CustomText>
+    <Id>Fails</Id>
+    <Text>Gefaald</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AnimalFighting</Id>
+    <Text>Dieren gevecht</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Anime</Id>
+    <Text>Animatie</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Cats</Id>
+    <Text>Katten</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Comedy</Id>
+    <Text>Comedie</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ConspiraryTheory</Id>
+    <Text>Samenzwerings theorie</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CreepyPasta</Id>
+    <Text>Enge pasta</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Gaming</Id>
+    <Text>Gaming</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ShoppingHaul</Id>
+    <Text>Winkel verslaafd</Text>
+  </CustomText>
+  <CustomText>
+    <Id>HowTo</Id>
+    <Text>Hoe te doen...</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Movies</Id>
+    <Text>Films</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MusicVideo</Id>
+    <Text>Muziek videos</Text>
+  </CustomText>
+  <CustomText>
+    <Id>NonProfit</Id>
+    <Text>Non-profit</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Sports</Id>
+    <Text>Sporten</Text>
+  </CustomText>
+  <CustomText>
+    <Id>TheWeirdSide</Id>
+    <Text>De vreemde kant</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Technology</Id>
+    <Text>Technologie</Text>
+  </CustomText>
+  <CustomText>
+    <Id>UkuleleCover</Id>
+    <Text>Ukulele cover</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Vlog</Id>
+    <Text>Vlog</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Ok</Id>
+    <Text>Oke</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Cancel</Id>
+    <Text>Annuleer</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SaveFail</Id>
+    <Text>Er ging iets volledig mis! Of in betere zin... Naja, sorry! Ik kon het spel niet opslaan!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LoadFail</Id>
+    <Text>Er ging iets volledig mis! Of in betere zin... Naja, sorry! Ik kon het spel niet laden!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ChannelSuspended</Id>
+    <Text>Kanaal '{0}' is inactief door geweld pleging.</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ComputerCrash</Id>
+    <Text>Je computer is gecrashed! Alle videos die je nog niet online had gezet zijn verloren gegaan!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CostOfLivingIncrease</Id>
+    <Text>De crisis is aangebroken! Je betaal nu meer om te kunnen leven!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Fired</Id>
+    <Text>Je werk is verkeerd gegaan. je bent ontslagen!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LoseSubscribers</Id>
+    <Text>Schamende informatie over jou staat online! Je bent {0} volgers kwijt geraakt.</Text>
+  </CustomText>
+  <CustomText>
+    <Id>WorkOvertime</Id>
+    <Text>Hmm, yeah. Ik moet gaan en wil jou vragen om over te werken. Dus als je dat zou willen doen!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoSuspended</Id>
+    <Text>Video '{0}' is inactief wegens copyright schending.</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SpareChange</Id>
+    <Text>Je hebt je bank door zorgt en vond {0} dollar.</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Promoted</Id>
+    <Text>Je bent gepromoveert op het werk! Je kan nu meer verdienen door langer te werken.</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RobotRising</Id>
+    <Text>De robots zijn in opstand gekomen en hebben de wereld overgenomen. Buig voor de nieuwe leiders.</Text>
+  </CustomText>
+  <CustomText>
+    <Id>BeautyContest</Id>
+    <Text>Je hebt {0} gewonnen in een schoonheids wedstrijd.</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ChannelSuspensionLifted</Id>
+    <Text>Kanaal '{0}' staat weer online.</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CostOfLivingDecreased</Id>
+    <Text>De crisis verdwijnt weer. Het is weer goedkoper om goed te kunnen leven!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>FreeStudy</Id>
+    <Text>Je hebt een beurs van {0} gekregen!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>GainSubscribers</Id>
+    <Text>Je bent opgelicht op een website! Je hebt nu {0} extra volgers.</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoSuspensionLifted</Id>
+    <Text>De video '{0}' staat weer online.</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RandomEvent</Id>
+    <Text>Random evenement.</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyAudienceAnalysis1</Id>
+    <Text>Studeer 'Video Attributie Technologie I'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyAudienceAnalysis2</Id>
+    <Text>Studeer 'Video Attributie Technologie II'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyPostProduction1</Id>
+    <Text>Studeer 'Post-productie I'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyPostProduction2</Id>
+    <Text>Studeer 'Post-productie II'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyPostProduction3</Id>
+    <Text>Studeer 'Post-productie III'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyProduction1</Id>
+    <Text>Studeer 'Productie I'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyProduction2</Id>
+    <Text>Studeer 'Productie II'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyProduction3</Id>
+    <Text>Studeer 'Productie III'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyQualityAnalysis</Id>
+    <Text>Studeer 'Kwaliteit analyse'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MandatoryBowToRobotRulers</Id>
+    <Text>Verplicht buigen naar onze robot leiders</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditVideoTask</Id>
+    <Text>'{0}' post-productie</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Job</Id>
+    <Text>Baan</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ShootVideoTask</Id>
+    <Text>'{0}' video is geflimd</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CatsAttribute</Id>
+    <Text>Kan katten bevatten</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CatsAttributeDescription</Id>
+    <Text>Video kwaliteit stijgt</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CopycatAttribute</Id>
+    <Text>Copycat</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CopycatAttributeDescription</Id>
+    <Text>{0} gratis views</Text>
+  </CustomText>
+  <CustomText>
+    <Id>FanboyBaitAttribute</Id>
+    <Text>Faboy lokaas</Text>
+  </CustomText>
+  <CustomText>
+    <Id>FanboyBaitAttributeDescription</Id>
+    <Text>Als de video kwaliteit boven 75% is zullen er geen volgers weggaan</Text>
+  </CustomText>
+  <CustomText>
+    <Id>GenreBusterAttribute</Id>
+    <Text>Genre buster</Text>
+  </CustomText>
+  <CustomText>
+    <Id>GenreBusterAttributeDescription</Id>
+    <Text>Video categorie wordt minder faak leuk gevonden</Text>
+  </CustomText>
+  <CustomText>
+    <Id>HypnoticAttribute</Id>
+    <Text>Slaapwekkend</Text>
+  </CustomText>
+  <CustomText>
+    <Id>HypnoticAttributeDescription</Id>
+    <Text>Grotere kans op volgers</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LearnFromMistakesAttribute</Id>
+    <Text>Leren van fouten</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LearnFromMistakesAttributeDescription</Id>
+    <Text>Speler statistieken stijgen langzaam op kosten van de video kwaliteit</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MemeticAttribute</Id>
+    <Text>Memetische</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MemeticAttributeDescription</Id>
+    <Text>Hogere kans om gedeeld te worden</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ProductPlacementAttribute</Id>
+    <Text>Product plaatsen</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ProductPlacementAttributeDescription</Id>
+    <Text>Verdien meer van advertenties per view</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SecondTimeAttribute</Id>
+    <Text>Volgende keer beter</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SecondTimeAttributeDescription</Id>
+    <Text>Deze video kan vaker bekeken worden</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SoBadAttribute</Id>
+    <Text>Zo slecht dat het goed is</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SoBadAttributeDescription</Id>
+    <Text>Kans op delen als video disliked wordt</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CrowdFundingAttribute</Id>
+    <Text>Crowdfunding</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CrowdFundingAttributeDescription</Id>
+    <Text>Bij een volger krijg je {0}</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AboveBoardAttribute</Id>
+    <Text>Boven boord</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AboveBoardAttributeDescription</Id>
+    <Text>De video kan niet offline gehaald worden door YouTube</Text>
+  </CustomText>
+  <CustomText>
+    <Id>UnreleasedVideos</Id>
+    <Text>Niet gepubliceerde videos</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ContinueGame</Id>
+    <Text>Verder spelen</Text>
+  </CustomText>
+  <CustomText>
+    <Id>NewGame</Id>
+    <Text>Nieuw spel</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Tutorial</Id>
+    <Text>Tutorial</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Login</Id>
+    <Text>Login</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Credits</Id>
+    <Text>Credits</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Mods</Id>
+    <Text>Taal mod</Text>
+  </CustomText>
+  <CustomText>
+    <Id>WhatALoser</Id>
+    <Text>Wat een loser.</Text>
+  </CustomText>
+  <CustomText>
+    <Id>OutOfMoney</Id>
+    <Text>Je geld is op!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Death</Id>
+    <Text>Dood</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RobotDeath</Id>
+    <Text>Je bent dood gegaan tijdens het vechten tegen de robots. Officieel is het volgende verklaart: 'Weigerde te buigen naar de robot leiders.'</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Confirm</Id>
+    <Text>Bevestig</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LeaveGame</Id>
+    <Text>Wil je het spel verlaten?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>OverwriteSave</Id>
+    <Text>Save bestand overschrijven</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SaveExists</Id>
+    <Text>Dit bestand bestaat al! Wil je het overschrijven?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StartDay</Id>
+    <Text>Start dag</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Help</Id>
+    <Text>Help</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Exit</Id>
+    <Text>Exit</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SaveGame</Id>
+    <Text>Spel opslaan</Text>
+  </CustomText>
+  <CustomText>
+    <Id>UnhandledError</Id>
+    <Text>Onbehandelde fout</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ExceptionText</Id>
+    <Text>Een onbekende fout speelde zich voor! Foutmelding rapport opgesteld in het folder van dit spel. Klik op Oke om verder te gaan of op Annuleren om te stoppen</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingValueHeader</Id>
+    <Text>Mis je niet iets?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingName</Id>
+    <Text>Voer een naam in</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingCategory</Id>
+    <Text>Selecteer een categorie</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingChannel</Id>
+    <Text>Selecteer een kanaal</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingStrategy</Id>
+    <Text>Selecteer een strategie</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingVideo</Id>
+    <Text>Selecteer een video</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingUserName</Id>
+    <Text>Voer je gebruikersnaam in</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingToken</Id>
+    <Text>Voer je GameJolt token in</Text>
+  </CustomText>
+  <CustomText>
+    <Id>PerView</Id>
+    <Text>per kijker</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AddChannel</Id>
+    <Text>Voeg ene kanaal toe</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditChannel</Id>
+    <Text>Verander kanaal</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AdvertisingStrategy</Id>
+    <Text>Advertentie strategie</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Name</Id>
+    <Text>Naam</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Low</Id>
+    <Text>Laag</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Normal</Id>
+    <Text>Normaal</Text>
+  </CustomText>
+  <CustomText>
+    <Id>High</Id>
+    <Text>Hoog</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Aggressive</Id>
+    <Text>Agressief</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ShootVideo</Id>
+    <Text>Film een video</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditVideo</Id>
+    <Text>Bewerk video</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Study</Id>
+    <Text>Studeer</Text>
+  </CustomText>
+  <CustomText>
+    <Id>TooSoon</Id>
+    <Text>Spring naar het vuurwapen</Text>
+  </CustomText>
+  <CustomText>
+    <Id>NoVideosToEdit</Id>
+    <Text>Er zijn geen videos die je kunt veranderen!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>PointsLeft</Id>
+    <Text>punten over</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LowCashHeader</Id>
+    <Text>Hoe wil je dat betalen?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LowCashMessage</Id>
+    <Text>Je hebt niet genoeg geld om dit te kunnen betalen.</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Hours</Id>
+    <Text>Uren</Text>
+  </CustomText>
+  <CustomText>
+    <Id>HoursLeft</Id>
+    <Text>Uren over: {0}</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AddVideo</Id>
+    <Text>Video toevoegen</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Attributes</Id>
+  </CustomText>
+  <CustomText>
+    <Id>Cost</Id>
+    <Text>Kosten</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Category</Id>
+    <Text>Categorie</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Suspended</Id>
+    <Text>Offline gehaald</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Video</Id>
+    <Text>Video</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Videos</Id>
+    <Text>Videos</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AddTask</Id>
+    <Text>Taak toevoegen</Text>
+  </CustomText>
+  <CustomText>
+    <Id>QuitJobHeader</Id>
+    <Text>Stop met je huidige baan</Text>
+  </CustomText>
+  <CustomText>
+    <Id>QuitJobText</Id>
+    <Text>Deze actie zorgt ervoor dat je stopt met je huidige baan. Weet je zeker dat je wilt stoppen?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RiseUp</Id>
+    <Text>Verdien meer!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RebellionCashRequired</Id>
+    <Text>Je hebt minstens {0} nodig om te rellen tegen de robot leiders!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RebellionStart</Id>
+    <Text>Deze actie zorgt voor rellen tegen de robot masters! Je hebt {0}% kans op succes en een fout zal resulteren in de dood! Weet je zeker dat je door wil gaan?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Freedom</Id>
+    <Text>Vrijheid!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RebellionSuccess</Id>
+    <Text>Je vond de hoofdschakelaar en hebt de robots uigezet!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RemoveTask</Id>
+    <Text>Verwijder taak</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AreYouSure</Id>
+    <Text>Weet je het zeker?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>NoRefunds</Id>
+    <Text>Geen geld terug!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Casual</Id>
+    <Text>Standaard</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Challenge</Id>
+    <Text>Challenge</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Failure</Id>
+    <Text>Gefaalt</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LoginFailure</Id>
+    <Text>Inloggen niet gelukt... probeer het later nog eens.</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Username</Id>
+    <Text>Gebruikersnaam</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Token</Id>
+    <Text>Token</Text>
+  </CustomText>
+  <CustomText>
+    <Id>HoursToComplete</Id>
+    <Text>Uren over om het te completen</Text>
+  </CustomText>
+  <CustomText>
+    <Id>PrerequisitesNotMet</Id>
+    <Text>Nope</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AlreadyCompleted</Id>
+    <Text>Al compleet</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AlreadyEnrolled</Id>
+    <Text>Al gedaan</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudySelection</Id>
+    <Text>Studies selectie</Text>
+  </CustomText>
+  <CustomText>
+    <Id>UploadVideo</Id>
+    <Text>Upload video</Text>
+  </CustomText>
+  <CustomText>
+    <Id>FetchNewImage</Id>
+    <Text>Random plaatje</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Image</Id>
+    <Text>Plaatje</Text>
+  </CustomText>
+  <CustomText>
+    <Id>BuyViews</Id>
+    <Text>Koop kijkers</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Channel</Id>
+    <Text>Kanaal</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Views</Id>
+    <Text>Views</Text>
+  </CustomText>
+  <CustomText>
+    <Id>None</Id>
+    <Text>Geen</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Comments</Id>
+    <Text>Commentaar</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Quality</Id>
+    <Text>Kwaliteit</Text>
+  </CustomText>
+  <CustomText>
+    <Id>NotApplicable</Id>
+    <Text>N/A</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Likes</Id>
+    <Text>Likes</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Dislikes</Id>
+    <Text>Dislikes</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Subscribers</Id>
+    <Text>Volgers</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ChannelIncome</Id>
+    <Text>Kanaal incomen</Text>
+  </CustomText>
+  <CustomText>
+    <Id>WhereTo</Id>
+    <Text>Waar heen?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ChannelNeeded</Id>
+    <Text>Maak een kanaal om te uploaden!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoManager</Id>
+    <Text>Video manager</Text>
+  </CustomText>
+  <CustomText>
+    <Id>DailyPlanner</Id>
+    <Text>Dagelijkse planner</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Stats</Id>
+    <Text>Satistieken</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SubscriberHistory</Id>
+    <Text>Volgers verleden</Text>
+  </CustomText>
+  <CustomText>
+    <Id>DailyIncome</Id>
+    <Text>Dagelijkse inkomsten en uitgaven</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoCameraIStoreItem</Id>
+    <Text>Generic Camcorder XYZ-85</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoCameraIStoreItemDescription</Id>
+    <Text>Het is beter dan een webcam</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoCameraIIStoreItem</Id>
+    <Text>Super Comcorder Pro Deluxe HD</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoCameraIIStoreItemDescription</Id>
+    <Text>De beste video camera die er bestaat! Gebruikt door alle professionals.</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditingSoftwareIStoreItem</Id>
+    <Text>Edit-Me Video Director 4</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditingSoftwareIStoreItemDescription</Id>
+    <Text>Beter dan de software die je gratijs krijgt bij My OS.</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditingSoftwareIIStoreItem</Id>
+    <Text>Mega-Director Ultra Deluxe Edition 12</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditingSoftwareIIStoreItemDescription</Id>
+    <Text>Het ultime video bewerkings software. 20 verschillende star swipes om uit te kiezen!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LawyerStoreItem</Id>
+    <Text>Goed/Fout en Co</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LawyerStoreItemDescription</Id>
+    <Text>Voor al je rechtzaken! Wij zorgen er voor dat al je videos die gelokkeerd zijn weer terug komen voor slecht {0}!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ConsultantStoreItem</Id>
+    <Text>Bob Boskins - Consultant</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ConsultantStoreItemDescription</Id>
+    <Text>Met mijn ervaring zorg ik ervoor dat je een echte TubeStar wordt! Ik vraag slecht {0} per video!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Buy</Id>
+    <Text>Koop</Text>
+  </CustomText>
+  <CustomText>
+    <Id>OnlineStore</Id>
+    <Text>Online winkel</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SuspendedHireLawyer</Id>
+    <Text>(Klik om een advocaat in te huren)</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RemoveVideoSuspension</Id>
+    <Text>Wil je onze prijs van {0} betalen om te zorgen dat je video weer online komt te staan?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RemoveChannelSuspension</Id>
+    <Text>Wil je onze prijs vna {0} betalen om te zorgen dat je kanaal weer bestaat?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LoanStoreItem</Id>
+    <Text>Shylock's leningen</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LoanStoreItemDescription</Id>
+    <Text>Krijg direct {0} uitgekeerd!! Bel vandaag! Betaal {1} per dag terug. {2}% rente.</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Edit</Id>
+    <Text>Bewerk</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Save</Id>
+    <Text>Opslaan</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AddTranslation</Id>
+    <Text>Vertaling toevoegen</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ViewVideo</Id>
+    <Text>Bekijk video</Text>
+  </CustomText>
+  <CustomText>
+    <Id>BornToRule</Id>
+    <Text>Geboren om te heersen</Text>
+  </CustomText>
+  <CustomText>
+    <Id>BuyItem</Id>
+    <Text>Wil je dit kopen voor {0}?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Next</Id>
+    <Text>Volgende</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SaveGameSuccess</Id>
+    <Text>Het spel is opgeslagen!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RobotTax</Id>
+    <Text>De robots hebben 20% van je geld gejat om hun overwinning te vieren.</Text>
+  </CustomText>
+  <CustomText>
+    <Id>TopTubeStars</Id>
+    <Text>Top TubeStars</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Ultra</Id>
+    <Text>Ultra</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Delete</Id>
+    <Text>Verwijder</Text>
+  </CustomText>
+  <CustomText>
+    <Id>DeleteVideo</Id>
+    <Text>Weet je zeker dat je deze video wilt verwijderen?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>UseCreativeCommons</Id>
+    <Text>Beeldscherm 'Creative Commons' Materiaal Alleen</Text>
+  </CustomText>
+</ArrayOfCustomText>

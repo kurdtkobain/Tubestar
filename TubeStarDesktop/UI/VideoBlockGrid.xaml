@@ -1,0 +1,55 @@
+﻿<UserControl x:Class="TubeStar.VideoBlockGrid"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:n="clr-namespace:Nicenis.Windows;assembly=Nicenis"
+             Height="216" 
+             Width="288" 
+             Padding="2"
+             MouseEnter="UserControl_MouseEnter"
+             MouseLeave="UserControl_MouseLeave"
+             PreviewMouseUp="UserControl_PreviewMouseUp"
+             n:DragSource.AllowDrag="True"
+             n:DragSource.Data="{Binding}"
+             n:DragSource.VisualFeedbackOffset="{Binding (n:DragSource.ContactPosition), RelativeSource={RelativeSource Self}}">
+
+    <Grid x:Name="LayoutRoot">
+        <Image x:Name="imgVideo"></Image>
+
+        <Grid x:Name="topGrid" VerticalAlignment="Top" Height="Auto" MaxHeight="75">
+            <Grid.Background>
+                <SolidColorBrush Color="Black" Opacity="0.5" />
+            </Grid.Background>
+            <StackPanel x:Name="panelStats" Orientation="Vertical">
+                <TextBlock x:Name="txtViews" FontSize="18" Foreground="White" Margin="5,0,0,0"/>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="../Resources/Likes.png" Height="20" />
+                    <TextBlock x:Name="txtLikes" FontSize="18" Foreground="White" Padding="5,0,15,0"/>
+                    <Image Source="../Resources/Dislikes.png" Height="20" />
+                    <TextBlock x:Name="txtDislikes" FontSize="18" Foreground="White" Padding="5,0,0,0"/>
+                </StackPanel>
+            </StackPanel>
+            <Grid x:Name="qualityGrid" HorizontalAlignment="Right" Height="40" >
+                <Ellipse Fill="Crimson" Width="40" Height="40"/>
+                <TextBlock x:Name="txtQuality" FontSize="28" Text="99" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White"/>
+            </Grid>
+        </Grid>
+
+        <Grid x:Name="bottomGrid" VerticalAlignment="Bottom" Height="Auto" MaxHeight="75">
+            <Grid.Background>
+                <SolidColorBrush Color="Black" Opacity="0.5" />
+            </Grid.Background>
+            <TextBlock x:Name="txtName" TextAlignment="Center" FontSize="22" Opacity="1" Foreground="White" TextWrapping="Wrap" TextTrimming="WordEllipsis" />
+        </Grid>
+
+        <Grid x:Name="SuspendedAdorner" Visibility="Collapsed" MouseLeftButtonDown="SuspendedAdorner_MouseLeftButtonDown">
+            <Rectangle Fill="Black" Opacity="0.5"/>
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Image Source="../Resources/Sad_icon.png" Height="40" Margin="3,0,3,0" />
+                <TextBlock x:Name="txtSuspended" Text="SUSPENDED" FontSize="30" FontWeight="Bold" Foreground="White" TextAlignment="Center" />
+                <TextBlock x:Name="txtSuspendedSub" Text="(Click to Hire Lawyer)" FontSize="20" Foreground="White" TextAlignment="Center" />
+            </StackPanel>
+        </Grid>
+    </Grid>
+</UserControl>

@@ -1,0 +1,34 @@
+﻿<UserControl x:Class="TubeStar.ChannelBlock"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             Padding="2"
+             Margin="0,10,0,0"
+             MouseEnter="UserControl_MouseEnter"
+             MouseLeave="UserControl_MouseLeave">
+
+    <Grid x:Name="rootGrid" MouseLeftButtonDown="Channel_MouseLeftButtonDown">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Margin="5,10,0,20">
+            <TextBlock x:Name="channelTextBlock" Text="Blah Blah" HorizontalAlignment="Left" VerticalAlignment="Center"  
+                       FontSize="22" FontWeight="ExtraBold" Foreground="WhiteSmoke" TextWrapping="Wrap"/>
+            <TextBlock x:Name="txtVideoCount" Text="Blah Blah" HorizontalAlignment="Left" VerticalAlignment="Center"  
+                       FontSize="18" Foreground="WhiteSmoke" TextWrapping="Wrap"/>
+        </StackPanel>
+
+        <Button x:Name="btnEdit" Grid.Row="1" Width="120" Height="30" HorizontalAlignment="Right" Click="EditButton_Click" Margin="0,0,2,2" >
+            <Button.Content>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="../Resources/Edit.png" />
+                    <TextBlock x:Name="txtEdit" Margin="10,0,0,0" />
+                </StackPanel>
+            </Button.Content>
+        </Button>
+    </Grid>
+
+</UserControl>

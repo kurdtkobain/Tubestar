@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfRival xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Rival>
+    <Name>Happy Hour</Name>
+    <ShootingSkill>20</ShootingSkill>
+    <PostProductionSkill>20</PostProductionSkill>
+    <InitialSubscribers>20</InitialSubscribers>
+    <VideoKeyword1>Childrens TV program</VideoKeyword1>
+    <VideoKeyword2>Joy to the world</VideoKeyword2>
+    <VideoKeyword3>Love</VideoKeyword3>
+    <VideoKeyword4>Warm fuzzy feeling</VideoKeyword4>
+  </Rival>
+  <Rival>
+    <Name>Gamer Garry TV</Name>
+    <ShootingSkill>30</ShootingSkill>
+    <PostProductionSkill>20</PostProductionSkill>
+    <InitialSubscribers>70</InitialSubscribers>
+    <VideoKeyword1>Warcraft</VideoKeyword1>
+    <VideoKeyword2>Starcraft</VideoKeyword2>
+    <VideoKeyword3>Minecraft</VideoKeyword3>
+    <VideoKeyword4>Call of Duty</VideoKeyword4>
+  </Rival>
+  <Rival>
+    <Name>I &lt;3 FOOD</Name>
+    <ShootingSkill>30</ShootingSkill>
+    <PostProductionSkill>25</PostProductionSkill>
+    <InitialSubscribers>150</InitialSubscribers>
+    <VideoKeyword1>Burgers</VideoKeyword1>
+    <VideoKeyword2>Pizza</VideoKeyword2>
+    <VideoKeyword3>Pasta</VideoKeyword3>
+    <VideoKeyword4>Cake</VideoKeyword4>
+  </Rival>
+  <Rival>
+    <Name>JumpingUnlimited</Name>
+    <ShootingSkill>35</ShootingSkill>
+    <PostProductionSkill>25</PostProductionSkill>
+    <InitialSubscribers>200</InitialSubscribers>
+    <VideoKeyword1>Jump</VideoKeyword1>
+    <VideoKeyword2>Jump</VideoKeyword2>
+    <VideoKeyword3>Jump</VideoKeyword3>
+    <VideoKeyword4>Jump</VideoKeyword4>
+  </Rival>
+  <Rival>
+    <Name>TeddyBearPicnic</Name>
+    <ShootingSkill>40</ShootingSkill>
+    <PostProductionSkill>25</PostProductionSkill>
+    <InitialSubscribers>500</InitialSubscribers>
+    <VideoKeyword1>Teddy Bear</VideoKeyword1>
+    <VideoKeyword2>Stuffed animal</VideoKeyword2>
+    <VideoKeyword3>Teddy picnic</VideoKeyword3>
+    <VideoKeyword4>Doll Tea party</VideoKeyword4>
+  </Rival>
+  <Rival>
+    <Name>Dogs driving cars</Name>
+    <ShootingSkill>40</ShootingSkill>
+    <PostProductionSkill>30</PostProductionSkill>
+    <InitialSubscribers>800</InitialSubscribers>
+    <VideoKeyword1>Dog driving car</VideoKeyword1>
+    <VideoKeyword2>Dog driving car</VideoKeyword2>
+    <VideoKeyword3>Dog driving car</VideoKeyword3>
+    <VideoKeyword4>Dog driving car</VideoKeyword4>
+  </Rival>
+  <Rival>
+    <Name>BritCom Clips</Name>
+    <ShootingSkill>45</ShootingSkill>
+    <PostProductionSkill>30</PostProductionSkill>
+    <InitialSubscribers>1200</InitialSubscribers>
+    <VideoKeyword1>Red Dwarf</VideoKeyword1>
+    <VideoKeyword2>Blackadder</VideoKeyword2>
+    <VideoKeyword3>The office UK</VideoKeyword3>
+    <VideoKeyword4>The mighty boosh</VideoKeyword4>
+  </Rival>
+  <Rival>
+    <Name>Hollywood365</Name>
+    <ShootingSkill>45</ShootingSkill>
+    <PostProductionSkill>35</PostProductionSkill>
+    <InitialSubscribers>3000</InitialSubscribers>
+    <VideoKeyword1>Hollywood</VideoKeyword1>
+    <VideoKeyword2>Hollywood movie news</VideoKeyword2>
+    <VideoKeyword3>Hollywood Actor</VideoKeyword3>
+    <VideoKeyword4>Hollywood Actress</VideoKeyword4>
+  </Rival>
+  <Rival>
+    <Name>MyBoringLife</Name>
+    <ShootingSkill>50</ShootingSkill>
+    <PostProductionSkill>35</PostProductionSkill>
+    <InitialSubscribers>7000</InitialSubscribers>
+    <VideoKeyword1>boring day</VideoKeyword1>
+    <VideoKeyword2>boring work</VideoKeyword2>
+    <VideoKeyword3>boring book</VideoKeyword3>
+    <VideoKeyword4>boring song</VideoKeyword4>
+  </Rival>
+  <Rival>
+    <Name>M0AR GAMEZ</Name>
+    <ShootingSkill>50</ShootingSkill>
+    <PostProductionSkill>40</PostProductionSkill>
+    <InitialSubscribers>12000</InitialSubscribers>
+    <VideoKeyword1>GTA</VideoKeyword1>
+    <VideoKeyword2>Last of Us</VideoKeyword2>
+    <VideoKeyword3>Metal Gear</VideoKeyword3>
+    <VideoKeyword4>Titanfall</VideoKeyword4>
+  </Rival>
+  <Rival>
+    <Name>Non-Stop Wrestling</Name>
+    <ShootingSkill>55</ShootingSkill>
+    <PostProductionSkill>40</PostProductionSkill>
+    <InitialSubscribers>25000</InitialSubscribers>
+    <VideoKeyword1>Wrestling</VideoKeyword1>
+    <VideoKeyword2>Wrestling classic</VideoKeyword2>
+    <VideoKeyword3>Wrestling WWE</VideoKeyword3>
+    <VideoKeyword4>Wrestling NITRO</VideoKeyword4>
+  </Rival>
+  <Rival>
+    <Name>ComedyHaHa</Name>
+    <ShootingSkill>55</ShootingSkill>
+    <PostProductionSkill>45</PostProductionSkill>
+    <InitialSubscribers>45000</InitialSubscribers>
+    <VideoKeyword1>joke</VideoKeyword1>
+    <VideoKeyword2>live comedy</VideoKeyword2>
+    <VideoKeyword3>classic comedy</VideoKeyword3>
+    <VideoKeyword4>stand up comedy</VideoKeyword4>
+  </Rival>
+  <Rival>
+    <Name>BicycleDan</Name>
+    <ShootingSkill>60</ShootingSkill>
+    <PostProductionSkill>45</PostProductionSkill>
+    <InitialSubscribers>60000</InitialSubscribers>
+    <VideoKeyword1>cycling</VideoKeyword1>
+    <VideoKeyword2>tour de france</VideoKeyword2>
+    <VideoKeyword3>bmx</VideoKeyword3>
+    <VideoKeyword4>bicycle race</VideoKeyword4>
+  </Rival>
+  <Rival>
+    <Name>ProgrammingAboutProgramming</Name>
+    <ShootingSkill>65</ShootingSkill>
+    <PostProductionSkill>50</PostProductionSkill>
+    <InitialSubscribers>80000</InitialSubscribers>
+    <VideoKeyword1>c++</VideoKeyword1>
+    <VideoKeyword2>c#</VideoKeyword2>
+    <VideoKeyword3>javascript</VideoKeyword3>
+    <VideoKeyword4>asp.net mvc</VideoKeyword4>
+  </Rival>
+  <Rival>
+    <Name>MyAnimalChannel</Name>
+    <ShootingSkill>65</ShootingSkill>
+    <PostProductionSkill>55</PostProductionSkill>
+    <InitialSubscribers>90000</InitialSubscribers>
+    <VideoKeyword1>tigers</VideoKeyword1>
+    <VideoKeyword2>lions</VideoKeyword2>
+    <VideoKeyword3>whales</VideoKeyword3>
+    <VideoKeyword4>elephants</VideoKeyword4>
+  </Rival>
+</ArrayOfRival>

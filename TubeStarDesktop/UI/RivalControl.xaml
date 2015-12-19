@@ -1,0 +1,57 @@
+﻿<UserControl x:Class="TubeStar.RivalControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TubeStar" >
+
+    <Grid x:Name="LayoutRoot">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="30*"/>
+            <ColumnDefinition Width="70*"/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.ColumnSpan="2">
+            <ToggleButton x:Name="btnTier1" Width="100" Content="Tier I" Margin="5" IsChecked="True" Click="btnTier1_Click" />
+            <ToggleButton x:Name="btnTier2" Width="100" Content="Tier II" Margin="5" Click="btnTier2_Click" />
+            <ToggleButton x:Name="btnTier3" Width="100" Content="Tier III" Margin="5" Click="btnTier3_Click" />
+            <ToggleButton x:Name="btnTier4" Width="100" Content="Tier IV" Margin="5" Click="btnTier4_Click" />
+            <ToggleButton x:Name="btnTier5" Width="100" Content="Tier V" Margin="5" Click="btnTier5_Click" />
+        </StackPanel>
+
+        <ScrollViewer Grid.Row="1" Grid.Column="0" Margin="10,50,10,10" BorderThickness="0" VerticalScrollBarVisibility="Auto">
+            <StackPanel x:Name="channelPanel"/>
+        </ScrollViewer>
+
+        <Grid Grid.Row="1" Grid.Column="1" Background="DodgerBlue" Height="45" VerticalAlignment="Top" Margin="1,1,5,5">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Button x:Name="btnGrid" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="2" Click="btnGrid_Click" Style="{StaticResource NonAnimatedButtonStyle}" >
+                <Image Source="../Resources/Grid-icon.png" />
+            </Button>
+            <Button x:Name="btnList" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="2" Click="btnList_Click" Style="{StaticResource NonAnimatedButtonStyle}" >
+                <Image Source="../Resources/List-icon.png" />
+            </Button>
+
+            <TextBlock x:Name="channelSummaryTextBlock" Grid.Column="2" FontSize="18" FontWeight="Bold" Text="Blah Blah" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,10,10,10" Foreground="WhiteSmoke" />
+        </Grid>
+
+        <ScrollViewer x:Name="listViewer" Grid.Row="1" Grid.Column="1" BorderThickness="0" VerticalScrollBarVisibility="Auto" Margin="0, 45, 0, 0">
+            <StackPanel x:Name="videoPanel" Orientation="Vertical" />
+        </ScrollViewer>
+
+        <ScrollViewer x:Name="gridViewer" Grid.Row="1" Grid.Column="1" BorderThickness="0" VerticalScrollBarVisibility="Auto" Margin="0, 45, 0, 0">
+            <WrapPanel x:Name="videoPanelGrid" />
+        </ScrollViewer>
+    </Grid>
+</UserControl>

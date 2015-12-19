@@ -1,0 +1,831 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCustomText xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CustomText>
+    <Id>Fails</Id>
+    <Text>Bénázások</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AnimalFighting</Id>
+    <Text>Állat verekedés</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Anime</Id>
+    <Text>Anime</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Cats</Id>
+    <Text>Macskák</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Comedy</Id>
+    <Text>Humor</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ConspiraryTheory</Id>
+    <Text>Összeesküvés-elmélet</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CreepyPasta</Id>
+    <Text>Creepypasta</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Gaming</Id>
+    <Text>Játékok</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ShoppingHaul</Id>
+    <Text>Vásárlás</Text>
+  </CustomText>
+  <CustomText>
+    <Id>HowTo</Id>
+    <Text>Hogyan csináld...</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Movies</Id>
+    <Text>Filmek</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MusicVideo</Id>
+    <Text>Zenés videó</Text>
+  </CustomText>
+  <CustomText>
+    <Id>NonProfit</Id>
+    <Text>Non-profit</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Sports</Id>
+    <Text>Sport</Text>
+  </CustomText>
+  <CustomText>
+    <Id>TheWeirdSide</Id>
+    <Text>Ijesztő mellékhatások</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Technology</Id>
+    <Text>Technológia</Text>
+  </CustomText>
+  <CustomText>
+    <Id>UkuleleCover</Id>
+    <Text>Ukulele-aláfestés</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Vlog</Id>
+    <Text>Videóblog</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Ok</Id>
+    <Text>OK</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Cancel</Id>
+    <Text>Mégse</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SaveFail</Id>
+    <Text>Valami nagyon rosszul sült el! Vagy csak kicsit... Akárhogyis, bocsi! Nem tudom menteni a játékot!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LoadFail</Id>
+    <Text>Valami nagyon rosszul sült el! Vagy csak kicsit... Akárhogyis, bocsi! Nem tudom betölteni a játékot!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ChannelSuspended</Id>
+    <Text>A csatorna "{0}" fel lett függesztve a Szabályok súlyos megsértése miatt!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ComputerCrash</Id>
+    <Text>A számítógéped összeomlott! Minden fel nem töltött videó elveszett!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CostOfLivingIncrease</Id>
+    <Text>A fizetésed megemelkedett!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Fired</Id>
+    <Text>A munkád borzalmas volt! Ki vagy rúgva!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LoseSubscribers</Id>
+    <Text>Egy kínos információd publikussá vált! {0} személy leiratkozott a csatornádról!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>WorkOvertime</Id>
+    <Text>Mmm, igen... Azt szeretném kérni tőled, hogy túlórázz. Megtennéd ezt nekem?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoSuspended</Id>
+    <Text>A "{0}" nevű videód fel lett függesztve a másolásvédelem megsértése miatt!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SpareChange</Id>
+    <Text>Benéztél a kanapé párnája alá, és találtál {0} dollárt!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Promoted</Id>
+    <Text>Előléptettek! Mostantól több pénzt keresel és többet dolgozol!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RobotRising</Id>
+    <Text>A robotok átvették az uralmat a bolygó fölött! Hajolj le az új vezetőid előtt!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>BeautyContest</Id>
+    <Text>{0} dollár értékű pénzjutalmat kaptál egy szépségversenyen!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ChannelSuspensionLifted</Id>
+    <Text>A "{0}" nevű csatorna felfüggesztését visszavonták!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CostOfLivingDecreased</Id>
+    <Text>A gazdaság erősödik! A megélhetési költségeid lecsökkentek.</Text>
+  </CustomText>
+  <CustomText>
+    <Id>FreeStudy</Id>
+    <Text>Ösztöndíjat kaptál: "{0}"!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>GainSubscribers</Id>
+    <Text>Szerepeltél egy harmadik féltől származó weboldalon! Kaptál {0} új feliratkozót!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoSuspensionLifted</Id>
+    <Text>A "{0}" nevű videó felfüggesztését visszavonták!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RandomEvent</Id>
+    <Text>Véletlenszerű esemény</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyAudienceAnalysis1</Id>
+    <Text>Tanulj: "Videó Tulajdonságai I"</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyAudienceAnalysis2</Id>
+    <Text>Tanulj: "Videó Tulajdonságai II"</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyPostProduction1</Id>
+    <Text>Tanulj: "Utómunka I"</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyPostProduction2</Id>
+    <Text>Tanulj: "Utómunka II"</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyPostProduction3</Id>
+    <Text>Tanulj: "Utómunka III"</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyProduction1</Id>
+    <Text>Tanulj: "Produkció I"</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyProduction2</Id>
+    <Text>Tanulj: "Produkció II"</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyProduction3</Id>
+    <Text>Tanulj: "Produkció III"</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudyQualityAnalysis</Id>
+    <Text>Tanulj: "Minőségellenőrzés"</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MandatoryBowToRobotRulers</Id>
+    <Text>Kötelező Bowling a Robot-Főnököknek</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditVideoTask</Id>
+    <Text>"{0}" Utómunka</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Job</Id>
+    <Text>Munka</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ShootVideoTask</Id>
+    <Text>"{0}" videó forgatása</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CatsAttribute</Id>
+    <Text>Esetlegesen macskákat tartalmazhat</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CatsAttributeDescription</Id>
+    <Text>A videó minősége kicsit javult</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CopycatAttribute</Id>
+    <Text>Copyzós</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CopycatAttributeDescription</Id>
+    <Text>{0} ingyenes kiinduló nézők</Text>
+  </CustomText>
+  <CustomText>
+    <Id>FanboyBaitAttribute</Id>
+    <Text>Rajongó csali</Text>
+  </CustomText>
+  <CustomText>
+    <Id>FanboyBaitAttributeDescription</Id>
+    <Text>Ha a videó minősége 75% felett van, nem fog egy jelenlegi feliratkozó sem leiratkozni</Text>
+  </CustomText>
+  <CustomText>
+    <Id>GenreBusterAttribute</Id>
+    <Text>Műfajalázó</Text>
+  </CustomText>
+  <CustomText>
+    <Id>GenreBusterAttributeDescription</Id>
+    <Text>A kategória kevésbé számít mint a minőség</Text>
+  </CustomText>
+  <CustomText>
+    <Id>HypnoticAttribute</Id>
+    <Text>Hipnotizáló</Text>
+  </CustomText>
+  <CustomText>
+    <Id>HypnoticAttributeDescription</Id>
+    <Text>Nagyobb esély az előfizetőkre</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LearnFromMistakesAttribute</Id>
+    <Text>Tanulás a hibákból</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LearnFromMistakesAttributeDescription</Id>
+    <Text>A játékos jellemzői kicsit feljebb emelkedtek a videó minősége árán</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MemeticAttribute</Id>
+    <Text>Mémes</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MemeticAttributeDescription</Id>
+    <Text>Nagyobb esély a megosztásra</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ProductPlacementAttribute</Id>
+    <Text>Termékmegjelenítés</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ProductPlacementAttributeDescription</Id>
+    <Text>Érj el több bevételt a reklámozással</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SecondTimeAttribute</Id>
+    <Text>Másodszorra jobb</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SecondTimeAttributeDescription</Id>
+    <Text>Ezt a videót többször is meg lehet nézni</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SoBadAttribute</Id>
+    <Text>Olyan rossz, hogy már jó</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SoBadAttributeDescription</Id>
+    <Text>Esély a megosztásra, ha a videó másoknak nem tetszik</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CrowdFundingAttribute</Id>
+    <Text>Tömegfinanszírozás</Text>
+  </CustomText>
+  <CustomText>
+    <Id>CrowdFundingAttributeDescription</Id>
+    <Text>A feliratkozók helyett kapsz {0}-t</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AboveBoardAttribute</Id>
+    <Text>Padlón felül</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AboveBoardAttributeDescription</Id>
+    <Text>Ezt a videót nem lehet felfüggeszteni</Text>
+  </CustomText>
+  <CustomText>
+    <Id>UnreleasedVideos</Id>
+    <Text>Fel nem töltött vedeók</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ContinueGame</Id>
+    <Text>Játék folytatása</Text>
+  </CustomText>
+  <CustomText>
+    <Id>NewGame</Id>
+    <Text>Új játék</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Tutorial</Id>
+    <Text>Oktatómód</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Login</Id>
+    <Text>Bejelentkezés</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Credits</Id>
+    <Text>Pénz</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Mods</Id>
+    <Text>Még több nyelv</Text>
+  </CustomText>
+  <CustomText>
+    <Id>WhatALoser</Id>
+    <Text>Mekkora vesztes!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>OutOfMoney</Id>
+    <Text>Kifogytál a pénzből!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Death</Id>
+    <Text>Halál</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RobotDeath</Id>
+    <Text>Meghaltál a robot-megszállás elleni küzdelemben. A hivatalos elhalálozási ok a következő: "Kimerülés a robotmesterek előtti meghajoláshoz való türelmetlenségtől."</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Confirm</Id>
+    <Text>Megerősítés</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LeaveGame</Id>
+    <Text>Biztosan ki akarsz lépni a jelenlegi játékból?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>OverwriteSave</Id>
+    <Text>A mentés felülírása</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SaveExists</Id>
+    <Text>Már létezik mentett állás! Felülírjam?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StartDay</Id>
+    <Text>Kezdőnap</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Help</Id>
+    <Text>Segítség</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Exit</Id>
+    <Text>Kilépés</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SaveGame</Id>
+    <Text>Játék mentése</Text>
+  </CustomText>
+  <CustomText>
+    <Id>UnhandledError</Id>
+    <Text>Ismeretlen hiba</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ExceptionText</Id>
+    <Text>Ismeretlen hiba történt! A hiba részletes leírása megtalálható a "games" mappában. Nyomj "OK"-t a továbbhaladáshoz, "CANCEL"-t a kilépéshez.</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingValueHeader</Id>
+    <Text>Nem hiányzik valami?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingName</Id>
+    <Text>Írj be egy nevet</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingCategory</Id>
+    <Text>Válassz egy kategóriát</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingChannel</Id>
+    <Text>Válassz egy csatornát</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingStrategy</Id>
+    <Text>Válassz egy stratégiát</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingVideo</Id>
+    <Text>Válassz egy videót</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingUserName</Id>
+    <Text>Írd be a felhasználónevet</Text>
+  </CustomText>
+  <CustomText>
+    <Id>MissingToken</Id>
+    <Text>Írd be a tokent</Text>
+  </CustomText>
+  <CustomText>
+    <Id>PerView</Id>
+    <Text>megtekintésenként</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AddChannel</Id>
+    <Text>Csatorna hozzáadása</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditChannel</Id>
+    <Text>Csatorna szerkesztési</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AdvertisingStrategy</Id>
+    <Text>Reklámstratégia</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Name</Id>
+    <Text>Név</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Low</Id>
+    <Text>Alacsony</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Normal</Id>
+    <Text>Közepes</Text>
+  </CustomText>
+  <CustomText>
+    <Id>High</Id>
+    <Text>Magas</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Aggressive</Id>
+    <Text>Agresszív</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ShootVideo</Id>
+    <Text>Videó felvétele</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditVideo</Id>
+    <Text>Videó szerkesztése</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Study</Id>
+    <Text>Tanulás</Text>
+  </CustomText>
+  <CustomText>
+    <Id>TooSoon</Id>
+    <Text>Meggondolatlanul</Text>
+  </CustomText>
+  <CustomText>
+    <Id>NoVideosToEdit</Id>
+    <Text>Nincsenek szerkesztésre váró videók!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>PointsLeft</Id>
+    <Text>pontok hátra</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LowCashHeader</Id>
+    <Text>Hogyan fogod kifizetni?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LowCashMessage</Id>
+    <Text>Nincs elég pénz!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Hours</Id>
+    <Text>Órák</Text>
+  </CustomText>
+  <CustomText>
+    <Id>HoursLeft</Id>
+    <Text>Órák hátra: {0}</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AddVideo</Id>
+    <Text>Videó hozzáadása</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Attributes</Id>
+    <Text>Attribútumok</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Cost</Id>
+    <Text>Költség</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Category</Id>
+    <Text>Kategória</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Suspended</Id>
+    <Text>Letiltva</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Video</Id>
+    <Text>Videó</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Videos</Id>
+    <Text>Videók</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AddTask</Id>
+    <Text>Feladat hozzáadása</Text>
+  </CustomText>
+  <CustomText>
+    <Id>QuitJobHeader</Id>
+    <Text>Felmondás</Text>
+  </CustomText>
+  <CustomText>
+    <Id>QuitJobText</Id>
+    <Text>Ezzel fel fogsz mondani a munkahelyeden. Biztos vagy benne?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RiseUp</Id>
+    <Text>Emelkedj fel!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RebellionCashRequired</Id>
+    <Text>Szükséged van legalább {0} -re hogy indíthass egy felkelést a robot mestereink ellen!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RebellionStart</Id>
+    <Text>Ezt választva egy felkelés fog indulni a robot mestereink ellen! {0} százalék esélyed van a sikerre és az elbukás eredménye HALÁL! Biztos vagy benne?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Freedom</Id>
+    <Text>Szabadság!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RebellionSuccess</Id>
+    <Text>Megtaláltad a főkapcsolót és lekapcsoltad a robot mester fajt. Ez aztán könnyű volt!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RemoveTask</Id>
+    <Text>Feladat visszavonása</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AreYouSure</Id>
+    <Text>Biztos vagy benne?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>NoRefunds</Id>
+    <Text>Nincs visszatérítés!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Casual</Id>
+    <Text>Lezser</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Challenge</Id>
+    <Text>Kihívás</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Failure</Id>
+    <Text>Elbukás</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LoginFailure</Id>
+    <Text>Nem sikerült a bejelentkezés.. talán próbáld újra!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Username</Id>
+    <Text>Felhasználói név</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Token</Id>
+    <Text>Token</Text>
+  </CustomText>
+  <CustomText>
+    <Id>HoursToComplete</Id>
+    <Text>Órák a befejezéshez</Text>
+  </CustomText>
+  <CustomText>
+    <Id>PrerequisitesNotMet</Id>
+    <Text>Nem teljesítetted a feltételeket!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AlreadyCompleted</Id>
+    <Text>Már befejezett</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AlreadyEnrolled</Id>
+    <Text>Már elindított</Text>
+  </CustomText>
+  <CustomText>
+    <Id>StudySelection</Id>
+    <Text>Tanulmányok kiválasztása</Text>
+  </CustomText>
+  <CustomText>
+    <Id>UploadVideo</Id>
+    <Text>Videó feltöltése</Text>
+  </CustomText>
+  <CustomText>
+    <Id>FetchNewImage</Id>
+    <Text>Véletlenszerű kép</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Image</Id>
+    <Text>Kép</Text>
+  </CustomText>
+  <CustomText>
+    <Id>BuyViews</Id>
+    <Text>Megtekintések vásárlása</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Channel</Id>
+    <Text>Csatorna</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Views</Id>
+    <Text>Megtekintések</Text>
+  </CustomText>
+  <CustomText>
+    <Id>None</Id>
+    <Text>Egyik sem</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Comments</Id>
+    <Text>Kommentek</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Quality</Id>
+    <Text>Minőség</Text>
+  </CustomText>
+  <CustomText>
+    <Id>NotApplicable</Id>
+    <Text>N/A</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Likes</Id>
+    <Text>Kedvelések</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Dislikes</Id>
+    <Text>Nem kedvelések</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Subscribers</Id>
+    <Text>Feliratkozók</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ChannelIncome</Id>
+    <Text>Csatorna bevétele</Text>
+  </CustomText>
+  <CustomText>
+    <Id>WhereTo</Id>
+    <Text>Hová?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ChannelNeeded</Id>
+    <Text>Készíts egy csatornát ahova feltölthetsz!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoManager</Id>
+    <Text>Videókezelő</Text>
+  </CustomText>
+  <CustomText>
+    <Id>DailyPlanner</Id>
+    <Text>Naptervező</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Stats</Id>
+    <Text>Statisztikák</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SubscriberHistory</Id>
+    <Text>Feliratkozói előzmények</Text>
+  </CustomText>
+  <CustomText>
+    <Id>DailyIncome</Id>
+    <Text>Napi bevételek és kiadások</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoCameraIStoreItem</Id>
+    <Text>Generic Camcorder XYZ-85</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoCameraIStoreItemDescription</Id>
+    <Text>Jobb mint egy webkamera..</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoCameraIIStoreItem</Id>
+    <Text>Super Camcorder Pro Deluxe HD</Text>
+  </CustomText>
+  <CustomText>
+    <Id>VideoCameraIIStoreItemDescription</Id>
+    <Text>A legjobb videókamera a piacon! Minden profi ezt használja!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditingSoftwareIStoreItem</Id>
+    <Text>Edit-Me Video Director 4</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditingSoftwareIStoreItemDescription</Id>
+    <Text>Jobb mint ami ingyen jön az Operációs Rendszerrel...</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditingSoftwareIIStoreItem</Id>
+    <Text>Mega-Director Ultra Deluxe Edition 12</Text>
+  </CustomText>
+  <CustomText>
+    <Id>EditingSoftwareIIStoreItemDescription</Id>
+    <Text>A videó-szerkesztő szoftverek csúcsa! 20 különböző használható speciális effekt!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LawyerStoreItem</Id>
+    <Text>Wright &amp; Wrong Ügyvédi Iroda</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LawyerStoreItemDescription</Id>
+    <Text>Minden jogi szükséglethez! Mi bármilyen letiltott videót vagy csatornát feloldatunk egy kisebb - {0} - összegért</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ConsultantStoreItem</Id>
+    <Text>Bob Boskins - Konzultáns</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ConsultantStoreItemDescription</Id>
+    <Text>A profi tanácsadásommal, egy igazi TubeSztárrá válhatsz! Továbbá videónként {0} összeget kérek!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Buy</Id>
+    <Text>Vásárlás</Text>
+  </CustomText>
+  <CustomText>
+    <Id>OnlineStore</Id>
+    <Text>Netes bolt</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SuspendedHireLawyer</Id>
+    <Text>(Kattints ügyvéd felbérléséhez)</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RemoveVideoSuspension</Id>
+    <Text>Ki akarod fizetni a {0} összeget, hogy feloldják a videót?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RemoveChannelSuspension</Id>
+    <Text>Ki akarod fizetni a {0} összeget, hogy feloldják a csatornát?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LoanStoreItem</Id>
+    <Text>Shylock's Kölcsönök</Text>
+  </CustomText>
+  <CustomText>
+    <Id>LoanStoreItemDescription</Id>
+    <Text>Azonnali {0} összeg kifizetése! Hívjon ma! Fizessen vissza {1} összeget naponta. {2}%-os kamat.</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Edit</Id>
+    <Text>Szerkesztés</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Save</Id>
+    <Text>Mentés</Text>
+  </CustomText>
+  <CustomText>
+    <Id>AddTranslation</Id>
+    <Text>Felirat hozzáadása</Text>
+  </CustomText>
+  <CustomText>
+    <Id>ViewVideo</Id>
+    <Text>Videó megtekintése</Text>
+  </CustomText>
+  <CustomText>
+    <Id>BornToRule</Id>
+    <Text>Uralkodásra született</Text>
+  </CustomText>
+  <CustomText>
+    <Id>BuyItem</Id>
+    <Text>Megvásárlás {0}-ért?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Next</Id>
+    <Text>Következő</Text>
+  </CustomText>
+  <CustomText>
+    <Id>SaveGameSuccess</Id>
+    <Text>A játékot sikeresen elmentetted!</Text>
+  </CustomText>
+  <CustomText>
+    <Id>RobotTax</Id>
+    <Text>A robotok a pénzed 20%-át elveszik a saját dicsőségük miatt.</Text>
+  </CustomText>
+  <CustomText>
+    <Id>TopTubeStars</Id>
+    <Text>Toplista</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Ultra</Id>
+    <Text>Ultra</Text>
+  </CustomText>
+  <CustomText>
+    <Id>Delete</Id>
+    <Text>Törlés</Text>
+  </CustomText>
+  <CustomText>
+    <Id>DeleteVideo</Id>
+    <Text>Biztosan törölni óhajtod ezt a videót?</Text>
+  </CustomText>
+  <CustomText>
+    <Id>UseCreativeCommons</Id>
+    <Text>Csak 'Creative Commons" anyagok mutatása</Text>
+  </CustomText>
+</ArrayOfCustomText>

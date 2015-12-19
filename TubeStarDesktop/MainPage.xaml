@@ -1,0 +1,77 @@
+﻿<UserControl x:Class="TubeStar.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:TubeStar">
+
+    <Grid x:Name="LayoutRoot" Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="45" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="40" />
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal">
+
+            <ToggleButton x:Name="btnDailyPlanner" IsChecked="True" Margin="5" Click="btnDailyPlanner_Click">
+                <ToggleButton.Content>
+                    <WrapPanel>
+                        <Image Source="/Resources/Home_icon.png" Margin="3,0,3,0" />
+                        <TextBlock x:Name="txtDailyPlanner" Text="Daily Planner" VerticalAlignment="Center"/>
+                    </WrapPanel>
+                </ToggleButton.Content>
+            </ToggleButton>
+
+            <ToggleButton x:Name="btnVideoPlanner" Margin="5" Click="btnVideoPlanner_Click">
+                <ToggleButton.Content>
+                    <WrapPanel>
+                        <Image Source="/Resources/Video_icon.png" Margin="3,0,3,0" />
+                        <TextBlock x:Name="txtVideoPlanner" Text="Video Manager" VerticalAlignment="Center"/>
+                    </WrapPanel>
+                </ToggleButton.Content>
+            </ToggleButton>
+
+            <ToggleButton x:Name="btnOnlineStore" Margin="5" Click="btnOnlineStore_Click">
+                <ToggleButton.Content>
+                    <WrapPanel>
+                        <Image Source="/Resources/Cart_icon.png" Margin="3,0,3,0" />
+                        <TextBlock x:Name="txtOnlineStore" Text="Online Store" VerticalAlignment="Center" />
+                    </WrapPanel>
+                </ToggleButton.Content>
+            </ToggleButton>
+
+            <ToggleButton x:Name="btnRivals" Margin="5" Click="btnRivals_Click">
+                <ToggleButton.Content>
+                    <WrapPanel>
+                        <Image Source="/Resources/Rivals_icon.png" Margin="3,0,3,0" />
+                        <TextBlock x:Name="txtRivals" Text="Rivals" VerticalAlignment="Center" />
+                    </WrapPanel>
+                </ToggleButton.Content>
+            </ToggleButton>
+        </StackPanel>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Right">
+            <TextBlock x:Name="txtMoney" Grid.Row="0" FontSize="16" FontWeight="Bold" Text="$1,000.00" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="10,0,10,0" />
+            <Image x:Name="imgSave" Source="Resources/Disk.png" MouseLeftButtonDown="Save_MouseLeftButtonDown" Style="{StaticResource TriggerClickStyle}" MouseEnter="imgSave_MouseEnter" MouseLeave="imgSave_MouseLeave"/>
+            <Image x:Name="gridHelp" Source="Resources/Help.png" MouseLeftButtonDown="Tutorial_MouseLeftButtonDown" Style="{StaticResource TriggerClickStyle}" MouseEnter="gridHelp_MouseEnter" MouseLeave="gridHelp_MouseLeave"/>
+            <Image x:Name="gridExit" Source="Resources/Exit.png" MouseLeftButtonDown="Exit_MouseLeftButtonDown" Style="{StaticResource TriggerClickStyle}" MouseEnter="gridExit_MouseEnter" MouseLeave="gridExit_MouseLeave"/>
+        </StackPanel>
+
+        <Button Grid.Row="2" FontSize="22" Click="btnNewDay_Click" Style="{StaticResource NonAnimatedButtonStyle}">
+            <Button.Content>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Resources/Play_icon.png" Margin="3,0,3,0" />
+                    <TextBlock x:Name="txtNewDay" />
+                    <ProgressBar x:Name="progress" IsIndeterminate="True" Width="200" />
+                </StackPanel>
+            </Button.Content>
+        </Button>
+
+        <local:DailyPlanner Grid.Row="1" x:Name="dailyPlanner" />
+        <local:VideoManagerControl Grid.Row="1" x:Name="videoManager" Visibility="Collapsed" />
+        <local:OnlineStoreControl Grid.Row="1" x:Name="onlineStore" Visibility="Collapsed" />
+        <local:RivalControl Grid.Row="1" x:Name="rivalViewer" Visibility="Collapsed" />
+    </Grid>
+
+</UserControl>

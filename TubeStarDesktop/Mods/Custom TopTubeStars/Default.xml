@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfRival xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Rival>
+    <Name>NightTerrors98</Name>
+    <ShootingSkill>20</ShootingSkill>
+    <PostProductionSkill>20</PostProductionSkill>
+    <InitialSubscribers>20</InitialSubscribers>
+    <VideoKeyword1>Slenderman</VideoKeyword1>
+    <VideoKeyword2>Smile dog</VideoKeyword2>
+    <VideoKeyword3>Gnome sighting</VideoKeyword3>
+    <VideoKeyword4>Jeff the killer</VideoKeyword4>
+  </Rival>
+  <Rival>
+    <Name>xxxSUPAGAMERxxx</Name>
+    <ShootingSkill>30</ShootingSkill>
+    <PostProductionSkill>20</PostProductionSkill>
+    <InitialSubscribers>70</InitialSubscribers>
+    <VideoKeyword1>Retro game</VideoKeyword1>
+    <VideoKeyword2>Indie game</VideoKeyword2>
+    <VideoKeyword3>MMORPG</VideoKeyword3>
+    <VideoKeyword4>Call of Duty</VideoKeyword4>
+  </Rival>
+  <Rival>
+    <Name>Black Crow Music</Name>
+    <ShootingSkill>30</ShootingSkill>
+    <PostProductionSkill>25</PostProductionSkill>
+    <InitialSubscribers>150</InitialSubscribers>
+    <VideoKeyword1>Heavy Metal</VideoKeyword1>
+    <VideoKeyword2>Thrash Metal</VideoKeyword2>
+    <VideoKeyword3>Black Metal</VideoKeyword3>
+    <VideoKeyword4>Death Metal</VideoKeyword4>
+  </Rival>
+  <Rival>
+    <Name>CATTY_KATE</Name>
+    <ShootingSkill>35</ShootingSkill>
+    <PostProductionSkill>25</PostProductionSkill>
+    <InitialSubscribers>200</InitialSubscribers>
+    <VideoKeyword1>Fuzzy Cat</VideoKeyword1>
+    <VideoKeyword2>Cute cat</VideoKeyword2>
+    <VideoKeyword3>Grumpy cat</VideoKeyword3>
+    <VideoKeyword4>Cat meme</VideoKeyword4>
+  </Rival>
+  <Rival>
+    <Name>TheTruthSeeker</Name>
+    <ShootingSkill>40</ShootingSkill>
+    <PostProductionSkill>25</PostProductionSkill>
+    <InitialSubscribers>500</InitialSubscribers>
+    <VideoKeyword1>Aliens</VideoKeyword1>
+    <VideoKeyword2>Roswell conspiracy</VideoKeyword2>
+    <VideoKeyword3>Government conspiracy</VideoKeyword3>
+    <VideoKeyword4>Area 51</VideoKeyword4>
+  </Rival>
+  <Rival>
+    <Name>CraftyHowTo's</Name>
+    <ShootingSkill>40</ShootingSkill>
+    <PostProductionSkill>30</PostProductionSkill>
+    <InitialSubscribers>800</InitialSubscribers>
+    <VideoKeyword1>How to fix</VideoKeyword1>
+    <VideoKeyword2>How to bake a cake</VideoKeyword2>
+    <VideoKeyword3>How to sew</VideoKeyword3>
+    <VideoKeyword4>How to cook</VideoKeyword4>
+  </Rival>
+  <Rival>
+    <Name>&lt;XTRMEFreak&gt;</Name>
+    <ShootingSkill>45</ShootingSkill>
+    <PostProductionSkill>30</PostProductionSkill>
+    <InitialSubscribers>1200</InitialSubscribers>
+    <VideoKeyword1>skateboard</VideoKeyword1>
+    <VideoKeyword2>bmx</VideoKeyword2>
+    <VideoKeyword3>snowboard</VideoKeyword3>
+    <VideoKeyword4>rollerblade</VideoKeyword4>
+  </Rival>
+  <Rival>
+    <Name>The 'Good Deed' Man</Name>
+    <ShootingSkill>45</ShootingSkill>
+    <PostProductionSkill>35</PostProductionSkill>
+    <InitialSubscribers>3000</InitialSubscribers>
+    <VideoKeyword1>helping people</VideoKeyword1>
+    <VideoKeyword2>charity</VideoKeyword2>
+    <VideoKeyword3>human rights</VideoKeyword3>
+    <VideoKeyword4>donation</VideoKeyword4>
+  </Rival>
+  <Rival>
+    <Name>BehindMyCurtain</Name>
+    <ShootingSkill>50</ShootingSkill>
+    <PostProductionSkill>35</PostProductionSkill>
+    <InitialSubscribers>7000</InitialSubscribers>
+    <VideoKeyword1>my life vlog</VideoKeyword1>
+    <VideoKeyword2>bad day vlog</VideoKeyword2>
+    <VideoKeyword3>sad vlog</VideoKeyword3>
+    <VideoKeyword4>job vlog</VideoKeyword4>
+  </Rival>
+  <Rival>
+    <Name>Herpaderp</Name>
+    <ShootingSkill>50</ShootingSkill>
+    <PostProductionSkill>40</PostProductionSkill>
+    <InitialSubscribers>12000</InitialSubscribers>
+    <VideoKeyword1>derp face</VideoKeyword1>
+    <VideoKeyword2>meme funny</VideoKeyword2>
+    <VideoKeyword3>rage faces funny</VideoKeyword3>
+    <VideoKeyword4>lulz</VideoKeyword4>
+  </Rival>
+  <Rival>
+    <Name>TechTalk with Tech Terry</Name>
+    <ShootingSkill>55</ShootingSkill>
+    <PostProductionSkill>40</PostProductionSkill>
+    <InitialSubscribers>25000</InitialSubscribers>
+    <VideoKeyword1>c++ technology</VideoKeyword1>
+    <VideoKeyword2>Android technology</VideoKeyword2>
+    <VideoKeyword3>iPhone</VideoKeyword3>
+    <VideoKeyword4>PC technology</VideoKeyword4>
+  </Rival>
+  <Rival>
+    <Name>MegaAnimeFan89</Name>
+    <ShootingSkill>55</ShootingSkill>
+    <PostProductionSkill>45</PostProductionSkill>
+    <InitialSubscribers>45000</InitialSubscribers>
+    <VideoKeyword1>dragonball z</VideoKeyword1>
+    <VideoKeyword2>cowboy bepop</VideoKeyword2>
+    <VideoKeyword3>ghost in the shell</VideoKeyword3>
+    <VideoKeyword4>Neon Genesis Evangelion</VideoKeyword4>
+  </Rival>
+  <Rival>
+    <Name>ArmchairMovieCritic</Name>
+    <ShootingSkill>60</ShootingSkill>
+    <PostProductionSkill>45</PostProductionSkill>
+    <InitialSubscribers>60000</InitialSubscribers>
+    <VideoKeyword1>classic movie</VideoKeyword1>
+    <VideoKeyword2>action movie</VideoKeyword2>
+    <VideoKeyword3>romance movie</VideoKeyword3>
+    <VideoKeyword4>superhero movie</VideoKeyword4>
+  </Rival>
+  <Rival>
+    <Name>Fashion4Life</Name>
+    <ShootingSkill>65</ShootingSkill>
+    <PostProductionSkill>50</PostProductionSkill>
+    <InitialSubscribers>80000</InitialSubscribers>
+    <VideoKeyword1>heels shopping haul</VideoKeyword1>
+    <VideoKeyword2>makeup shopping haul</VideoKeyword2>
+    <VideoKeyword3>dresses shopping haul</VideoKeyword3>
+    <VideoKeyword4>lingerie shopping haul</VideoKeyword4>
+  </Rival>
+  <Rival>
+    <Name>EpicFails4Win</Name>
+    <ShootingSkill>65</ShootingSkill>
+    <PostProductionSkill>55</PostProductionSkill>
+    <InitialSubscribers>90000</InitialSubscribers>
+    <VideoKeyword1>stunt fails</VideoKeyword1>
+    <VideoKeyword2>sport fails</VideoKeyword2>
+    <VideoKeyword3>epic fails</VideoKeyword3>
+    <VideoKeyword4>bmx fails</VideoKeyword4>
+  </Rival>
+</ArrayOfRival>

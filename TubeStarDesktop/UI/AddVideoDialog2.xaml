@@ -1,0 +1,49 @@
+﻿<xctk:ChildWindow x:Class="TubeStar.AddVideoDialog2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        xmlns:local="clr-namespace:TubeStar" 
+        Caption="Add video"
+        WindowStartupLocation="Center">
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <Grid Height="Auto" Width="650" Margin="5">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid x:Name="step2" Grid.Row="0">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <TextBlock x:Name="lblAttributeSelect" Grid.Row="0" Text="Attributes: " Style="{StaticResource DialogLabelStyle}" />
+
+                <WrapPanel x:Name="attributeGrid" Grid.Row="1" Orientation="Horizontal">
+                    <local:SelectButton x:Name="btnLearnFromMistakes" SelectedChanged="SelectButton_SelectedChanged" />
+                    <local:SelectButton x:Name="btnCopycat" SelectedChanged="SelectButton_SelectedChanged" />
+                    <local:SelectButton x:Name="btnMemetic" SelectedChanged="SelectButton_SelectedChanged" />
+                    <local:SelectButton x:Name="btnProductPlacement" SelectedChanged="SelectButton_SelectedChanged" />
+                    <local:SelectButton x:Name="btnCats" SelectedChanged="SelectButton_SelectedChanged" />
+                    <local:SelectButton x:Name="btnSoBad" SelectedChanged="SelectButton_SelectedChanged" />
+                    <local:SelectButton x:Name="btnAboveBoard" SelectedChanged="SelectButton_SelectedChanged" />
+                    <local:SelectButton x:Name="btnCrowdfunding" SelectedChanged="SelectButton_SelectedChanged" />
+                    <local:SelectButton x:Name="btnSecondTime" SelectedChanged="SelectButton_SelectedChanged" />
+                    <local:SelectButton x:Name="btnGenreBuster" SelectedChanged="SelectButton_SelectedChanged"  />
+                    <local:SelectButton x:Name="btnHypnotic" SelectedChanged="SelectButton_SelectedChanged" />
+                    <local:SelectButton x:Name="btnFanBoyBat" SelectedChanged="SelectButton_SelectedChanged" />
+                </WrapPanel>
+            </Grid>
+
+            <StackPanel Grid.Row="1" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Right">
+                <Button x:Name="btnOk" Width="120" Height="30" Content="OK" Margin="3,3,3,3" Click="OKButton_Click"/>
+                <Button x:Name="btnCancel" Width="120" Height="30" Content="Cancel" Margin="3,3,3,3" Click="CancelButton_Click"/>
+            </StackPanel>
+
+        </Grid>
+    </ScrollViewer>
+</xctk:ChildWindow>
