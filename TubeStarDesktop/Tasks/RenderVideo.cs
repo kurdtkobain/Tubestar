@@ -3,7 +3,7 @@ using System.Windows.Media;
 
 namespace TubeStar
 {
-    class RenderVideo : Task
+    public class RenderVideo : Task
     {
         public const int MinimumRenderTime = 2;
 
