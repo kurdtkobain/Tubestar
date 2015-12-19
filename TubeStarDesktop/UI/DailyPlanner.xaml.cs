@@ -235,6 +235,41 @@ namespace TubeStar
                     if (editTask != null)
                     {
                         editTask.Video.HasBeenEdited = true;
+                        if (editTask.Episodes >= 2)
+                        {
+                            var origVideo = editTask.Video;
+                            Player.Current.Videos.Remove(origVideo);
+                            for (int i = 1; i < editTask.Episodes; i++)
+                            {
+                                var tmpVideo = new Video();
+                                tmpVideo.Category = origVideo.Category;
+                                tmpVideo.ShootQuality = origVideo.ShootQuality;
+                                tmpVideo.EditQuality = origVideo.EditQuality;
+                                tmpVideo.Quality = origVideo.Quality;
+                                tmpVideo.QualityBias = origVideo.QualityBias;
+                                tmpVideo.ExternalQuality = origVideo.ExternalQuality;
+                                tmpVideo.Views = origVideo.Views;
+                                tmpVideo.Likes = origVideo.Likes;
+                                tmpVideo.Dislikes = origVideo.Dislikes;
+                                tmpVideo.Comments = origVideo.Comments;
+                                tmpVideo.HasBeenEdited = origVideo.HasBeenEdited;
+                                tmpVideo.HasBeenRendered = origVideo.HasBeenRendered;
+                                tmpVideo.HasBeenReleased = origVideo.HasBeenReleased;
+                                tmpVideo.ExtraShootingHours = origVideo.ExtraShootingHours;
+                                tmpVideo.ExtraEditingHours = origVideo.ExtraEditingHours;
+                                tmpVideo.ExtraRenderHours = origVideo.ExtraRenderHours;
+                                tmpVideo.Cost = origVideo.Cost;
+                                tmpVideo.Iterations = origVideo.Iterations;
+                                tmpVideo.CostPerView = origVideo.CostPerView;
+                                tmpVideo.OnceOffCost = origVideo.OnceOffCost;
+                                tmpVideo.Attributes = origVideo.Attributes;
+                                tmpVideo.IsSuspended = origVideo.IsSuspended;
+                                tmpVideo.FetchRandomImage();
+                                tmpVideo.Name = String.Format("{0} Part {1}", origVideo.Name, i);
+                                Player.Current.Videos.Add(tmpVideo);
+
+                            }
+                        }
                     }
 
                     var renderTask = task as RenderVideo;

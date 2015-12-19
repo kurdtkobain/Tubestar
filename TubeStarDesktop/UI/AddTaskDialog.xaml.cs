@@ -98,6 +98,7 @@ namespace TubeStar
                         {
                             var editVideoTask = new EditVideo(editDialog.Video);
                             editVideoTask.ExtraHours = editDialog.Video.ExtraEditingHours;
+                            editVideoTask.Episodes = editDialog.Episodes;
                             TaskClick(editVideoTask);
                         }
                     });

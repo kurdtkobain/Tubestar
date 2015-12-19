@@ -8,6 +8,7 @@ namespace TubeStar
         public const int MinimumEditTime = 4;
 
         public Video Video { get; set; }
+        public int Episodes { get; set; }
 
         public EditVideo()
         { }

@@ -12,6 +12,7 @@ namespace TubeStar
     public partial class EditVideoDialog : ChildWindow
     {
         public Video Video { get; private set; }
+        public int Episodes { get; private set; }
 
         public EditVideoDialog(List<Video> videos)
         {
@@ -25,7 +26,7 @@ namespace TubeStar
 
             if (videos.Count == 1)
             {
-                cmbVideo.SelectedValue = videos[0];
+                cmbVideo.SelectedIndex=0;
                 cmbVideo.IsEnabled = false;
             }
         }
@@ -60,6 +61,7 @@ namespace TubeStar
 
             Video = (Video)cmbVideo.SelectedValue;
             Video.ExtraEditingHours = (int)sldrHours.Value - EditVideo.MinimumEditTime;
+            this.Episodes = (int)sldrEpisodes.Value;
             this.DialogResult = true;
         }
 
@@ -72,6 +74,32 @@ namespace TubeStar
         {
             if (lblHours != null)
                 lblHours.Text = String.Format("{0} {1}", (int)sldrHours.Value, EnglishStrings.Hours.Translate().ToLower());
+        }
+
+        private void cmbVideo_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
+        {
+            if (cmbVideo.SelectedValue != null)
+            {
+                var sel = (Video)cmbVideo.SelectedValue;
+                if (sel.Category != VideoCategory.Gaming)
+                {
+                    sldrEpisodes.Maximum = 1;
+                    lblEpisodes.Visibility = lblEpisodesSelect.Visibility = sldrEpisodes.Visibility = Visibility.Collapsed;
+                }
+                else
+                {
+                    int tmpMax =(ShootVideo.MinimumShootTime + sel.ExtraShootingHours) * 60 / 15;
+                    sldrEpisodes.Maximum = tmpMax;
+                    lblEpisodes.Visibility = lblEpisodesSelect.Visibility = sldrEpisodes.Visibility = Visibility.Visible;
+
+                }
+            }
+        }
+
+        private void sldrEpisodes_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            if (lblEpisodes != null)
+                lblEpisodes.Text = String.Format("{0}", (int)sldrEpisodes.Value);
         }
     }
 }
