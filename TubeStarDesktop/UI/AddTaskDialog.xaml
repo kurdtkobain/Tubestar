@@ -1,34 +1,35 @@
-﻿<xctk:ChildWindow x:Class="TubeStar.AddTaskDialog"
+﻿<xctk:ChildWindow
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="TubeStar.AddTaskDialog"
         Caption="Add Task"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+        d:DesignWidth="900" d:DesignHeight="224">
 
     <Grid x:Name="LayoutRoot">
         <StackPanel Orientation="Horizontal">
             <Button x:Name="btnShootVideo" Width="200" FontSize="15" Margin="10" HorizontalAlignment="Left" VerticalAlignment="Top" Click="AddTask_VideoShoot">
-                <Button.Content>
-                    <StackPanel>
-                        <Image Source="../Resources/Shoot.jpg" />
-                        <TextBlock x:Name="txtShootVideo" Text="Shoot video" TextAlignment="Center" TextWrapping="Wrap" />
-                    </StackPanel>
-                </Button.Content>
+                <StackPanel>
+                    <Image Source="../Resources/Shoot.jpg" />
+                    <TextBlock x:Name="txtShootVideo" Text="Shoot video" TextAlignment="Center" TextWrapping="Wrap" />
+                </StackPanel>
             </Button>
             <Button x:Name="btnEditVideo" Width="200" FontSize="15" Margin="10" HorizontalAlignment="Left" VerticalAlignment="Top" Click="AddTask_VideoEdit">
-                <Button.Content>
-                    <StackPanel>
-                        <Image Source="../Resources/Edit.jpg" />
-                        <TextBlock x:Name="txtEditVideo" Text="Edit video" TextAlignment="Center" TextWrapping="Wrap" />
-                    </StackPanel>
-                </Button.Content>
+                <StackPanel>
+                    <Image Source="../Resources/Edit.jpg" />
+                    <TextBlock x:Name="txtEditVideo" Text="Edit video" TextAlignment="Center" TextWrapping="Wrap" />
+                </StackPanel>
+            </Button>
+            <Button x:Name="btnRenderVideo" Width="200" FontSize="15" Margin="10" HorizontalAlignment="Left" VerticalAlignment="Top" Click="AddTask_VideoRender">
+                <StackPanel>
+                    <Image Source="../Resources/Edit.jpg" />
+                    <TextBlock x:Name="txtRenderVideo" Text="Render video" TextAlignment="Center" TextWrapping="Wrap" />
+                </StackPanel>
             </Button>
             <Button x:Name="btnStudy" Width="200" FontSize="15" Margin="10" HorizontalAlignment="Left" VerticalAlignment="Top" Click="AddTask_Study">
-                <Button.Content>
-                    <StackPanel>
-                        <Image Source="../Resources/Study.jpg" />
-                        <TextBlock x:Name="txtStudy" Text="Study" TextAlignment="Center" TextWrapping="Wrap" />
-                    </StackPanel>
-                </Button.Content>
+                <StackPanel>
+                    <Image Source="../Resources/Study.jpg" />
+                    <TextBlock x:Name="txtStudy" Text="Study" TextAlignment="Center" TextWrapping="Wrap" />
+                </StackPanel>
             </Button>
         </StackPanel>
     </Grid>

@@ -24,9 +24,12 @@ namespace TubeStar
         public List<VideoComment> Comments { get; set; }
 
         public bool HasBeenEdited { get; set; }
+        public bool HasBeenRendered { get; set; }
+        public bool HasBeenReleased { get; set; }
 
         public int ExtraShootingHours { get; set; }
         public int ExtraEditingHours { get; set; }
+        public int ExtraRenderHours { get; set; }
         public int Cost { get; set; }
 
         public int Iterations { get; set; }
@@ -47,19 +50,6 @@ namespace TubeStar
         {
             Comments = new List<VideoComment>();
             Attributes = new List<VideoAttribute>();
-        }
-
-        public bool ReadyForRelease()
-        {
-            foreach (var task in Player.Current.TasksInProgress)
-            {
-                var editTask = task as EditVideo;
-                if (editTask != null && editTask.Video == this)
-                {
-                    return false;
-                }
-            }
-            return true;
         }
 
         public int GenerateQuality()

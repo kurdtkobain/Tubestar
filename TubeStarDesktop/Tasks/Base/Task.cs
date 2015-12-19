@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Windows.Media;
 using System.Xml.Serialization;
+//using TubeStar.Tasks.Base;
 
 namespace TubeStar
 {
     [XmlInclude(typeof(EditVideo))]
+    [XmlInclude(typeof(RenderVideo))]
     [XmlInclude(typeof(Job))]
     [XmlInclude(typeof(BowToRobotRulers))]
     [XmlInclude(typeof(ShootVideo))]

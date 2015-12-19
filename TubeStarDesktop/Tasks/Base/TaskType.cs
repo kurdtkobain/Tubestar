@@ -7,6 +7,7 @@ namespace TubeStar
         Job,
         ShootVideo,
         EditVideo,
+        RenderVideo,
         Study,
         BowToRobotRulers
     }

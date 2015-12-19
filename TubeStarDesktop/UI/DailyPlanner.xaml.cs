@@ -236,6 +236,12 @@ namespace TubeStar
                     {
                         editTask.Video.HasBeenEdited = true;
                     }
+
+                    var renderTask = task as RenderVideo;
+                    if (renderTask != null)
+                    {
+                        renderTask.Video.HasBeenRendered = true;
+                    }
                 }
             }
 

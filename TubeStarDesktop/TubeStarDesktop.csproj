@@ -147,6 +147,7 @@
     <Compile Include="Rivals\Rival1.cs" />
     <Compile Include="Rivals\Rival2.cs" />
     <Compile Include="Rivals\Rival3.cs" />
+    <Compile Include="Tasks\RenderVideo.cs" />
     <Compile Include="Tasks\Base\Task.cs" />
     <Compile Include="Tasks\Base\TaskType.cs" />
     <Compile Include="Tasks\BowToRobotRulers.cs" />
@@ -190,6 +191,9 @@
     </Compile>
     <Compile Include="UI\ChannelStatsDialog.xaml.cs">
       <DependentUpon>ChannelStatsDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\RenderVideoDialog .xaml.cs">
+      <DependentUpon>RenderVideoDialog .xaml</DependentUpon>
     </Compile>
     <Compile Include="UI\NewGameDialog.xaml.cs">
       <DependentUpon>NewGameDialog.xaml</DependentUpon>
@@ -337,6 +341,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UI\ChannelStatsDialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UI\RenderVideoDialog .xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

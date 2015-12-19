@@ -46,7 +46,7 @@ namespace TubeStar
             Channel.UnreleasedVideos.Videos.Clear();
             foreach (var video in Player.Current.Videos)
             {
-                if (video.ReadyForRelease())
+                if (!video.HasBeenReleased && video.HasBeenRendered)
                 {
                     Channel.UnreleasedVideos.Videos.Add(video);
                 }

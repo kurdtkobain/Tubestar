@@ -164,6 +164,7 @@ namespace TubeStar
             }
 
             Channel = Settings.LastChannel = (Channel)cmbChannel.SelectedValue;
+            Video.HasBeenReleased = true;
             this.DialogResult = true;
         }
 

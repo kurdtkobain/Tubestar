@@ -628,5 +628,8 @@ namespace TubeStar
 
         [Description("Display 'Creative Commons' Material Only")]
         UseCreativeCommons,
+
+        [Description("'{0}' rendering")]
+        RenderVideoTask,
     }
 }

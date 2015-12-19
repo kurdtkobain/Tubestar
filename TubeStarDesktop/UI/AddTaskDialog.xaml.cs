@@ -118,5 +118,56 @@ namespace TubeStar
             }
             DialogResult = true;
         }
+
+        private void AddTask_VideoRender(object sender, RoutedEventArgs e)
+        {
+            if (TaskClick != null)
+            {
+                List<Video> editedVideos = new List<Video>();
+                foreach (var currentTask in Player.Current.TasksInProgress)
+                {
+                    var editTask = currentTask as EditVideo;
+                    if (editTask != null && !editTask.Video.HasBeenRendered && currentTask.IsCompleted)
+                    {
+                        editedVideos.Add(editTask.Video);
+                    }
+                }
+
+                foreach (var video in Player.Current.Videos)
+                {
+                    if (!video.HasBeenRendered && !editedVideos.Contains(video))
+                    {
+                        editedVideos.Add(video);
+                    }
+                }
+
+                foreach (var currentTask in Player.Current.TasksInProgress)
+                {
+                    var renderTask = currentTask as RenderVideo;
+                    if (renderTask != null)
+                    {
+                        editedVideos.Remove(renderTask.Video);
+                    }
+                }
+
+                if (editedVideos.Count == 0)
+                {
+                    CustomMessageBox.ShowDialog(EnglishStrings.TooSoon.Translate(), EnglishStrings.NoVideosToEdit.Translate(), MessagePicture.Puzzle);
+                    return;
+                }
+
+                RenderVideoDialog renderDialog = new RenderVideoDialog(editedVideos);
+                renderDialog.ShowDialog(() =>
+                {
+                    if (renderDialog.Video != null)
+                    {
+                        var renderVideoTask = new RenderVideo(renderDialog.Video);
+                        renderVideoTask.ExtraHours = renderDialog.Video.ExtraRenderHours;
+                        TaskClick(renderVideoTask);
+                    }
+                });
+            }
+            DialogResult = true;
+        }
     }
 }
