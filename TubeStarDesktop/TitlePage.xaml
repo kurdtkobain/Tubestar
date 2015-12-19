@@ -63,7 +63,7 @@
         <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto" HorizontalAlignment="Right" Padding="0,50,0,0">
             <StackPanel Grid.Row="1">
                 <Image x:Name="imgUpdate" Visibility="Collapsed" Grid.Row="0" Grid.ColumnSpan="3" Source="Resources/Update.png" Cursor="Hand" Height="50" Margin="10, 10, 10, 10" MouseLeftButtonDown="imgUpdate_MouseLeftButtonDown" />
-                <Button x:Name="btnLogin" Margin="5" FontSize="20" Height="75" HorizontalAlignment="Center" Width="200" Click="GJLogin_Click">
+                <Button x:Name="btnLogin" Margin="5" FontSize="20" Height="75" HorizontalAlignment="Center" Width="200" Click="GJLogin_Click" Visibility="Hidden">
                     <Button.Content>
                         <StackPanel>
                             <Image Source="Resources/GameJoltLogo.png" />
