@@ -1,7 +1,8 @@
 
 *.suo
-/TubeStar/TubeStar.csproj.user
-/TubeStarDesktop/bin
-/TubeStarDesktop/obj
-/ModLauncher/obj
-/ModLauncher/bin
+*.csproj.user
+TubeStarDesktop/bin
+TubeStarDesktop/obj
+ModLauncher/obj
+ModLauncher/bin
+*.pdb
