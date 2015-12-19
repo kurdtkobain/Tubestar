@@ -12,7 +12,7 @@ namespace TubeStar
         public static Uri GetRandomImages(string search, int max)
         {
             search = search.Replace(' ', ',');
-            var uriString = String.Format("https://www.googleapis.com/youtube/v3/search?part=snippet&q={0}&type=video&&maxResults={1}&fields=nextPageToken,prevPageToken,items(id(videoId))&key={2}{3}",
+            var uriString = String.Format("https://www.googleapis.com/youtube/v3/search?videoSyndicated=true&part=snippet&q={0}&type=video&&maxResults={1}&fields=nextPageToken,prevPageToken,items(id(videoId))&key={2}{3}",
                 HttpHelpers.UrlEncoding(search), max, ApiKey, Settings.UseCreativeCommons ? "&videoLicense=creativeCommon" : "");
             return new Uri(uriString);
         }
@@ -20,7 +20,7 @@ namespace TubeStar
         public static Uri GetRandomImagesWithTitle(string search, int max)
         {
             search = search.Replace(' ', ',');
-            var uriString = String.Format("https://www.googleapis.com/youtube/v3/search?part=snippet&q={0}&type=video&&maxResults={1}&fields=nextPageToken,prevPageToken,items(id(videoId),snippet(title))&key={2}{3}",
+            var uriString = String.Format("https://www.googleapis.com/youtube/v3/search?videoSyndicated=true&part=snippet&q={0}&type=video&&maxResults={1}&fields=nextPageToken,prevPageToken,items(id(videoId),snippet(title))&key={2}{3}",
                 HttpHelpers.UrlEncoding(search), max, ApiKey, Settings.UseCreativeCommons ? "&videoLicense=creativeCommon" : "");
             return new Uri(uriString);
         }
