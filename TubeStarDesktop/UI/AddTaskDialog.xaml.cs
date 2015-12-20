@@ -128,7 +128,7 @@ namespace TubeStar
                 foreach (var currentTask in Player.Current.TasksInProgress)
                 {
                     var editTask = currentTask as EditVideo;
-                    if (editTask != null && !editTask.Video.HasBeenRendered && currentTask.IsCompleted)
+                    if (editTask != null && !editTask.Video.HasBeenRendered && currentTask.IsCompleted && editTask.Episodes==1)
                     {
                         editedVideos.Add(editTask.Video);
                     }
@@ -136,7 +136,7 @@ namespace TubeStar
 
                 foreach (var video in Player.Current.Videos)
                 {
-                    if (!video.HasBeenRendered && !editedVideos.Contains(video))
+                    if (!video.HasBeenRendered && !editedVideos.Contains(video) && video.HasBeenEdited)
                     {
                         editedVideos.Add(video);
                     }

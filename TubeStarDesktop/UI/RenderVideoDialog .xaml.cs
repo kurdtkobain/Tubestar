@@ -22,10 +22,9 @@ namespace TubeStar
             cmbVideo.ItemsSource = GetData(videos);
             cmbVideo.DisplayMemberPath = "Value";
             cmbVideo.SelectedValuePath = "Key";
-
+            cmbVideo.SelectedIndex = 0;
             if (videos.Count == 1)
             {
-                cmbVideo.SelectedValue = videos[0];
                 cmbVideo.IsEnabled = false;
             }
         }

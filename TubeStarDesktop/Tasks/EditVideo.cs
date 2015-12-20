@@ -5,7 +5,7 @@ namespace TubeStar
 {
     public class EditVideo : Task
     {
-        public const int MinimumEditTime = 4;
+        public const int MinimumEditTime = 2;
 
         public Video Video { get; set; }
         public int Episodes { get; set; }
