@@ -239,7 +239,7 @@ namespace TubeStar
                         {
                             var origVideo = editTask.Video;
                             Player.Current.Videos.Remove(origVideo);
-                            for (int i = 1; i < editTask.Episodes; i++)
+                            for (int i = 0; i < editTask.Episodes; i++)
                             {
                                 var tmpVideo = new Video();
                                 tmpVideo.Category = origVideo.Category;
@@ -265,7 +265,7 @@ namespace TubeStar
                                 tmpVideo.Attributes = origVideo.Attributes;
                                 tmpVideo.IsSuspended = origVideo.IsSuspended;
                                 tmpVideo.FetchRandomImage();
-                                tmpVideo.Name = String.Format("{0} Part {1}", origVideo.Name, i);
+                                tmpVideo.Name = String.Format("{0} Part {1}", origVideo.Name, i+1);
                                 Player.Current.Videos.Add(tmpVideo);
 
                             }
