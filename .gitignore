@@ -8,3 +8,5 @@ ModLauncher/bin
 packages
 x86
 *.pdb
+ModLauncher/bin/x86/Debug/ModLauncher.exe
+*.pdb

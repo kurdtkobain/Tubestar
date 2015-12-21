@@ -75,10 +75,13 @@ namespace TubeStar
             this.AwebView.Dispose();
         }
 
-        private void AwebView_LoadingFrameComplete(object sender, CefSharp.FrameLoadEndEventArgs e)
+        private void AwebView_FrameLoadEnd(object sender, CefSharp.FrameLoadEndEventArgs e)
         {
             string script = "document.body.style.overflow ='hidden'";
-            //this.AwebView.ExecuteScriptAsync(script);
+            Dispatcher.Invoke(new Action(() =>
+            {            
+            this.AwebView.WebBrowser.GetBrowser().MainFrame.ExecuteJavaScriptAsync(script);
+            }));
 
         }
     }
