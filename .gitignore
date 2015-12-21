@@ -5,4 +5,6 @@ TubeStarDesktop/bin
 TubeStarDesktop/obj
 ModLauncher/obj
 ModLauncher/bin
+packages
+x86
 *.pdb

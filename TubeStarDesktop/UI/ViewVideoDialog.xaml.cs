@@ -36,7 +36,7 @@ namespace TubeStar
                 id = "oHg5SJYRHA0";
             }
 
-            this.AwebView.Source = new Uri(String.Format("http://www.youtube.com/embed/{0}?rel=0", id));
+            this.AwebView.Address = String.Format("http://www.youtube.com/embed/{0}?rel=0", id);
         }
 
         private void Translate()
@@ -64,21 +64,21 @@ namespace TubeStar
 
         private void OKButton_Click(object sender, RoutedEventArgs e)
         {
-            this.AwebView.Source = new Uri("about:blank");
+            this.AwebView.Address = "about:blank";
             this.AwebView.Dispose();
             this.DialogResult = true;
         }
 
         private void ChildWindow_Closed(object sender, EventArgs e)
         {
-            this.AwebView.Source = new Uri("about:blank");
+            this.AwebView.Address = "about:blank";
             this.AwebView.Dispose();
         }
 
-        private void AwebView_LoadingFrameComplete(object sender, Awesomium.Core.FrameEventArgs e)
+        private void AwebView_LoadingFrameComplete(object sender, CefSharp.FrameLoadEndEventArgs e)
         {
             string script = "document.body.style.overflow ='hidden'";
-            this.AwebView.ExecuteJavascript(script);
+            //this.AwebView.ExecuteScriptAsync(script);
 
         }
     }
