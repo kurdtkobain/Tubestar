@@ -629,5 +629,8 @@ namespace TubeStar
 
         [Description("'{0}' rendering")]
         RenderVideoTask,
+
+        [Description("Render video")]
+        RenderVideo,
     }
 }

@@ -15,7 +15,7 @@ namespace TubeStar
         public RenderVideoDialog(List<Video> videos)
         {
             InitializeComponent();
-            //Translate();
+            Translate();
             FocusedElement = cmbVideo;
 
             cmbVideo.ItemsSource = GetData(videos);
@@ -30,7 +30,7 @@ namespace TubeStar
 
         private void Translate()
         {
-            Caption = EnglishStrings.EditVideo.Translate();
+            Caption = EnglishStrings.RenderVideo.Translate();
             lblVideo.Text = EnglishStrings.Video.Translate() + ":";
             lblHoursSelect.Text = EnglishStrings.Hours.Translate() + ":";
             btnOk.Content = EnglishStrings.Ok.Translate();
