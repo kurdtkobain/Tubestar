@@ -1,8 +1,4 @@
-﻿using System;
-using System.Net;
-using Newtonsoft.Json;
-
-namespace TubeStar
+﻿namespace TubeStar
 {
     public class HttpHelpers
     {

@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 
 namespace TubeStar
 {
@@ -45,7 +43,7 @@ namespace TubeStar
 
                 File.WriteAllText(fileName, xml);
             }
-            catch(Exception)
+            catch (Exception)
             {
                 CustomMessageBox.ShowDialog(EnglishStrings.Failure.Translate(), EnglishStrings.SaveFail.Translate(), MessagePicture.Error);
             }

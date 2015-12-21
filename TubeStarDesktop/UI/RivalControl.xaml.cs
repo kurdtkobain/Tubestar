@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
@@ -57,7 +56,7 @@ namespace TubeStar
                     channels.Add(channel);
             }
 
-            channels.Sort((l, r) => 
+            channels.Sort((l, r) =>
                 {
                     if (l == null || r == null)
                         return -1;

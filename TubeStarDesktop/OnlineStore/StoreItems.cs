@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
 
 namespace TubeStar
 {
     public class StoreItems
     {
         private static StoreItems _current;
+
         public static StoreItems Current
         {
             get
@@ -44,7 +43,7 @@ namespace TubeStar
                     EditingSoftwareI,
 
                     VideoCameraII,
-                    VideoCameraI,                    
+                    VideoCameraI,
                 };
             }
         }

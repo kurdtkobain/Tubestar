@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Documents;
 using Xceed.Wpf.Toolkit;
 
 namespace TubeStar
@@ -14,7 +10,9 @@ namespace TubeStar
     public partial class NewGameDialog : ChildWindow
     {
         public event Action CasualClicked;
+
         public event Action CareerClicked;
+
         public event Action UltraClicked;
 
         public NewGameDialog()

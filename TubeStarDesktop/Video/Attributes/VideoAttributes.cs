@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace TubeStar
+﻿namespace TubeStar
 {
     public static class VideoAttributes
     {
@@ -12,10 +10,10 @@ namespace TubeStar
         public static Hypnotic Hypnotic { get; private set; }
         public static GenreBuster GenreBuster { get; private set; }
         public static Copycat CopyCat { get; private set; }
-        public static FanboyBait FanBoyBait { get; private set; } 
+        public static FanboyBait FanBoyBait { get; private set; }
         public static Cats Cats { get; private set; }
         public static Crowdfunding Crowdfunding { get; private set; }
-        public static AboveBoard AboveBoard { get; private set; } 
+        public static AboveBoard AboveBoard { get; private set; }
 
         static VideoAttributes()
         {

@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
@@ -15,7 +13,9 @@ namespace TubeStar
     public partial class MainPage : UserControl
     {
         public event Action GameDeath;
+
         public event Action GameLose;
+
         public event Action GameExit;
 
         public MainPage()

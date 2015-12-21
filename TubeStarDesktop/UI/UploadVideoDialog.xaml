@@ -2,19 +2,19 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
-        xmlns:local="clr-namespace:TubeStar" 
+        xmlns:local="clr-namespace:TubeStar"
         Caption="Upload video"
-        WindowStartupLocation="Center" >
+        WindowStartupLocation="Center">
 
     <ScrollViewer VerticalScrollBarVisibility="Auto">
         <Grid Background="White" Height="Auto" Width="500" Margin="5">
             <Grid.RowDefinitions>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="90*"/>
-                <RowDefinition Height="50*"/>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="90*" />
+                <RowDefinition Height="50*" />
             </Grid.RowDefinitions>
 
             <StackPanel  Grid.Row="0"  Margin="5,0,5,5">
@@ -28,17 +28,16 @@
                         </Grid.ColumnDefinitions>
 
                         <Image x:Name="imgVideo" Width="288" Grid.Column="0" Grid.ColumnSpan="3" />
-                        <Button x:Name="Prev" Grid.Column="0" Background="White" VerticalAlignment="Center" HorizontalAlignment="Left" Style="{StaticResource NonAnimatedButtonStyle}" Opacity="0.5" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" Click="Prev_Click" Visibility="Hidden" >
+                        <Button x:Name="Prev" Grid.Column="0" Background="White" VerticalAlignment="Center" HorizontalAlignment="Left" Style="{StaticResource NonAnimatedButtonStyle}" Opacity="0.5" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" Click="Prev_Click" Visibility="Hidden">
                             <Button.Content>
                                 <Image Source="../Resources/Previous_icon.png" />
                             </Button.Content>
                         </Button>
-                        <Button x:Name="Next" Grid.Column="2" Background="White" VerticalAlignment="Center" HorizontalAlignment="Right" Style="{StaticResource NonAnimatedButtonStyle}" Opacity="0.5" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" Click="Next_Click" Visibility="Hidden" >
+                        <Button x:Name="Next" Grid.Column="2" Background="White" VerticalAlignment="Center" HorizontalAlignment="Right" Style="{StaticResource NonAnimatedButtonStyle}" Opacity="0.5" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" Click="Next_Click" Visibility="Hidden">
                             <Button.Content>
                                 <Image Source="../Resources/Next_icon.png" />
                             </Button.Content>
                         </Button>
-
                     </Grid>
 
                     <StackPanel Orientation="Vertical" VerticalAlignment="Center" Margin="20,0,0,0">
@@ -54,7 +53,6 @@
                             </Button>
                         </StackPanel>
                     </StackPanel>
-
                 </StackPanel>
             </StackPanel>
 
@@ -63,27 +61,27 @@
 
             <TextBlock x:Name="lblBuyViews" Grid.Row="3" Text="Buy views: " Style="{StaticResource DialogLabelStyle}" />
             <StackPanel Grid.Row="4" VerticalAlignment="Center" Margin="5,0,5,5">
-                <RadioButton x:Name="rbNone" IsChecked="True" GroupName="buyViewsGroup" Margin="0,2,0,2" >
+                <RadioButton x:Name="rbNone" IsChecked="True" GroupName="buyViewsGroup" Margin="0,2,0,2">
                     <RadioButton.Content>
                         <TextBlock x:Name="txtNone" FontSize="16" Text="None" TextWrapping="Wrap"></TextBlock>
                     </RadioButton.Content>
                 </RadioButton>
-                <RadioButton x:Name="rb2c" GroupName="buyViewsGroup" Margin="0,2,0,2" >
+                <RadioButton x:Name="rb2c" GroupName="buyViewsGroup" Margin="0,2,0,2">
                     <RadioButton.Content>
                         <TextBlock x:Name="txt2c" FontSize="16" Text="1000 views (Cost: $0.02 per view)" TextWrapping="Wrap"></TextBlock>
                     </RadioButton.Content>
                 </RadioButton>
-                <RadioButton x:Name="rb4c" GroupName="buyViewsGroup" Margin="0,2,0,2" >
+                <RadioButton x:Name="rb4c" GroupName="buyViewsGroup" Margin="0,2,0,2">
                     <RadioButton.Content>
                         <TextBlock x:Name="txt4c" FontSize="16" Text="2000 views (Cost: $0.04 per view)" TextWrapping="Wrap"></TextBlock>
                     </RadioButton.Content>
                 </RadioButton>
-                <RadioButton x:Name="rb100" GroupName="buyViewsGroup" Margin="0,2,0,2" >
+                <RadioButton x:Name="rb100" GroupName="buyViewsGroup" Margin="0,2,0,2">
                     <RadioButton.Content>
                         <TextBlock x:Name="txt100" FontSize="16" Text="1000 views (Cost: $100)" TextWrapping="Wrap"></TextBlock>
                     </RadioButton.Content>
                 </RadioButton>
-                <RadioButton x:Name="rb200" GroupName="buyViewsGroup" Margin="0,2,0,2" >
+                <RadioButton x:Name="rb200" GroupName="buyViewsGroup" Margin="0,2,0,2">
                     <RadioButton.Content>
                         <TextBlock x:Name="txt200" FontSize="16" Text="2000 views (Cost: $200)" TextWrapping="Wrap"></TextBlock>
                     </RadioButton.Content>
@@ -91,10 +89,9 @@
             </StackPanel>
 
             <StackPanel Grid.Row="5" Orientation="Horizontal" HorizontalAlignment="Right">
-                <Button x:Name="btnOk" Width="120" Height="30" Content="OK" Margin="3,3,3,3" Click="OKButton_Click"/>
-                <Button x:Name="btnCancel" Width="120" Height="30" Content="Cancel" Margin="3,3,3,3" Click="CancelButton_Click"/>
+                <Button x:Name="btnOk" Width="120" Height="30" Content="OK" Margin="3,3,3,3" Click="OKButton_Click" />
+                <Button x:Name="btnCancel" Width="120" Height="30" Content="Cancel" Margin="3,3,3,3" Click="CancelButton_Click" />
             </StackPanel>
         </Grid>
     </ScrollViewer>
-
 </xctk:ChildWindow>

@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Windows;
-using System.Windows.Controls;
 using System.Windows.Documents;
 using Xceed.Wpf.Toolkit;
 
@@ -128,7 +126,7 @@ namespace TubeStar
                 foreach (var currentTask in Player.Current.TasksInProgress)
                 {
                     var editTask = currentTask as EditVideo;
-                    if (editTask != null && !editTask.Video.HasBeenRendered && currentTask.IsCompleted && editTask.Episodes==1)
+                    if (editTask != null && !editTask.Video.HasBeenRendered && currentTask.IsCompleted && editTask.Episodes == 1)
                     {
                         editedVideos.Add(editTask.Video);
                     }

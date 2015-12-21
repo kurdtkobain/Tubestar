@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Xml.Serialization;
 
 namespace TubeStar
 {
     public class Player
     {
         private static Player _current;
+
         public static Player Current
         {
             get
@@ -21,7 +21,8 @@ namespace TubeStar
         public event Action MoneyChanged;
 
         private double _money;
-        public double Money 
+
+        public double Money
         {
             get { return _money; }
             set

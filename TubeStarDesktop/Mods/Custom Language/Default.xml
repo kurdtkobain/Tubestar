@@ -564,7 +564,7 @@ Click OK to continue, CANCEL to quit</Text>
   </CustomText>
   <CustomText>
     <Id>QuitJobText</Id>
-    <Text>Taking this action will quit your job. 
+    <Text>Taking this action will quit your job.
 Are you sure?</Text>
   </CustomText>
   <CustomText>
@@ -578,7 +578,7 @@ Are you sure?</Text>
   <CustomText>
     <Id>RebellionStart</Id>
     <Text>Taking this action will start an uprising against our robot masters!
-You have a {0}% chance of success and failure will result in DEATH! 
+You have a {0}% chance of success and failure will result in DEATH!
 
 Are you sure?</Text>
   </CustomText>
@@ -805,7 +805,7 @@ That was easy!</Text>
   </CustomText>
   <CustomText>
     <Id>LoanStoreItemDescription</Id>
-    <Text>Immediate payout of {0} guaranteed!! Call today! 
+    <Text>Immediate payout of {0} guaranteed!! Call today!
 Pay back {1} per day. {2}% interest.</Text>
   </CustomText>
   <CustomText>

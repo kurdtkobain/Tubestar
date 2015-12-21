@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
 
 namespace TubeStar
 {
     public class Studies
     {
         private static Studies _current;
+
         public static Studies Current
         {
             get

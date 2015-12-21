@@ -9,8 +9,8 @@
         <ScrollViewer VerticalScrollBarVisibility="Auto">
             <StackPanel Orientation="Vertical">
                 <TextBlock Text="Created By" HorizontalAlignment="Center" Margin="5" />
-                <TextBlock FontSize="18" Text="MIKE HALL" HorizontalAlignment="Center" />                
-                <Separator Margin="5"/>
+                <TextBlock FontSize="18" Text="MIKE HALL" HorizontalAlignment="Center" />
+                <Separator Margin="5" />
                 <TextBlock Text="Images from" HorizontalAlignment="Center" Margin="5" />
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                     <Image x:Name="imgYouTube" Source="../Resources/youtube.png" Margin="5" Cursor="Hand" MouseLeftButtonDown="imgYouTube_MouseLeftButtonDown" />
@@ -21,10 +21,9 @@
                     <Image x:Name="imgIcons8" Source="../Resources/icons8.png" Margin="5" Cursor="Hand" MouseLeftButtonDown="imgIcons8_MouseLeftButtonDown" />
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
-                    <Button x:Name="btnOk" Width="120" Height="30" Content="OK" Margin="3,3,3,3" Click="CancelButton_Click"/>
+                    <Button x:Name="btnOk" Width="120" Height="30" Content="OK" Margin="3,3,3,3" Click="CancelButton_Click" />
                 </StackPanel>
             </StackPanel>
         </ScrollViewer>
     </Grid>
-
 </xctk:ChildWindow>

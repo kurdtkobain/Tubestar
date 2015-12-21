@@ -33,11 +33,11 @@
                     </Button.Content>
                 </Button>
             </StackPanel>
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" >
-                <ToggleButton x:Name="commonsButton" Margin="5" >
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <ToggleButton x:Name="commonsButton" Margin="5">
                     <ToggleButton.Content>
                         <StackPanel>
-                            <Image Source="../Resources/Commons.png" Height="30"/>
+                            <Image Source="../Resources/Commons.png" Height="30" />
                             <TextBlock x:Name="commonsText1" Text="Display 'Creative Commons' Material Only" FontSize="18" HorizontalAlignment="Center" />
                         </StackPanel>
                     </ToggleButton.Content>

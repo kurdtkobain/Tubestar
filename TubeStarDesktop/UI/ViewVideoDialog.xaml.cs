@@ -1,10 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Windows;
-using System.Windows.Controls;
 using System.Windows.Documents;
-using System.Windows.Navigation;
 using Xceed.Wpf.Toolkit;
 
 namespace TubeStar
@@ -79,10 +76,9 @@ namespace TubeStar
         {
             string script = "document.body.style.overflow ='hidden'";
             Dispatcher.Invoke(new Action(() =>
-            {            
-            this.AwebView.WebBrowser.GetBrowser().MainFrame.ExecuteJavaScriptAsync(script);
+            {
+                this.AwebView.WebBrowser.GetBrowser().MainFrame.ExecuteJavaScriptAsync(script);
             }));
-
         }
     }
 }

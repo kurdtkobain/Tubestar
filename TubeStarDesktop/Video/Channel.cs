@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
 
 namespace TubeStar
 {
@@ -11,6 +9,7 @@ namespace TubeStar
         public int MinimumSubsribers { get; set; }
 
         private AdvertisingStrategy _advertising;
+
         public AdvertisingStrategy Advertising
         {
             get { return _advertising; }
@@ -22,6 +21,7 @@ namespace TubeStar
         }
 
         private double? _incomePerView;
+
         public double IncomePerView
         {
             get
@@ -43,6 +43,7 @@ namespace TubeStar
 
         //Stats
         public List<double> IncomeOverTime { get; set; }
+
         public List<double> ExpensesOverTime { get; set; }
         public List<double> SubscribersOverTime { get; set; }
 
@@ -57,6 +58,7 @@ namespace TubeStar
         }
 
         private static Channel _unreleasedVideos;
+
         public static Channel UnreleasedVideos
         {
             get

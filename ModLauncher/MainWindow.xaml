@@ -7,8 +7,8 @@
         Icon="TubeStar.ico">
     <Grid>
         <StackPanel Orientation="Vertical" Margin="10">
-            <TextBlock x:Name="lblRivalMod" Grid.Row="2" Text="Top TubeStars MOD: " Margin="5,2,5,2" FontSize="14"/>
-            <ComboBox x:Name="cmbRivalMod" Grid.Row="3" FontSize="16" VerticalAlignment="Center" Margin="5,0,5,5" />            
+            <TextBlock x:Name="lblRivalMod" Grid.Row="2" Text="Top TubeStars MOD: " Margin="5,2,5,2" FontSize="14" />
+            <ComboBox x:Name="cmbRivalMod" Grid.Row="3" FontSize="16" VerticalAlignment="Center" Margin="5,0,5,5" />
             <Button Click="Button_Click">
                 <Button.Content>
                     <StackPanel>

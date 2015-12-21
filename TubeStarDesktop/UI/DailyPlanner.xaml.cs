@@ -4,7 +4,6 @@ using System.ComponentModel;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Controls.Primitives;
 
 namespace TubeStar
 {
@@ -14,7 +13,9 @@ namespace TubeStar
     public partial class DailyPlanner : UserControl
     {
         public event Action GameExit;
+
         public event Action Death;
+
         public event Action NewDayCompleted;
 
         public List<Task> Appointments { get; private set; }
@@ -60,7 +61,7 @@ namespace TubeStar
                     }
                     else
                     {
-                        int chance =  Player.Current.ChallengeMode ? 50 : 75;
+                        int chance = Player.Current.ChallengeMode ? 50 : 75;
                         CustomMessageBox.ShowDialog(EnglishStrings.RiseUp.Translate(), String.Format(EnglishStrings.RebellionStart.Translate(), chance), MessagePicture.Robot, (result) =>
                         {
                             if (result == true)
@@ -265,9 +266,8 @@ namespace TubeStar
                                 tmpVideo.Attributes = origVideo.Attributes;
                                 tmpVideo.IsSuspended = origVideo.IsSuspended;
                                 tmpVideo.FetchRandomImage();
-                                tmpVideo.Name = String.Format("{0} Part {1}", origVideo.Name, i+1);
+                                tmpVideo.Name = String.Format("{0} Part {1}", origVideo.Name, i + 1);
                                 Player.Current.Videos.Add(tmpVideo);
-
                             }
                         }
                     }
@@ -290,7 +290,7 @@ namespace TubeStar
             Player.Current.Money -= 50; //Living Expenses
             Player.Current.Money -= Math.Max(0, Player.Current.CostOfLivingExtra);
 
-            if(StoreItems.Current.Loan.Purchased)
+            if (StoreItems.Current.Loan.Purchased)
             {
                 Player.Current.LoanPayOff -= StoreItems.Current.Loan.AdditionalCost;
                 Player.Current.Money -= StoreItems.Current.Loan.AdditionalCost;

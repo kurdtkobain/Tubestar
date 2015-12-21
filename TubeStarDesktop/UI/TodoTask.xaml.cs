@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Media;
@@ -13,9 +11,11 @@ namespace TubeStar
     public partial class TodoTask : UserControl
     {
         public event EventHandler TaskClick;
+
         public event EventHandler CancelTaskClick;
 
         private Task _task;
+
         public Task Task
         {
             get { return _task; }

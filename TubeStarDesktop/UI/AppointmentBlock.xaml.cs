@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Media;
@@ -18,13 +16,13 @@ namespace TubeStar
         public string Minute { get; set; }
 
         private Task _task;
+
         public Task Task
         {
             get { return _task; }
             set
             {
                 _task = value;
-
 
                 bool isNull = (_task == null);
 

@@ -1,7 +1,4 @@
-﻿using System;
-using System.Windows.Media;
-
-namespace TubeStar
+﻿namespace TubeStar
 {
     public class EditingSoftwareII : StoreItem
     {

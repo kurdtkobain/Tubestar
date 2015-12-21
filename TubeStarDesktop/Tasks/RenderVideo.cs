@@ -10,13 +10,13 @@ namespace TubeStar
         public Video Video { get; set; }
 
         public RenderVideo()
-        {}
-        
+        { }
+
         public RenderVideo(Video video)
         {
             Video = video;
         }
-        
+
         public override TaskType TaskType
         {
             get { return TaskType.RenderVideo; }

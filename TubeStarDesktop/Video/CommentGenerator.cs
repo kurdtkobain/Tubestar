@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Linq;
 
 namespace TubeStar
@@ -515,7 +514,6 @@ namespace TubeStar
 
             if (video.Attributes.Contains(VideoAttributes.Cats))
             {
-                
                 comments.Add(CommentStrings.LikeCatsComment1.Translate());
                 comments.Add(CommentStrings.LikeCatsComment2.Translate());
             }

@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.IO;
-using System.Windows.Media.Imaging;
-using System.Xml.Serialization;
-
-namespace TubeStar
+﻿namespace TubeStar
 {
     public class VideoComment
     {

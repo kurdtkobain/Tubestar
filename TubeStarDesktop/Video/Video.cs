@@ -1,9 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.IO;
-using System.Windows.Media.Imaging;
-using System.Xml.Serialization;
 
 namespace TubeStar
 {
@@ -41,6 +37,7 @@ namespace TubeStar
 
         public string YouTubeVideoId { get; set; }
         public byte[] ImageBytes { get; set; }
+
         public event Action OnImageFetched;
 
         public bool IsSuspended { get; set; }
@@ -105,7 +102,7 @@ namespace TubeStar
                     EditQuality = 0;
 
                     int schoolSkill = 0;
-                    Studies.Current.All.ForEach(s => 
+                    Studies.Current.All.ForEach(s =>
                     {
                         if (s.IsCompleted && s.SkillModifierType == SkillModifierType.PostProduction)
                             schoolSkill += s.SkillModifier;

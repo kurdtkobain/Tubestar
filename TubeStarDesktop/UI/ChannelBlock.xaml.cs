@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Media;
@@ -13,9 +11,11 @@ namespace TubeStar
     public partial class ChannelBlock : UserControl
     {
         public event EventHandler ChannelClick;
+
         public event EventHandler EditClick;
 
         private Channel _channel;
+
         public Channel Channel
         {
             get { return _channel; }
@@ -34,14 +34,15 @@ namespace TubeStar
         }
 
         private bool _selected;
+
         public bool Selected
         {
             get { return _selected; }
             set
             {
                 _selected = value;
-                rootGrid.Background = new SolidColorBrush(_selected ? 
-                    (Channel != null && Channel.IsRivalChannel ? Colors.DodgerBlue : Colors.Crimson) : 
+                rootGrid.Background = new SolidColorBrush(_selected ?
+                    (Channel != null && Channel.IsRivalChannel ? Colors.DodgerBlue : Colors.Crimson) :
                     Colors.Silver);
             }
         }
@@ -94,7 +95,7 @@ namespace TubeStar
             if (!_selected)
             {
                 rootGrid.Background = new SolidColorBrush(Colors.DarkGray);
-            }    
+            }
         }
 
         private void UserControl_MouseLeave(object sender, MouseEventArgs e)
@@ -103,7 +104,7 @@ namespace TubeStar
             if (!_selected)
             {
                 rootGrid.Background = new SolidColorBrush(Colors.Silver);
-            }  
+            }
         }
     }
 }

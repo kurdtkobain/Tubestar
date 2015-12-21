@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace TubeStar
+﻿namespace TubeStar
 {
     public class Rival13 : Rival
     {

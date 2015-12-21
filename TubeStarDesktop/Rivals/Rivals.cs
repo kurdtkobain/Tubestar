@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace TubeStar
 {
     public class Rivals
     {
         private static Rivals _current;
+
         public static Rivals Current
         {
             get
@@ -33,6 +33,7 @@ namespace TubeStar
         }
 
         private List<Rival> _rivals;
+
         public List<Rival> All
         {
             get { return _rivals; }

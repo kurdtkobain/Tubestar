@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace TubeStar
+﻿namespace TubeStar
 {
     public class LearnFromMistakes : VideoAttribute
     {

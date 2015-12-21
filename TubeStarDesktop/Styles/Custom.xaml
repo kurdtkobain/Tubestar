@@ -3,37 +3,37 @@
                     xmlns:local="clr-namespace:TubeStar">
 
     <Style TargetType="ToolTip">
-        <Setter Property="FontFamily" Value="Segoe UI"/>
+        <Setter Property="FontFamily" Value="Segoe UI" />
     </Style>
 
     <Style x:Key="DialogLabelStyle" TargetType="TextBlock">
-        <Setter Property="TextWrapping" Value="Wrap"/>
-        <Setter Property="FontSize" Value="14"/>
-        <Setter Property="Margin" Value="5,2,5,2"/>
+        <Setter Property="TextWrapping" Value="Wrap" />
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="Margin" Value="5,2,5,2" />
     </Style>
 
     <Style x:Key="ClickStyle" TargetType="FrameworkElement">
         <Style.Resources>
             <Storyboard x:Key="OnClickAnimation">
                 <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="{x:Null}">
-                    <EasingDoubleKeyFrame KeyTime="0" Value="0.97"/>
-                    <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="1"/>
+                    <EasingDoubleKeyFrame KeyTime="0" Value="0.97" />
+                    <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="1" />
                 </DoubleAnimationUsingKeyFrames>
                 <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="{x:Null}">
-                    <EasingDoubleKeyFrame KeyTime="0" Value="0.97"/>
-                    <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="1"/>
+                    <EasingDoubleKeyFrame KeyTime="0" Value="0.97" />
+                    <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="1" />
                 </DoubleAnimationUsingKeyFrames>
             </Storyboard>
         </Style.Resources>
 
-        <Setter Property="RenderTransformOrigin" Value="0.5,0.5"/>
+        <Setter Property="RenderTransformOrigin" Value="0.5,0.5" />
         <Setter Property="RenderTransform">
             <Setter.Value>
                 <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform/>
-                    <TranslateTransform/>
+                    <ScaleTransform />
+                    <SkewTransform />
+                    <RotateTransform />
+                    <TranslateTransform />
                 </TransformGroup>
             </Setter.Value>
         </Setter>
@@ -42,7 +42,7 @@
     <Style x:Key="TriggerClickStyle" TargetType="FrameworkElement" BasedOn="{StaticResource ClickStyle}">
         <Style.Triggers>
             <EventTrigger RoutedEvent="ButtonBase.PreviewMouseLeftButtonDown">
-                <BeginStoryboard x:Name="OnClick1_BeginStoryboard" Storyboard="{StaticResource OnClickAnimation}"/>
+                <BeginStoryboard x:Name="OnClick1_BeginStoryboard" Storyboard="{StaticResource OnClickAnimation}" />
             </EventTrigger>
         </Style.Triggers>
     </Style>
@@ -89,7 +89,7 @@
                         <Border x:Name="Background"
                                 BorderThickness="{TemplateBinding BorderThickness}"
                                 BorderBrush="{TemplateBinding BorderBrush}"
-                                Background="{TemplateBinding Background}"/>
+                                Background="{TemplateBinding Background}" />
                         <Rectangle x:Name="DisabledVisualElement"
                                    Fill="{DynamicResource ControlsDisabledBrush}"
                                    IsHitTestVisible="false"
@@ -210,7 +210,7 @@
                         <Border x:Name="Background"
                                 BorderBrush="{TemplateBinding BorderBrush}"
                                 BorderThickness="{TemplateBinding BorderThickness}"
-                                Background="{TemplateBinding Background}"/>
+                                Background="{TemplateBinding Background}" />
                         <Rectangle x:Name="DisabledVisualElement"
                                    Fill="{DynamicResource WhiteBrush}"
                                    IsHitTestVisible="false"
@@ -223,7 +223,7 @@
                                 BorderBrush="{TemplateBinding BorderBrush}"
                                 BorderThickness="0"
                                 Background="DodgerBlue"
-                                Opacity="0"/>
+                                Opacity="0" />
                         <ContentPresenter x:Name="contentPresenter"
                                           RecognizesAccessKey="True"
                                           ContentTemplate="{TemplateBinding ContentTemplate}"
@@ -234,7 +234,5 @@
                 </ControlTemplate>
             </Setter.Value>
         </Setter>
-
     </Style>
-
 </ResourceDictionary>

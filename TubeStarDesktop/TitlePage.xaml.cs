@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Microsoft.Win32;
+using System;
 using System.IO;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Documents;
-using Microsoft.Win32;
 
 namespace TubeStar
 {
@@ -14,6 +13,7 @@ namespace TubeStar
     public partial class TitlePage : UserControl
     {
         public event Action ContinueGameClicked;
+
         public event Action<bool, bool> NewGameClicked;
 
         private string _steamUrl;

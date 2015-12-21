@@ -156,7 +156,7 @@ Buga inför dina nya ledare.</Text>
   </CustomText>
   <CustomText>
     <Id>GainSubscribers</Id>
-    <Text>Du har blivit visad på en hemsida 
+    <Text>Du har blivit visad på en hemsida
 
 Du har fått {0} prenumeranter!</Text>
   </CustomText>

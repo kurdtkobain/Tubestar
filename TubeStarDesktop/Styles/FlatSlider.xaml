@@ -9,9 +9,8 @@
     <SolidColorBrush x:Key="SliderTrackNormal" Color="#FFC6C6C6" />
     <SolidColorBrush x:Key="BlackBrush" Color="{StaticResource BlackColor}" />
     <SolidColorBrush x:Key="SliderTrackHover" Color="#FFD0D0D0" />
-    <SolidColorBrush x:Key="AccentColorBrush" Color="{StaticResource AccentColor}"/>
-    <SolidColorBrush x:Key="AccentColorBrush2" Color="{StaticResource AccentColor2}"/>
-
+    <SolidColorBrush x:Key="AccentColorBrush" Color="{StaticResource AccentColor}" />
+    <SolidColorBrush x:Key="AccentColorBrush2" Color="{StaticResource AccentColor2}" />
 
     <Style x:Key="SliderButtonStyle" TargetType="RepeatButton">
         <Setter Property="SnapsToDevicePixels" Value="true" />

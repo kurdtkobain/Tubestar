@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Windows.Controls;
 
 namespace TubeStar
@@ -13,6 +11,7 @@ namespace TubeStar
         public event EventHandler SelectedChanged;
 
         private VideoAttribute _videoAttribute;
+
         public VideoAttribute VideoAttribute
         {
             get { return _videoAttribute; }
@@ -32,6 +31,7 @@ namespace TubeStar
         }
 
         private bool _selected;
+
         public bool Selected
         {
             get { return _selected; }

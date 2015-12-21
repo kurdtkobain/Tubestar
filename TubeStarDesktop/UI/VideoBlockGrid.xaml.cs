@@ -1,7 +1,5 @@
 ﻿using Nicenis.Windows;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
@@ -16,11 +14,13 @@ namespace TubeStar
     public partial class VideoBlockGrid : UserControl
     {
         public event EventHandler UploadClick;
+
         public event EventHandler LawyerClick;
 
         private Channel _channel;
 
         private Video _video;
+
         public Video Video
         {
             get { return _video; }

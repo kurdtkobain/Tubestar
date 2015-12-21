@@ -1,19 +1,19 @@
 ﻿<UserControl x:Class="TubeStar.RivalControl"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:TubeStar" >
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:TubeStar">
 
     <Grid x:Name="LayoutRoot">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        
+
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="30*"/>
-            <ColumnDefinition Width="70*"/>
+            <ColumnDefinition Width="30*" />
+            <ColumnDefinition Width="70*" />
         </Grid.ColumnDefinitions>
 
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.ColumnSpan="2">
@@ -25,21 +25,21 @@
         </StackPanel>
 
         <ScrollViewer Grid.Row="1" Grid.Column="0" Margin="10,50,10,10" BorderThickness="0" VerticalScrollBarVisibility="Auto">
-            <StackPanel x:Name="channelPanel"/>
+            <StackPanel x:Name="channelPanel" />
         </ScrollViewer>
 
         <Grid Grid.Row="1" Grid.Column="1" Background="DodgerBlue" Height="45" VerticalAlignment="Top" Margin="1,1,5,5">
 
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="50"/>
-                <ColumnDefinition Width="50"/>
-                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="50" />
+                <ColumnDefinition Width="50" />
+                <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
 
-            <Button x:Name="btnGrid" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="2" Click="btnGrid_Click" Style="{StaticResource NonAnimatedButtonStyle}" >
+            <Button x:Name="btnGrid" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="2" Click="btnGrid_Click" Style="{StaticResource NonAnimatedButtonStyle}">
                 <Image Source="../Resources/Grid-icon.png" />
             </Button>
-            <Button x:Name="btnList" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="2" Click="btnList_Click" Style="{StaticResource NonAnimatedButtonStyle}" >
+            <Button x:Name="btnList" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="2" Click="btnList_Click" Style="{StaticResource NonAnimatedButtonStyle}">
                 <Image Source="../Resources/List-icon.png" />
             </Button>
 

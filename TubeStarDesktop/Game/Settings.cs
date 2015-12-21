@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace TubeStar
+﻿namespace TubeStar
 {
     public static class Settings
     {

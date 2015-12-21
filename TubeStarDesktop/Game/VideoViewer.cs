@@ -99,7 +99,7 @@ namespace TubeStar
                 return;
             }
 
-            int tempShares = (int)(_videoShares[video.Id] * (Player.Current.ChallengeMode ? 0.1 : 0.2)); 
+            int tempShares = (int)(_videoShares[video.Id] * (Player.Current.ChallengeMode ? 0.1 : 0.2));
             _videoShares[video.Id] -= tempShares;
 
             int payedViews = _videoBoughtViews.ContainsKey(video.Id) ? _videoBoughtViews[video.Id] : 0;
@@ -265,15 +265,19 @@ namespace TubeStar
                 case (AdvertisingStrategy.Low):
                     initialChance = 90;
                     break;
+
                 case (AdvertisingStrategy.Normal):
                     initialChance = 70;
                     break;
+
                 case (AdvertisingStrategy.High):
                     initialChance = 50;
                     break;
+
                 case (AdvertisingStrategy.Aggressive):
                     initialChance = 30;
                     break;
+
                 default: throw new NotSupportedException();
             }
 

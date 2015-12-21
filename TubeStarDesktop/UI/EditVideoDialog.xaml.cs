@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Windows;
 using Xceed.Wpf.Toolkit;
 
@@ -23,7 +22,7 @@ namespace TubeStar
             cmbVideo.ItemsSource = GetData(videos);
             cmbVideo.DisplayMemberPath = "Value";
             cmbVideo.SelectedValuePath = "Key";
-            cmbVideo.SelectedIndex=0;
+            cmbVideo.SelectedIndex = 0;
             if (videos.Count == 1)
             {
                 cmbVideo.IsEnabled = false;
@@ -87,10 +86,9 @@ namespace TubeStar
                 }
                 else
                 {
-                    int tmpMax =(ShootVideo.MinimumShootTime + sel.ExtraShootingHours) * 60 / 15;
+                    int tmpMax = (ShootVideo.MinimumShootTime + sel.ExtraShootingHours) * 60 / 15;
                     sldrEpisodes.Maximum = tmpMax;
                     lblEpisodes.Visibility = lblEpisodesSelect.Visibility = sldrEpisodes.Visibility = Visibility.Visible;
-
                 }
             }
         }

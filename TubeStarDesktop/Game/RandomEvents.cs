@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -69,6 +68,7 @@ namespace TubeStar
                             }
                         }
                         break;
+
                     case RandomEvent.ComputerCrash:
                         {
                             if (!Player.Current.ChallengeMode && RandomHelpers.RandomBool())
@@ -84,12 +84,14 @@ namespace TubeStar
                             }
                         }
                         break;
+
                     case RandomEvent.CostOfLivingIncrease:
                         {
                             Player.Current.CostOfLivingExtra += 20;
                             ShowMessage(EnglishStrings.CostOfLivingIncrease.Translate(), MessagePicture.Money);
                         }
                         break;
+
                     case RandomEvent.LoseJob:
                         {
                             if (Player.Current.ChallengeMode && !Player.Current.QuitJob)
@@ -102,6 +104,7 @@ namespace TubeStar
                             }
                         }
                         break;
+
                     case RandomEvent.LoseSubscribers:
                         {
                             var total = 0;
@@ -121,6 +124,7 @@ namespace TubeStar
                             }
                         }
                         break;
+
                     case RandomEvent.Overtime:
                         {
                             if (!Player.Current.QuitJob)
@@ -130,6 +134,7 @@ namespace TubeStar
                             }
                         }
                         break;
+
                     case RandomEvent.VideoSuspended:
                         {
                             if (!Player.Current.ChallengeMode && RandomHelpers.RandomBool())
@@ -159,6 +164,7 @@ namespace TubeStar
                             }
                         }
                         break;
+
                     case RandomEvent.FoundSmallChange:
                         {
                             double change = (double)RandomHelpers.RandomInt(500) / 100;
@@ -169,6 +175,7 @@ namespace TubeStar
                             }
                         }
                         break;
+
                     case RandomEvent.Promotion:
                         {
                             if (!Player.Current.QuitJob && !Player.Current.HasPromotion)
@@ -178,6 +185,7 @@ namespace TubeStar
                             }
                         }
                         break;
+
                     case RandomEvent.RobotsRise:
                         {
                             if (!Player.Current.RobotRulers)
@@ -195,6 +203,7 @@ namespace TubeStar
                             }
                         }
                         break;
+
                     case RandomEvent.BeautyContest:
                         {
                             _beautyCount++;
@@ -205,6 +214,7 @@ namespace TubeStar
                                 TrophyManager.UnlockTrophy(Trophy.TopModel);
                         }
                         break;
+
                     case RandomEvent.ChannelSuspensionLifted:
                         {
                             List<Channel> validChannels = new List<Channel>();
@@ -227,12 +237,14 @@ namespace TubeStar
                             }
                         }
                         break;
+
                     case RandomEvent.CostOfLivingDrops:
                         {
                             Player.Current.CostOfLivingExtra -= 20;
                             ShowMessage(EnglishStrings.CostOfLivingDecreased.Translate(), MessagePicture.Money);
                         }
                         break;
+
                     case RandomEvent.FreeClass:
                         {
                             Study chosenStudy = null;
@@ -255,6 +267,7 @@ namespace TubeStar
                             }
                         }
                         break;
+
                     case RandomEvent.GainSubscribers:
                         {
                             var total = 0;
@@ -274,6 +287,7 @@ namespace TubeStar
                             }
                         }
                         break;
+
                     case RandomEvent.VideoSuspensionLifted:
                         {
                             List<Video> validVideos = new List<Video>();

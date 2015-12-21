@@ -88,13 +88,13 @@ W każdym razie przepraszam! Nie mogłem zapisać gry!</Text>
   </CustomText>
   <CustomText>
     <Id>LoadFail</Id>
-    <Text>Coś poszło bardzo źle! 
-A może tylko trochę źle ... 
+    <Text>Coś poszło bardzo źle!
+A może tylko trochę źle ...
 W każdym razie, przepraszam! Nie mogłem wczytać gry!</Text>
   </CustomText>
   <CustomText>
     <Id>ChannelSuspended</Id>
-    <Text>Kanal '{0}' został zawieszony ze wzgledu na 
+    <Text>Kanal '{0}' został zawieszony ze wzgledu na
 podejrzenie naruszenia warunków YouTube!</Text>
   </CustomText>
   <CustomText>
@@ -369,8 +369,8 @@ Zyskujesz {0} widzów!</Text>
   </CustomText>
   <CustomText>
     <Id>RobotDeath</Id>
-    <Text>Umarłeś przy zwalczaniu plagi robotów. 
-Twoja oficjalna przyczyna śmierci jest wyrażona jako: 
+    <Text>Umarłeś przy zwalczaniu plagi robotów.
+Twoja oficjalna przyczyna śmierci jest wyrażona jako:
 
 "Wyczerpanie z sił kłaniając się panom robotą."</Text>
   </CustomText>
@@ -388,7 +388,7 @@ Twoja oficjalna przyczyna śmierci jest wyrażona jako:
   </CustomText>
   <CustomText>
     <Id>SaveExists</Id>
-    <Text>Plik zapisu już istnieje! 
+    <Text>Plik zapisu już istnieje!
 Zastąpić?</Text>
   </CustomText>
   <CustomText>
@@ -565,7 +565,7 @@ Kliknij OK żeby kontynować, ANULUJ żeby wyjść</Text>
   </CustomText>
   <CustomText>
     <Id>QuitJobText</Id>
-    <Text>Robiąc to rzucisz pracę. 
+    <Text>Robiąc to rzucisz pracę.
 Jesteś tego pewny?</Text>
   </CustomText>
   <CustomText>
@@ -574,15 +574,15 @@ Jesteś tego pewny?</Text>
   </CustomText>
   <CustomText>
     <Id>RebellionCashRequired</Id>
-    <Text>Trzeba co najmniej {0} aby zacząć 
+    <Text>Trzeba co najmniej {0} aby zacząć
 bunt wobec robotow!</Text>
   </CustomText>
   <CustomText>
     <Id>RebellionStart</Id>
-    <Text>Przy tej czynności rozpocznie powstanie 
-wobec naszych mistrzów robotów! 
-Masz {0}% szans na sukces 
-i porażka może prowadzić do śmierci! 
+    <Text>Przy tej czynności rozpocznie powstanie
+wobec naszych mistrzów robotów!
+Masz {0}% szans na sukces
+i porażka może prowadzić do śmierci!
 
 Czy na pewno?</Text>
   </CustomText>
@@ -592,8 +592,8 @@ Czy na pewno?</Text>
   </CustomText>
   <CustomText>
     <Id>RebellionSuccess</Id>
-    <Text>Znajdziesz wyłącznik główny i 
-Wyłączasz mistrza robotów! 
+    <Text>Znajdziesz wyłącznik główny i
+Wyłączasz mistrza robotów!
 To było łatwe!</Text>
   </CustomText>
   <CustomText>
@@ -810,7 +810,7 @@ To było łatwe!</Text>
   </CustomText>
   <CustomText>
     <Id>LoanStoreItemDescription</Id>
-    <Text>Natychmiastowa wypłata z {0} gwarantowane! Zadzwoń już dziś! 
+    <Text>Natychmiastowa wypłata z {0} gwarantowane! Zadzwoń już dziś!
 Spłata {1} na dzień. {2}% odsetek.</Text>
   </CustomText>
   <CustomText>

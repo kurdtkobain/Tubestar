@@ -1,7 +1,4 @@
-﻿using System;
-using System.Xml.Serialization;
-
-namespace TubeStar
+﻿namespace TubeStar
 {
     public class Cats : VideoAttribute
     {

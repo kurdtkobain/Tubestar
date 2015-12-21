@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.IO;
-using System.Linq;
-using System.Text;
 using System.Windows;
 
 namespace TubeStar
@@ -42,7 +40,7 @@ namespace TubeStar
                     }
                 }
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 _customLanguage = null;
                 Properties.Settings.Default.Language = null;

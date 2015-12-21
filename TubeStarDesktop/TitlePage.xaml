@@ -20,29 +20,28 @@
         <ScrollViewer Grid.Row="1" Grid.ColumnSpan="3" VerticalScrollBarVisibility="Auto">
             <StackPanel>
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                    <Image x:Name="imgUK" Height="35" Source="Resources/Languages/English.png" MouseLeftButtonDown="imgUK_MouseLeftButtonDown"/>
-                    <Image x:Name="imgBrazil" Height="35" Source="Resources/Languages/Brazil.png" MouseLeftButtonDown="imgBrazil_MouseLeftButtonDown"/>
-                    <Image x:Name="imgPortugal" Height="35" Source="Resources/Languages/Portugal.png" MouseLeftButtonDown="imgPortugal_MouseLeftButtonDown"/>
-                    <Image x:Name="imgSpain" Height="35" Source="Resources/Languages/Spanish.png" MouseLeftButtonDown="imgSpain_MouseLeftButtonDown"/>
-                    <Image x:Name="imgFrance" Height="35" Source="Resources/Languages/French.png" MouseLeftButtonDown="imgFrance_MouseLeftButtonDown"/>
-                    <Image x:Name="imgNetherlands" Height="35" Source="Resources/Languages/Dutch.png" MouseLeftButtonDown="imgNetherlands_MouseLeftButtonDown"/>
-                    <Image x:Name="imgGermany" Height="35" Source="Resources/Languages/German.png" MouseLeftButtonDown="imgGermany_MouseLeftButtonDown"/>
-                    <Image x:Name="imgItaly" Height="35" Source="Resources/Languages/Italian.png" MouseLeftButtonDown="imgItaly_MouseLeftButtonDown"/>
-                    <Image x:Name="imgCzech" Height="35" Source="Resources/Languages/Czech.png" MouseLeftButtonDown="imgCzech_MouseLeftButtonDown"/>
-                    <Image x:Name="imgSweden" Height="35" Source="Resources/Languages/Swedish.png" MouseLeftButtonDown="imgSweden_MouseLeftButtonDown"/>
-                    <Image x:Name="imgPoland" Height="35" Source="Resources/Languages/Polish.png" MouseLeftButtonDown="imgPoland_MouseLeftButtonDown"/>
-                    <Image x:Name="imgHungary" Height="35" Source="Resources/Languages/Hungarian.png" MouseLeftButtonDown="imgHungary_MouseLeftButtonDown"/>
-
+                    <Image x:Name="imgUK" Height="35" Source="Resources/Languages/English.png" MouseLeftButtonDown="imgUK_MouseLeftButtonDown" />
+                    <Image x:Name="imgBrazil" Height="35" Source="Resources/Languages/Brazil.png" MouseLeftButtonDown="imgBrazil_MouseLeftButtonDown" />
+                    <Image x:Name="imgPortugal" Height="35" Source="Resources/Languages/Portugal.png" MouseLeftButtonDown="imgPortugal_MouseLeftButtonDown" />
+                    <Image x:Name="imgSpain" Height="35" Source="Resources/Languages/Spanish.png" MouseLeftButtonDown="imgSpain_MouseLeftButtonDown" />
+                    <Image x:Name="imgFrance" Height="35" Source="Resources/Languages/French.png" MouseLeftButtonDown="imgFrance_MouseLeftButtonDown" />
+                    <Image x:Name="imgNetherlands" Height="35" Source="Resources/Languages/Dutch.png" MouseLeftButtonDown="imgNetherlands_MouseLeftButtonDown" />
+                    <Image x:Name="imgGermany" Height="35" Source="Resources/Languages/German.png" MouseLeftButtonDown="imgGermany_MouseLeftButtonDown" />
+                    <Image x:Name="imgItaly" Height="35" Source="Resources/Languages/Italian.png" MouseLeftButtonDown="imgItaly_MouseLeftButtonDown" />
+                    <Image x:Name="imgCzech" Height="35" Source="Resources/Languages/Czech.png" MouseLeftButtonDown="imgCzech_MouseLeftButtonDown" />
+                    <Image x:Name="imgSweden" Height="35" Source="Resources/Languages/Swedish.png" MouseLeftButtonDown="imgSweden_MouseLeftButtonDown" />
+                    <Image x:Name="imgPoland" Height="35" Source="Resources/Languages/Polish.png" MouseLeftButtonDown="imgPoland_MouseLeftButtonDown" />
+                    <Image x:Name="imgHungary" Height="35" Source="Resources/Languages/Hungarian.png" MouseLeftButtonDown="imgHungary_MouseLeftButtonDown" />
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                    <Image x:Name="imgAlbania" Height="35" Source="Resources/Languages/Albanian.png" MouseLeftButtonDown="imgAlbania_MouseLeftButtonDown"/>
-                    <Image x:Name="imgRomania" Height="35" Source="Resources/Languages/Romanian.png" MouseLeftButtonDown="imgRomania_MouseLeftButtonDown"/>
-                    <Image x:Name="imgTurkey" Height="35" Source="Resources/Languages/Turkish.png" MouseLeftButtonDown="imgTurkey_MouseLeftButtonDown"/>
-                    <Image x:Name="imgRussia" Height="35" Source="Resources/Languages/Russian.png" MouseLeftButtonDown="imgRussia_MouseLeftButtonDown"/>
-                    <Image x:Name="imgGeorgia" Height="35" Source="Resources/Languages/Georgia.png" MouseLeftButtonDown="imgGeorgia_MouseLeftButtonDown"/>
-                    <Image x:Name="imgChina" Height="35" Source="Resources/Languages/Chinese.png" MouseLeftButtonDown="imgChina_MouseLeftButtonDown"/>
-                    <Image x:Name="imgIndonesia" Height="35" Source="Resources/Languages/Indonesian.png" MouseLeftButtonDown="imgIndonesia_MouseLeftButtonDown"/>
-                    <Image x:Name="imgThailand" Height="35" Source="Resources/Languages/Thai.png" MouseLeftButtonDown="imgThailand_MouseLeftButtonDown"/>
+                    <Image x:Name="imgAlbania" Height="35" Source="Resources/Languages/Albanian.png" MouseLeftButtonDown="imgAlbania_MouseLeftButtonDown" />
+                    <Image x:Name="imgRomania" Height="35" Source="Resources/Languages/Romanian.png" MouseLeftButtonDown="imgRomania_MouseLeftButtonDown" />
+                    <Image x:Name="imgTurkey" Height="35" Source="Resources/Languages/Turkish.png" MouseLeftButtonDown="imgTurkey_MouseLeftButtonDown" />
+                    <Image x:Name="imgRussia" Height="35" Source="Resources/Languages/Russian.png" MouseLeftButtonDown="imgRussia_MouseLeftButtonDown" />
+                    <Image x:Name="imgGeorgia" Height="35" Source="Resources/Languages/Georgia.png" MouseLeftButtonDown="imgGeorgia_MouseLeftButtonDown" />
+                    <Image x:Name="imgChina" Height="35" Source="Resources/Languages/Chinese.png" MouseLeftButtonDown="imgChina_MouseLeftButtonDown" />
+                    <Image x:Name="imgIndonesia" Height="35" Source="Resources/Languages/Indonesian.png" MouseLeftButtonDown="imgIndonesia_MouseLeftButtonDown" />
+                    <Image x:Name="imgThailand" Height="35" Source="Resources/Languages/Thai.png" MouseLeftButtonDown="imgThailand_MouseLeftButtonDown" />
 
                     <Button x:Name="imgCustom" Margin="2" Height="35" Click="imgCustom_Click">
                         <Button.Content>

@@ -18,7 +18,7 @@
                 <ToggleButton.Content>
                     <WrapPanel>
                         <Image Source="/Resources/Home_icon.png" Margin="3,0,3,0" />
-                        <TextBlock x:Name="txtDailyPlanner" Text="Daily Planner" VerticalAlignment="Center"/>
+                        <TextBlock x:Name="txtDailyPlanner" Text="Daily Planner" VerticalAlignment="Center" />
                     </WrapPanel>
                 </ToggleButton.Content>
             </ToggleButton>
@@ -27,7 +27,7 @@
                 <ToggleButton.Content>
                     <WrapPanel>
                         <Image Source="/Resources/Video_icon.png" Margin="3,0,3,0" />
-                        <TextBlock x:Name="txtVideoPlanner" Text="Video Manager" VerticalAlignment="Center"/>
+                        <TextBlock x:Name="txtVideoPlanner" Text="Video Manager" VerticalAlignment="Center" />
                     </WrapPanel>
                 </ToggleButton.Content>
             </ToggleButton>
@@ -53,9 +53,9 @@
 
         <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Right">
             <TextBlock x:Name="txtMoney" Grid.Row="0" FontSize="16" FontWeight="Bold" Text="$1,000.00" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="10,0,10,0" />
-            <Image x:Name="imgSave" Source="Resources/Disk.png" MouseLeftButtonDown="Save_MouseLeftButtonDown" Style="{StaticResource TriggerClickStyle}" MouseEnter="imgSave_MouseEnter" MouseLeave="imgSave_MouseLeave"/>
-            <Image x:Name="gridHelp" Source="Resources/Help.png" MouseLeftButtonDown="Tutorial_MouseLeftButtonDown" Style="{StaticResource TriggerClickStyle}" MouseEnter="gridHelp_MouseEnter" MouseLeave="gridHelp_MouseLeave"/>
-            <Image x:Name="gridExit" Source="Resources/Exit.png" MouseLeftButtonDown="Exit_MouseLeftButtonDown" Style="{StaticResource TriggerClickStyle}" MouseEnter="gridExit_MouseEnter" MouseLeave="gridExit_MouseLeave"/>
+            <Image x:Name="imgSave" Source="Resources/Disk.png" MouseLeftButtonDown="Save_MouseLeftButtonDown" Style="{StaticResource TriggerClickStyle}" MouseEnter="imgSave_MouseEnter" MouseLeave="imgSave_MouseLeave" />
+            <Image x:Name="gridHelp" Source="Resources/Help.png" MouseLeftButtonDown="Tutorial_MouseLeftButtonDown" Style="{StaticResource TriggerClickStyle}" MouseEnter="gridHelp_MouseEnter" MouseLeave="gridHelp_MouseLeave" />
+            <Image x:Name="gridExit" Source="Resources/Exit.png" MouseLeftButtonDown="Exit_MouseLeftButtonDown" Style="{StaticResource TriggerClickStyle}" MouseEnter="gridExit_MouseEnter" MouseLeave="gridExit_MouseLeave" />
         </StackPanel>
 
         <Button Grid.Row="2" FontSize="22" Click="btnNewDay_Click" Style="{StaticResource NonAnimatedButtonStyle}">
@@ -73,5 +73,4 @@
         <local:OnlineStoreControl Grid.Row="1" x:Name="onlineStore" Visibility="Collapsed" />
         <local:RivalControl Grid.Row="1" x:Name="rivalViewer" Visibility="Collapsed" />
     </Grid>
-
 </UserControl>

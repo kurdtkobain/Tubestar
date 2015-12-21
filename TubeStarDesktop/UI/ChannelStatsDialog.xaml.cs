@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using OxyPlot;
+using OxyPlot.Series;
 using System.Windows;
 using System.Windows.Controls;
-using OxyPlot;
-using OxyPlot.Axes;
-using OxyPlot.Series;
 using Xceed.Wpf.Toolkit;
 
 namespace TubeStar
